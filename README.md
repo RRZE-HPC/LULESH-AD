@@ -175,8 +175,7 @@ Bibtex:
 >   doi={...}}
 
 * A. Afzal, G. Hager, and G. Wellein: Analytic Roofline Modeling and Energy Analysis of the LULESH Proxy Application on Multi-Core Clusters -- Performance Data Artifact Appendix. [DOI:
-10.5281/zenodo.14056332](https://doi.org/
-10.5281/zenodo.14056332)
+10.5281/zenodo.14056332](https://doi.org/10.5281/zenodo.14056332)
 
 Bibtex:  
 > @INPROCEEDINGS{SPECAD2023,  
