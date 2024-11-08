@@ -32,7 +32,7 @@
 <a name="Description"></a>
 ## B. Description
 
-To allow a third party to duplicate the findings, this article provides reproducibility initiative dependencies (Artifact Description or Artifact Evaluation or Computational Results Analysis) appendix at [https://doi.org/...](https://doi.org/...). 
+To allow a third party to duplicate the findings, this article provides reproducibility initiative dependencies (Artifact Description or Artifact Evaluation or Computational Results Analysis) appendix at [https://doi.org/10.5281/zenodo.14056332](https://doi.org/10.5281/zenodo.14056332). 
 In addition to our extensive performance data artifact, it further describes details regarding the software environments, experimental design, and methodology employed for the results shown in the paper. 
 The computational artifacts will enable experienced performance engineers to reproduce and interpret the data shown in the paper in the appropriate way and to follow the conclusions we draw from it.
 
@@ -49,10 +49,7 @@ The computational artifacts will enable experienced performance engineers to rep
 
 <a name="Binary"></a>
 
-- **B1.1.3 Binary**
-```
-x86
-```
+- **B1.1.3 Binary**: x86
 
 <a name="Hardware"></a>
 
@@ -61,7 +58,7 @@ x86
      - ClusterA: 36 core Intel Xeon Ice Lake (Platinum 8360Y) CPUs and HDR-100 InfiniBand 
      - ClusterB: 52 core Intel Xeon Sapphire (Platinum 8470) Rapids CPUs and HDR-100 InfiniBand 
       
-Further information on hardware is available in Table 1 of the paper.
+      Further information on hardware is available in Table 1 of the paper.
 
 <a name="state"></a>
 
@@ -83,7 +80,7 @@ This lists comprehensive hardware information on
 
 - **B1.1.6 Output**
 
-Navigate to the [output-data-perf-power-energy](output-data-perf-power-energy) for additional thoroughly investigated performance, power and energy results, which are inside and outside the results published in the paper:
+     - Navigate to the [output-data-perf-power-energy](output-data-perf-power-energy) for additional thoroughly investigated performance, power and energy results, which are inside and outside the results published in the paper:
 
           - `performance [z/s]` (total, scalar, vectorized)
           - `runtime [s]` and `speedup` 
@@ -177,7 +174,9 @@ Bibtex:
 >   year={2024},  
 >   doi={...}}
 
-* A. Afzal, G. Hager, and G. Wellein: Analytic Roofline Modeling and Energy Analysis of the LULESH Proxy Application on Multi-Core Clusters -- Performance Data Artifact Appendix. [DOI:.../zenodo...](https://doi.org/.../zenodo...)
+* A. Afzal, G. Hager, and G. Wellein: Analytic Roofline Modeling and Energy Analysis of the LULESH Proxy Application on Multi-Core Clusters -- Performance Data Artifact Appendix. [DOI:
+10.5281/zenodo.14056332](https://doi.org/
+10.5281/zenodo.14056332)
 
 Bibtex:  
 > @INPROCEEDINGS{SPECAD2023,  
@@ -185,4 +184,4 @@ Bibtex:
 >   booktitle={[online]},   
 >   title={Analytic Roofline Modeling and Energy Analysis of the LULESH Proxy Application on Multi-Core Clusters {--} Performance Data Artifact Appendix},   
 >   year={2024},  
->   doi={.../zenodo...}} 
+>   doi={10.5281/zenodo.14056332.}} 
