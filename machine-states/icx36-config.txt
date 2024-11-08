@@ -1,9 +1,46 @@
+################################################################################
+# Modules
+################################################################################
+Currently Loaded Modulefiles:
+ 1) intel/2023.2.1   2) cmake/3.23.1   3) intelmpi/2021.7.0   4) likwid/5.3.0  
 
 ################################################################################
-# Logged in users
+# Compiler
 ################################################################################
- 20:05:46 up  7:25,  0 users,  load average: 0.35, 0.12, 0.37
-USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc (ICC) 2021.10.0 20230609
+Copyright (C) 1985-2023 Intel Corporation.  All rights reserved.
+
+################################################################################
+# MPI
+################################################################################
+Intel(R) MPI Library for Linux* OS, Version 2021.7 Build 20220909 (id: 6b6f6425df)
+Copyright 2003-2022, Intel Corporation.
+
+################################################################################
+# Operating System
+################################################################################
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=22.04
+DISTRIB_CODENAME=jammy
+DISTRIB_DESCRIPTION="Ubuntu 22.04.4 LTS"
+PRETTY_NAME="Ubuntu 22.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.4 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+################################################################################
+# Operating System Kernel
+################################################################################
+Linux icx36 6.8.0-45-generic #45~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Sep 11 15:25:05 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
 
 ################################################################################
 # CPUset
@@ -206,17 +243,11 @@ node   0   1   2   3
 ################################################################################
 # Frequencies
 ################################################################################
-Failed to find the daemon '/apps/likwid/5.3.0/sbin/likwid-setFreq'
 Current CPU frequencies:
 HWThread 0: governor  performance min/cur/max 2.428566/2.4/2.428566 GHz Turbo 1
 
 Current Uncore frequencies:
 Socket 0: min/max 2.4/2.4 GHz
-
-################################################################################
-# Prefetchers
-################################################################################
-/home/hpc/ihpc/ihpc040h/LULESH-AD/./Cluster-config-base.sh: line 35: /apps/likwid/5.3.0/bin/likwid-features: Permission denied
 
 ################################################################################
 # Load
@@ -312,52 +343,6 @@ RAPL domain package-0
 RAPL domain dram
 - Limit0 long_term MaxPower 47000000uW Limit 0uW TimeWindow 976us
 
-################################################################################
-# Modules
-################################################################################
-Currently Loaded Modulefiles:
- 1) intel/2023.2.1   2) cmake/3.23.1   3) intelmpi/2021.7.0   4) likwid/5.3.0  
-
-################################################################################
-# Compiler
-################################################################################
-icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
-icc (ICC) 2021.10.0 20230609
-Copyright (C) 1985-2023 Intel Corporation.  All rights reserved.
-
-
-################################################################################
-# MPI
-################################################################################
-Intel(R) MPI Library for Linux* OS, Version 2021.7 Build 20220909 (id: 6b6f6425df)
-Copyright 2003-2022, Intel Corporation.
-
-################################################################################
-# Operating System
-################################################################################
-DISTRIB_ID=Ubuntu
-DISTRIB_RELEASE=22.04
-DISTRIB_CODENAME=jammy
-DISTRIB_DESCRIPTION="Ubuntu 22.04.4 LTS"
-PRETTY_NAME="Ubuntu 22.04.4 LTS"
-NAME="Ubuntu"
-VERSION_ID="22.04"
-VERSION="22.04.4 LTS (Jammy Jellyfish)"
-VERSION_CODENAME=jammy
-ID=ubuntu
-ID_LIKE=debian
-HOME_URL="https://www.ubuntu.com/"
-SUPPORT_URL="https://help.ubuntu.com/"
-BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-UBUNTU_CODENAME=jammy
-
-################################################################################
-# Operating System Kernel
-################################################################################
-Linux icx36 6.8.0-45-generic #45~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Sep 11 15:25:05 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
-
-################################################################################
-# Hostname
-################################################################################
-icx36.rrze.uni-erlangen.de
+Info about Uncore:
+Minimal Uncore frequency: 2400 MHz
+Maximal Uncore frequency: 2400 MHz
