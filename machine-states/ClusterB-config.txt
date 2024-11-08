@@ -614,6 +614,8 @@ Minimum Power: 0 Watt
 Maximum Power: 640 Watt
 Maximum Time Window: 976 micro sec
 
-Info about Uncore:
+################################################################################
+# Uncore frequency
+################################################################################
 Minimal Uncore frequency: 800 MHz
 Maximal Uncore frequency: 2500 MHz
