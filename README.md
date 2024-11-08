@@ -46,7 +46,6 @@ The computational artifacts will enable experienced performance engineers to rep
 <a name="Compilation"></a>
 
 - **B1.1.2 Compilation**: All information can be found in [builds](builds) and [scripts](scripts).
-```
 
 <a name="Binary"></a>
 
