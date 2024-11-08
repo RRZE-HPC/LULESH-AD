@@ -536,3 +536,84 @@ RAPL domain package-0
 - Limit1 short_term MaxPower 764000000uW Limit 420000000uW TimeWindow 11712us
 RAPL domain dram
 - Limit0 long_term MaxPower 102000000uW Limit 0uW TimeWindow 976us
+
+################################################################################
+# Powermeter
+################################################################################
+Base clock:	2000.00 MHz
+Minimal clock:	800.00 MHz
+Turbo Boost Steps:
+C0 3800.00 MHz
+C1 3800.00 MHz
+C2 3800.00 MHz
+C3 3800.00 MHz
+C4 3800.00 MHz
+C5 3800.00 MHz
+C6 3800.00 MHz
+C7 3800.00 MHz
+C8 3800.00 MHz
+C9 3800.00 MHz
+C10 3800.00 MHz
+C11 3800.00 MHz
+C12 3800.00 MHz
+C13 3800.00 MHz
+C14 3800.00 MHz
+C15 3800.00 MHz
+C16 3800.00 MHz
+C17 3800.00 MHz
+C18 3800.00 MHz
+C19 3800.00 MHz
+C20 3800.00 MHz
+C21 3800.00 MHz
+C22 3800.00 MHz
+C23 3800.00 MHz
+C24 3800.00 MHz
+C25 3800.00 MHz
+C26 3600.00 MHz
+C27 3600.00 MHz
+C28 3600.00 MHz
+C29 3600.00 MHz
+C30 3600.00 MHz
+C31 3600.00 MHz
+C32 3400.00 MHz
+C33 3400.00 MHz
+C34 3400.00 MHz
+C35 3400.00 MHz
+C36 3200.00 MHz
+C37 3200.00 MHz
+C38 3200.00 MHz
+C39 3200.00 MHz
+C40 3200.00 MHz
+C41 3200.00 MHz
+C42 3100.00 MHz
+C43 3100.00 MHz
+C44 3000.00 MHz
+C45 3000.00 MHz
+C46 3000.00 MHz
+C47 3000.00 MHz
+C48 3000.00 MHz
+C49 3000.00 MHz
+C50 3000.00 MHz
+C51 3000.00 MHz
+--------------------------------------------------------------------------------
+Info for RAPL domain PKG:
+Thermal Spec Power: 350 Watt
+Minimum Power: 210 Watt
+Maximum Power: 350 Watt
+Maximum Time Window: 15616 micro sec
+
+Info for RAPL domain DRAM:
+Thermal Spec Power: 102 Watt
+Minimum Power: 15 Watt
+Maximum Power: 102 Watt
+Maximum Time Window: 117120 micro sec
+
+Info for RAPL domain PLATFORM:
+Thermal Spec Power: 640 Watt
+Minimum Power: 0 Watt
+Maximum Power: 640 Watt
+Maximum Time Window: 976 micro sec
+
+Info about Uncore:
+Minimal Uncore frequency: 800 MHz
+Maximal Uncore frequency: 2500 MHz
