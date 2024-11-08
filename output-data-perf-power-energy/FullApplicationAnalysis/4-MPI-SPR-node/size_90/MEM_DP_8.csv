@@ -1,0 +1,916 @@
+_________
+DEBUG: Executable given on commandline: ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+DEBUG: MPI options given on commandline: --cpu-freq=2000000-2000000:performance
+DEBUG: Reading hostfile from batch system
+Available hosts for scheduling:
+Host                	Slots	MaxSlots	Interface
+f2264               	10816	10816	
+DEBUG: Switch to perfctr mode, there are 1 eventsets given on the commandline
+DEBUG: Working on host f2264 with 10816 slots and 10816 slots maximally
+DEBUG: NperDomain string E:N:1:1 covers the domains: N 
+DEBUG: Resolved NperDomain string E:N:1:1 to CPUs: [0] 
+DEBUG: Process 1 runs on CPUs 0
+DEBUG: Assign 1 processes with 1 per node and 1 threads per process to 1 hosts
+DEBUG: Add Host f2264 with 1/1 slots to host list
+DEBUG: Scheduling on hosts:
+DEBUG: Host f2264 with 1 slots (max. 10816 slots)
+DEBUG: Process 0 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3,PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3,CAS_COUNT_RD:MBOX0C0,CAS_COUNT_WR:MBOX0C1,CAS_COUNT_RD:MBOX1C0,CAS_COUNT_WR:MBOX1C1,CAS_COUNT_RD:MBOX2C0,CAS_COUNT_WR:MBOX2C1,CAS_COUNT_RD:MBOX3C0,CAS_COUNT_WR:MBOX3C1,CAS_COUNT_RD:MBOX4C0,CAS_COUNT_WR:MBOX4C1,CAS_COUNT_RD:MBOX5C0,CAS_COUNT_WR:MBOX5C1,CAS_COUNT_RD:MBOX6C0,CAS_COUNT_WR:MBOX6C1,CAS_COUNT_RD:MBOX7C0,CAS_COUNT_WR:MBOX7C1,CAS_COUNT_RD:MBOX8C0,CAS_COUNT_WR:MBOX8C1,CAS_COUNT_RD:MBOX9C0,CAS_COUNT_WR:MBOX9C1,CAS_COUNT_RD:MBOX10C0,CAS_COUNT_WR:MBOX10C1,CAS_COUNT_RD:MBOX11C0,CAS_COUNT_WR:MBOX11C1,CAS_COUNT_RD:MBOX12C0,CAS_COUNT_WR:MBOX12C1,CAS_COUNT_RD:MBOX13C0,CAS_COUNT_WR:MBOX13C1,CAS_COUNT_RD:MBOX14C0,CAS_COUNT_WR:MBOX14C1,CAS_COUNT_RD:MBOX15C0,CAS_COUNT_WR:MBOX15C1
+EXEC (Rank 0): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 0 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3,PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3,CAS_COUNT_RD:MBOX0C0,CAS_COUNT_WR:MBOX0C1,CAS_COUNT_RD:MBOX1C0,CAS_COUNT_WR:MBOX1C1,CAS_COUNT_RD:MBOX2C0,CAS_COUNT_WR:MBOX2C1,CAS_COUNT_RD:MBOX3C0,CAS_COUNT_WR:MBOX3C1,CAS_COUNT_RD:MBOX4C0,CAS_COUNT_WR:MBOX4C1,CAS_COUNT_RD:MBOX5C0,CAS_COUNT_WR:MBOX5C1,CAS_COUNT_RD:MBOX6C0,CAS_COUNT_WR:MBOX6C1,CAS_COUNT_RD:MBOX7C0,CAS_COUNT_WR:MBOX7C1,CAS_COUNT_RD:MBOX8C0,CAS_COUNT_WR:MBOX8C1,CAS_COUNT_RD:MBOX9C0,CAS_COUNT_WR:MBOX9C1,CAS_COUNT_RD:MBOX10C0,CAS_COUNT_WR:MBOX10C1,CAS_COUNT_RD:MBOX11C0,CAS_COUNT_WR:MBOX11C1,CAS_COUNT_RD:MBOX12C0,CAS_COUNT_WR:MBOX12C1,CAS_COUNT_RD:MBOX13C0,CAS_COUNT_WR:MBOX13C1,CAS_COUNT_RD:MBOX14C0,CAS_COUNT_WR:MBOX14C1,CAS_COUNT_RD:MBOX15C0,CAS_COUNT_WR:MBOX15C1 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521217_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC: srun  --cpus-per-task=1 --nodes=1 --ntasks=1 --ntasks-per-node=1 --cpu_bind=none --cpu-freq=2000000-2000000:performance /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.likwidscript_3521217.txt
+INFO: You are running LIKWID in a cpuset with 1 CPUs. Taking given IDs as logical ID in cpuset
+Running problem size 90^3 per domain until completion
+Num processors: 1
+Total number of elements: 729000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+cycle = 1, time = 2.486511e-07, dt=2.486511e-07
+cycle = 2, time = 5.470325e-07, dt=2.983813e-07
+cycle = 3, time = 6.493062e-07, dt=1.022737e-07
+cycle = 4, time = 7.347127e-07, dt=8.540652e-08
+cycle = 5, time = 8.108494e-07, dt=7.613662e-08
+cycle = 6, time = 8.815457e-07, dt=7.069631e-08
+cycle = 7, time = 9.487596e-07, dt=6.721397e-08
+cycle = 8, time = 1.013681e-06, dt=6.492140e-08
+cycle = 9, time = 1.077115e-06, dt=6.343444e-08
+cycle = 10, time = 1.139655e-06, dt=6.253990e-08
+cycle = 11, time = 1.214703e-06, dt=7.504787e-08
+cycle = 12, time = 1.299436e-06, dt=8.473292e-08
+cycle = 13, time = 1.379536e-06, dt=8.009984e-08
+cycle = 14, time = 1.455022e-06, dt=7.548579e-08
+cycle = 15, time = 1.525889e-06, dt=7.086725e-08
+cycle = 16, time = 1.593545e-06, dt=6.765622e-08
+cycle = 17, time = 1.659185e-06, dt=6.563992e-08
+cycle = 18, time = 1.723835e-06, dt=6.464965e-08
+cycle = 19, time = 1.788474e-06, dt=6.463948e-08
+cycle = 20, time = 1.853114e-06, dt=6.463948e-08
+cycle = 21, time = 1.917753e-06, dt=6.463948e-08
+cycle = 22, time = 1.982393e-06, dt=6.463948e-08
+cycle = 23, time = 2.047032e-06, dt=6.463948e-08
+cycle = 24, time = 2.118578e-06, dt=7.154597e-08
+cycle = 25, time = 2.190124e-06, dt=7.154597e-08
+cycle = 26, time = 2.261670e-06, dt=7.154597e-08
+cycle = 27, time = 2.343220e-06, dt=8.154992e-08
+cycle = 28, time = 2.424770e-06, dt=8.154992e-08
+cycle = 29, time = 2.522156e-06, dt=9.738569e-08
+cycle = 30, time = 2.632667e-06, dt=1.105109e-07
+cycle = 31, time = 2.738757e-06, dt=1.060903e-07
+cycle = 32, time = 2.841264e-06, dt=1.025073e-07
+cycle = 33, time = 2.941310e-06, dt=1.000457e-07
+cycle = 34, time = 3.039759e-06, dt=9.844888e-08
+cycle = 35, time = 3.137488e-06, dt=9.772881e-08
+cycle = 36, time = 3.235217e-06, dt=9.772881e-08
+cycle = 37, time = 3.332945e-06, dt=9.772881e-08
+cycle = 38, time = 3.430674e-06, dt=9.772881e-08
+cycle = 39, time = 3.528403e-06, dt=9.772881e-08
+cycle = 40, time = 3.637916e-06, dt=1.095125e-07
+cycle = 41, time = 3.747428e-06, dt=1.095125e-07
+cycle = 42, time = 3.856941e-06, dt=1.095125e-07
+cycle = 43, time = 3.966453e-06, dt=1.095125e-07
+cycle = 44, time = 4.075966e-06, dt=1.095125e-07
+cycle = 45, time = 4.184602e-06, dt=1.086367e-07
+cycle = 46, time = 4.290929e-06, dt=1.063270e-07
+cycle = 47, time = 4.395282e-06, dt=1.043528e-07
+cycle = 48, time = 4.498016e-06, dt=1.027342e-07
+cycle = 49, time = 4.599473e-06, dt=1.014566e-07
+cycle = 50, time = 4.700024e-06, dt=1.005507e-07
+cycle = 51, time = 4.800032e-06, dt=1.000082e-07
+cycle = 52, time = 4.899957e-06, dt=9.992557e-08
+cycle = 53, time = 4.999883e-06, dt=9.992557e-08
+cycle = 54, time = 5.099808e-06, dt=9.992557e-08
+cycle = 55, time = 5.199734e-06, dt=9.992557e-08
+cycle = 56, time = 5.299660e-06, dt=9.992557e-08
+cycle = 57, time = 5.399585e-06, dt=9.992557e-08
+cycle = 58, time = 5.510266e-06, dt=1.106804e-07
+cycle = 59, time = 5.620946e-06, dt=1.106804e-07
+cycle = 60, time = 5.743452e-06, dt=1.225060e-07
+cycle = 61, time = 5.865958e-06, dt=1.225060e-07
+cycle = 62, time = 6.002721e-06, dt=1.367632e-07
+cycle = 63, time = 6.139484e-06, dt=1.367632e-07
+cycle = 64, time = 6.276248e-06, dt=1.367632e-07
+cycle = 65, time = 6.413011e-06, dt=1.367632e-07
+cycle = 66, time = 6.549774e-06, dt=1.367632e-07
+cycle = 67, time = 6.686537e-06, dt=1.367632e-07
+cycle = 68, time = 6.823301e-06, dt=1.367632e-07
+cycle = 69, time = 6.960064e-06, dt=1.367632e-07
+cycle = 70, time = 7.096827e-06, dt=1.367632e-07
+cycle = 71, time = 7.233590e-06, dt=1.367632e-07
+cycle = 72, time = 7.370353e-06, dt=1.367632e-07
+cycle = 73, time = 7.507117e-06, dt=1.367632e-07
+cycle = 74, time = 7.643880e-06, dt=1.367632e-07
+cycle = 75, time = 7.780643e-06, dt=1.367632e-07
+cycle = 76, time = 7.917406e-06, dt=1.367632e-07
+cycle = 77, time = 8.054169e-06, dt=1.367632e-07
+cycle = 78, time = 8.190933e-06, dt=1.367632e-07
+cycle = 79, time = 8.327696e-06, dt=1.367632e-07
+cycle = 80, time = 8.464247e-06, dt=1.365515e-07
+cycle = 81, time = 8.598090e-06, dt=1.338429e-07
+cycle = 82, time = 8.729611e-06, dt=1.315209e-07
+cycle = 83, time = 8.859233e-06, dt=1.296217e-07
+cycle = 84, time = 8.987365e-06, dt=1.281327e-07
+cycle = 85, time = 9.114418e-06, dt=1.270525e-07
+cycle = 86, time = 9.240777e-06, dt=1.263592e-07
+cycle = 87, time = 9.366813e-06, dt=1.260358e-07
+cycle = 88, time = 9.492849e-06, dt=1.260358e-07
+cycle = 89, time = 9.618885e-06, dt=1.260358e-07
+cycle = 90, time = 9.744920e-06, dt=1.260358e-07
+cycle = 91, time = 9.870956e-06, dt=1.260358e-07
+cycle = 92, time = 9.996992e-06, dt=1.260358e-07
+cycle = 93, time = 1.012303e-05, dt=1.260358e-07
+cycle = 94, time = 1.024906e-05, dt=1.260358e-07
+cycle = 95, time = 1.039167e-05, dt=1.426106e-07
+cycle = 96, time = 1.053428e-05, dt=1.426106e-07
+cycle = 97, time = 1.069353e-05, dt=1.592489e-07
+cycle = 98, time = 1.085278e-05, dt=1.592489e-07
+cycle = 99, time = 1.101203e-05, dt=1.592489e-07
+cycle = 100, time = 1.118942e-05, dt=1.773908e-07
+cycle = 101, time = 1.136681e-05, dt=1.773908e-07
+cycle = 102, time = 1.154420e-05, dt=1.773908e-07
+cycle = 103, time = 1.172159e-05, dt=1.773908e-07
+cycle = 104, time = 1.189899e-05, dt=1.773908e-07
+cycle = 105, time = 1.207638e-05, dt=1.773908e-07
+cycle = 106, time = 1.225377e-05, dt=1.773908e-07
+cycle = 107, time = 1.243116e-05, dt=1.773908e-07
+cycle = 108, time = 1.260855e-05, dt=1.773908e-07
+cycle = 109, time = 1.278594e-05, dt=1.773908e-07
+cycle = 110, time = 1.296333e-05, dt=1.773908e-07
+cycle = 111, time = 1.314072e-05, dt=1.773908e-07
+cycle = 112, time = 1.331811e-05, dt=1.773908e-07
+cycle = 113, time = 1.349550e-05, dt=1.773908e-07
+cycle = 114, time = 1.367289e-05, dt=1.773908e-07
+cycle = 115, time = 1.386936e-05, dt=1.964659e-07
+cycle = 116, time = 1.406582e-05, dt=1.964659e-07
+cycle = 117, time = 1.426229e-05, dt=1.964659e-07
+cycle = 118, time = 1.445530e-05, dt=1.930069e-07
+cycle = 119, time = 1.464374e-05, dt=1.884425e-07
+cycle = 120, time = 1.482814e-05, dt=1.843968e-07
+cycle = 121, time = 1.500900e-05, dt=1.808604e-07
+cycle = 122, time = 1.518680e-05, dt=1.778026e-07
+cycle = 123, time = 1.536199e-05, dt=1.751924e-07
+cycle = 124, time = 1.553500e-05, dt=1.730094e-07
+cycle = 125, time = 1.570625e-05, dt=1.712475e-07
+cycle = 126, time = 1.587631e-05, dt=1.700645e-07
+cycle = 127, time = 1.604581e-05, dt=1.694982e-07
+cycle = 128, time = 1.621531e-05, dt=1.694982e-07
+cycle = 129, time = 1.638481e-05, dt=1.694982e-07
+cycle = 130, time = 1.655431e-05, dt=1.694982e-07
+cycle = 131, time = 1.672380e-05, dt=1.694982e-07
+cycle = 132, time = 1.689330e-05, dt=1.694982e-07
+cycle = 133, time = 1.706280e-05, dt=1.694982e-07
+cycle = 134, time = 1.723230e-05, dt=1.694982e-07
+cycle = 135, time = 1.742404e-05, dt=1.917407e-07
+cycle = 136, time = 1.761578e-05, dt=1.917407e-07
+cycle = 137, time = 1.780752e-05, dt=1.917407e-07
+cycle = 138, time = 1.799926e-05, dt=1.917407e-07
+cycle = 139, time = 1.821090e-05, dt=2.116350e-07
+cycle = 140, time = 1.842253e-05, dt=2.116350e-07
+cycle = 141, time = 1.863417e-05, dt=2.116350e-07
+cycle = 142, time = 1.884580e-05, dt=2.116350e-07
+cycle = 143, time = 1.905744e-05, dt=2.116350e-07
+cycle = 144, time = 1.926907e-05, dt=2.116350e-07
+cycle = 145, time = 1.948071e-05, dt=2.116350e-07
+cycle = 146, time = 1.969234e-05, dt=2.116350e-07
+cycle = 147, time = 1.990398e-05, dt=2.116350e-07
+cycle = 148, time = 2.013834e-05, dt=2.343642e-07
+cycle = 149, time = 2.037271e-05, dt=2.343642e-07
+cycle = 150, time = 2.060707e-05, dt=2.343642e-07
+cycle = 151, time = 2.084143e-05, dt=2.343642e-07
+cycle = 152, time = 2.107580e-05, dt=2.343642e-07
+cycle = 153, time = 2.131016e-05, dt=2.343642e-07
+cycle = 154, time = 2.154453e-05, dt=2.343642e-07
+cycle = 155, time = 2.177889e-05, dt=2.343642e-07
+cycle = 156, time = 2.201325e-05, dt=2.343642e-07
+cycle = 157, time = 2.224762e-05, dt=2.343642e-07
+cycle = 158, time = 2.248198e-05, dt=2.343642e-07
+cycle = 159, time = 2.271635e-05, dt=2.343642e-07
+cycle = 160, time = 2.294758e-05, dt=2.312366e-07
+cycle = 161, time = 2.317397e-05, dt=2.263870e-07
+cycle = 162, time = 2.339617e-05, dt=2.221980e-07
+cycle = 163, time = 2.361484e-05, dt=2.186691e-07
+cycle = 164, time = 2.383061e-05, dt=2.157683e-07
+cycle = 165, time = 2.404409e-05, dt=2.134802e-07
+cycle = 166, time = 2.425589e-05, dt=2.118038e-07
+cycle = 167, time = 2.446671e-05, dt=2.108189e-07
+cycle = 168, time = 2.467726e-05, dt=2.105472e-07
+cycle = 169, time = 2.488780e-05, dt=2.105472e-07
+cycle = 170, time = 2.509835e-05, dt=2.105472e-07
+cycle = 171, time = 2.530890e-05, dt=2.105472e-07
+cycle = 172, time = 2.551944e-05, dt=2.105472e-07
+cycle = 173, time = 2.572999e-05, dt=2.105472e-07
+cycle = 174, time = 2.594054e-05, dt=2.105472e-07
+cycle = 175, time = 2.617363e-05, dt=2.330875e-07
+cycle = 176, time = 2.640671e-05, dt=2.330875e-07
+cycle = 177, time = 2.663980e-05, dt=2.330875e-07
+cycle = 178, time = 2.687289e-05, dt=2.330875e-07
+cycle = 179, time = 2.710598e-05, dt=2.330875e-07
+cycle = 180, time = 2.736641e-05, dt=2.604376e-07
+cycle = 181, time = 2.762685e-05, dt=2.604376e-07
+cycle = 182, time = 2.788729e-05, dt=2.604376e-07
+cycle = 183, time = 2.814773e-05, dt=2.604376e-07
+cycle = 184, time = 2.840816e-05, dt=2.604376e-07
+cycle = 185, time = 2.866860e-05, dt=2.604376e-07
+cycle = 186, time = 2.892904e-05, dt=2.604376e-07
+cycle = 187, time = 2.918948e-05, dt=2.604376e-07
+cycle = 188, time = 2.944992e-05, dt=2.604376e-07
+cycle = 189, time = 2.971035e-05, dt=2.604376e-07
+cycle = 190, time = 2.997079e-05, dt=2.604376e-07
+cycle = 191, time = 3.023123e-05, dt=2.604376e-07
+cycle = 192, time = 3.051996e-05, dt=2.887294e-07
+cycle = 193, time = 3.080869e-05, dt=2.887294e-07
+cycle = 194, time = 3.109742e-05, dt=2.887294e-07
+cycle = 195, time = 3.138615e-05, dt=2.887294e-07
+cycle = 196, time = 3.167488e-05, dt=2.887294e-07
+cycle = 197, time = 3.196360e-05, dt=2.887294e-07
+cycle = 198, time = 3.225233e-05, dt=2.887294e-07
+cycle = 199, time = 3.253627e-05, dt=2.839319e-07
+cycle = 200, time = 3.281325e-05, dt=2.769797e-07
+cycle = 201, time = 3.308392e-05, dt=2.706780e-07
+cycle = 202, time = 3.334896e-05, dt=2.650337e-07
+cycle = 203, time = 3.360908e-05, dt=2.601225e-07
+cycle = 204, time = 3.386515e-05, dt=2.560703e-07
+cycle = 205, time = 3.411799e-05, dt=2.528372e-07
+cycle = 206, time = 3.436839e-05, dt=2.504014e-07
+cycle = 207, time = 3.461715e-05, dt=2.487637e-07
+cycle = 208, time = 3.486510e-05, dt=2.479484e-07
+cycle = 209, time = 3.511305e-05, dt=2.479484e-07
+cycle = 210, time = 3.536100e-05, dt=2.479484e-07
+cycle = 211, time = 3.560895e-05, dt=2.479484e-07
+cycle = 212, time = 3.585689e-05, dt=2.479484e-07
+cycle = 213, time = 3.610484e-05, dt=2.479484e-07
+cycle = 214, time = 3.635279e-05, dt=2.479484e-07
+cycle = 215, time = 3.660074e-05, dt=2.479484e-07
+cycle = 216, time = 3.687831e-05, dt=2.775654e-07
+cycle = 217, time = 3.715587e-05, dt=2.775654e-07
+cycle = 218, time = 3.743344e-05, dt=2.775654e-07
+cycle = 219, time = 3.771100e-05, dt=2.775654e-07
+cycle = 220, time = 3.798857e-05, dt=2.775654e-07
+cycle = 221, time = 3.829990e-05, dt=3.113378e-07
+cycle = 222, time = 3.861124e-05, dt=3.113378e-07
+cycle = 223, time = 3.892258e-05, dt=3.113378e-07
+cycle = 224, time = 3.923392e-05, dt=3.113378e-07
+cycle = 225, time = 3.954526e-05, dt=3.113378e-07
+cycle = 226, time = 3.985659e-05, dt=3.113378e-07
+cycle = 227, time = 4.016793e-05, dt=3.113378e-07
+cycle = 228, time = 4.047927e-05, dt=3.113378e-07
+cycle = 229, time = 4.079061e-05, dt=3.113378e-07
+cycle = 230, time = 4.110195e-05, dt=3.113378e-07
+cycle = 231, time = 4.141328e-05, dt=3.113378e-07
+cycle = 232, time = 4.172462e-05, dt=3.113378e-07
+cycle = 233, time = 4.203596e-05, dt=3.113378e-07
+cycle = 234, time = 4.237955e-05, dt=3.435959e-07
+cycle = 235, time = 4.272285e-05, dt=3.432920e-07
+cycle = 236, time = 4.306612e-05, dt=3.432747e-07
+cycle = 237, time = 4.340940e-05, dt=3.432747e-07
+cycle = 238, time = 4.375267e-05, dt=3.432747e-07
+cycle = 239, time = 4.409595e-05, dt=3.432747e-07
+cycle = 240, time = 4.443922e-05, dt=3.432747e-07
+cycle = 241, time = 4.478249e-05, dt=3.432747e-07
+cycle = 242, time = 4.512577e-05, dt=3.432747e-07
+cycle = 243, time = 4.546904e-05, dt=3.432747e-07
+cycle = 244, time = 4.581232e-05, dt=3.432747e-07
+cycle = 245, time = 4.615167e-05, dt=3.393461e-07
+cycle = 246, time = 4.648422e-05, dt=3.325510e-07
+cycle = 247, time = 4.681076e-05, dt=3.265477e-07
+cycle = 248, time = 4.713213e-05, dt=3.213651e-07
+cycle = 249, time = 4.744911e-05, dt=3.169786e-07
+cycle = 250, time = 4.776248e-05, dt=3.133737e-07
+cycle = 251, time = 4.807331e-05, dt=3.108256e-07
+cycle = 252, time = 4.838269e-05, dt=3.093844e-07
+cycle = 253, time = 4.869178e-05, dt=3.090882e-07
+cycle = 254, time = 4.900087e-05, dt=3.090882e-07
+cycle = 255, time = 4.930996e-05, dt=3.090882e-07
+cycle = 256, time = 4.961904e-05, dt=3.090882e-07
+cycle = 257, time = 4.992813e-05, dt=3.090882e-07
+cycle = 258, time = 5.023722e-05, dt=3.090882e-07
+cycle = 259, time = 5.054631e-05, dt=3.090882e-07
+cycle = 260, time = 5.089172e-05, dt=3.454111e-07
+cycle = 261, time = 5.123713e-05, dt=3.454111e-07
+cycle = 262, time = 5.158254e-05, dt=3.454111e-07
+cycle = 263, time = 5.192795e-05, dt=3.454111e-07
+cycle = 264, time = 5.227336e-05, dt=3.454111e-07
+cycle = 265, time = 5.261878e-05, dt=3.454111e-07
+cycle = 266, time = 5.299877e-05, dt=3.799904e-07
+cycle = 267, time = 5.337876e-05, dt=3.799904e-07
+cycle = 268, time = 5.375875e-05, dt=3.799904e-07
+cycle = 269, time = 5.413874e-05, dt=3.799904e-07
+cycle = 270, time = 5.451873e-05, dt=3.799904e-07
+cycle = 271, time = 5.489872e-05, dt=3.799904e-07
+cycle = 272, time = 5.527871e-05, dt=3.799904e-07
+cycle = 273, time = 5.565870e-05, dt=3.799904e-07
+cycle = 274, time = 5.603869e-05, dt=3.799904e-07
+cycle = 275, time = 5.641868e-05, dt=3.799904e-07
+cycle = 276, time = 5.679867e-05, dt=3.799904e-07
+cycle = 277, time = 5.717866e-05, dt=3.799904e-07
+cycle = 278, time = 5.755865e-05, dt=3.799904e-07
+cycle = 279, time = 5.793864e-05, dt=3.799904e-07
+cycle = 280, time = 5.831863e-05, dt=3.799904e-07
+cycle = 281, time = 5.869862e-05, dt=3.799904e-07
+cycle = 282, time = 5.911864e-05, dt=4.200182e-07
+cycle = 283, time = 5.953633e-05, dt=4.176925e-07
+cycle = 284, time = 5.995263e-05, dt=4.163009e-07
+cycle = 285, time = 6.036893e-05, dt=4.163009e-07
+cycle = 286, time = 6.078523e-05, dt=4.163009e-07
+cycle = 287, time = 6.120154e-05, dt=4.163009e-07
+cycle = 288, time = 6.161091e-05, dt=4.093745e-07
+cycle = 289, time = 6.201172e-05, dt=4.008143e-07
+cycle = 290, time = 6.240490e-05, dt=3.931719e-07
+cycle = 291, time = 6.279134e-05, dt=3.864435e-07
+cycle = 292, time = 6.317193e-05, dt=3.805862e-07
+cycle = 293, time = 6.354756e-05, dt=3.756383e-07
+cycle = 294, time = 6.391934e-05, dt=3.717776e-07
+cycle = 295, time = 6.428834e-05, dt=3.690007e-07
+cycle = 296, time = 6.465588e-05, dt=3.675336e-07
+cycle = 297, time = 6.502332e-05, dt=3.674407e-07
+cycle = 298, time = 6.539076e-05, dt=3.674407e-07
+cycle = 299, time = 6.575820e-05, dt=3.674407e-07
+cycle = 300, time = 6.612564e-05, dt=3.674407e-07
+Run completed:
+   Problem size        =  90
+   MPI tasks           =  1
+   Iteration count     =  300
+   Final Origin Energy =  1.583633e+07
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.328306e-09
+        TotalAbsDiff = 1.355807e-08
+        MaxRelDiff   = 9.117000e-12
+
+Elapsed time         =    1.2e+02 (s)
+Grind time (us/z/c)  = 0.56873131 (per dom)  ( 124.38154 overall)
+FOM                  =  1758.2995 (z/s)
+
+TABLE,Group 1 Raw,MEM_DP,43
+Event,Counter,f2264:0:0
+Runtime (RDTSC) [s],TSC,124.9982
+INSTR_RETIRED_ANY,FIXC0,637082876063
+CPU_CLK_UNHALTED_CORE,FIXC1,214562231886
+CPU_CLK_UNHALTED_REF,FIXC2,214832999280
+TOPDOWN_SLOTS,FIXC3,1287373391316
+PWR_PKG_ENERGY,PWR0,23689.2590
+PWR_DRAM_ENERGY,PWR3,639.2248
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,418659996533
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,22088700000
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,7111835583
+CAS_COUNT_RD,MBOX0C0,3761225655
+CAS_COUNT_WR,MBOX0C1,1712947910
+CAS_COUNT_RD,MBOX1C0,3761556611
+CAS_COUNT_WR,MBOX1C1,1712866760
+CAS_COUNT_RD,MBOX2C0,11303354
+CAS_COUNT_WR,MBOX2C1,11234088
+CAS_COUNT_RD,MBOX3C0,11314476
+CAS_COUNT_WR,MBOX3C1,11244607
+CAS_COUNT_RD,MBOX4C0,11188353
+CAS_COUNT_WR,MBOX4C1,11179668
+CAS_COUNT_RD,MBOX5C0,11203807
+CAS_COUNT_WR,MBOX5C1,11197214
+CAS_COUNT_RD,MBOX6C0,11292507
+CAS_COUNT_WR,MBOX6C1,11238901
+CAS_COUNT_RD,MBOX7C0,11311253
+CAS_COUNT_WR,MBOX7C1,11258121
+CAS_COUNT_RD,MBOX8C0,0
+CAS_COUNT_WR,MBOX8C1,0
+CAS_COUNT_RD,MBOX9C0,0
+CAS_COUNT_WR,MBOX9C1,0
+CAS_COUNT_RD,MBOX10C0,0
+CAS_COUNT_WR,MBOX10C1,0
+CAS_COUNT_RD,MBOX11C0,0
+CAS_COUNT_WR,MBOX11C1,0
+CAS_COUNT_RD,MBOX12C0,0
+CAS_COUNT_WR,MBOX12C1,0
+CAS_COUNT_RD,MBOX13C0,0
+CAS_COUNT_WR,MBOX13C1,0
+CAS_COUNT_RD,MBOX14C0,0
+CAS_COUNT_WR,MBOX14C1,0
+CAS_COUNT_RD,MBOX15C0,0
+CAS_COUNT_WR,MBOX15C1,0
+TABLE,Group 1 Metric,MEM_DP,19
+Metric,f2264:0:0,
+Runtime (RDTSC) [s],124.9982,
+Runtime unhalted [s],107.2826,
+Clock [MHz],1997.4510,
+CPI,0.3368,
+Energy [J],23689.2590,
+Power [W],189.5168,
+Energy DRAM [J],639.2248,
+Power DRAM [W],5.1139,
+DP [MFLOP/s],4511.3408,
+AVX DP [MFLOP/s],1162.0126,
+Packed [MUOPS/s],233.6076,
+Scalar [MUOPS/s],3349.3282,
+Memory read bandwidth [MBytes/s],3886.3387,
+Memory read data volume [GBytes],485.7853,
+Memory write bandwidth [MBytes/s],1788.5274,
+Memory write data volume [GBytes],223.5627,
+Memory bandwidth [MBytes/s],5674.8661,
+Memory data volume [GBytes],709.3481,
+Operational intensity [FLOP/Byte],0.7950,
+_________
+DEBUG: Executable given on commandline: ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+DEBUG: MPI options given on commandline: --cpu-freq=2000000-2000000:performance
+DEBUG: Reading hostfile from batch system
+Available hosts for scheduling:
+Host                	Slots	MaxSlots	Interface
+f2264               	10816	10816	
+DEBUG: Switch to perfctr mode, there are 1 eventsets given on the commandline
+DEBUG: Working on host f2264 with 10816 slots and 10816 slots maximally
+DEBUG: NperDomain string E:N:8:1 covers the domains: N 
+DEBUG: Resolved NperDomain string E:N:8:1 to CPUs: [0] [1] [2] [3] [4] [5] [6] [7] 
+DEBUG: Process 1 runs on CPUs 0
+DEBUG: Process 2 runs on CPUs 1
+DEBUG: Process 3 runs on CPUs 2
+DEBUG: Process 4 runs on CPUs 3
+DEBUG: Process 5 runs on CPUs 4
+DEBUG: Process 6 runs on CPUs 5
+DEBUG: Process 7 runs on CPUs 6
+DEBUG: Process 8 runs on CPUs 7
+DEBUG: Assign 8 processes with 8 per node and 1 threads per process to 1 hosts
+DEBUG: Add Host f2264 with 8/8 slots to host list
+DEBUG: Scheduling on hosts:
+DEBUG: Host f2264 with 8 slots (max. 10816 slots)
+DEBUG: Process 0 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3,PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3,CAS_COUNT_RD:MBOX0C0,CAS_COUNT_WR:MBOX0C1,CAS_COUNT_RD:MBOX1C0,CAS_COUNT_WR:MBOX1C1,CAS_COUNT_RD:MBOX2C0,CAS_COUNT_WR:MBOX2C1,CAS_COUNT_RD:MBOX3C0,CAS_COUNT_WR:MBOX3C1,CAS_COUNT_RD:MBOX4C0,CAS_COUNT_WR:MBOX4C1,CAS_COUNT_RD:MBOX5C0,CAS_COUNT_WR:MBOX5C1,CAS_COUNT_RD:MBOX6C0,CAS_COUNT_WR:MBOX6C1,CAS_COUNT_RD:MBOX7C0,CAS_COUNT_WR:MBOX7C1,CAS_COUNT_RD:MBOX8C0,CAS_COUNT_WR:MBOX8C1,CAS_COUNT_RD:MBOX9C0,CAS_COUNT_WR:MBOX9C1,CAS_COUNT_RD:MBOX10C0,CAS_COUNT_WR:MBOX10C1,CAS_COUNT_RD:MBOX11C0,CAS_COUNT_WR:MBOX11C1,CAS_COUNT_RD:MBOX12C0,CAS_COUNT_WR:MBOX12C1,CAS_COUNT_RD:MBOX13C0,CAS_COUNT_WR:MBOX13C1,CAS_COUNT_RD:MBOX14C0,CAS_COUNT_WR:MBOX14C1,CAS_COUNT_RD:MBOX15C0,CAS_COUNT_WR:MBOX15C1
+DEBUG: Process 1 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3
+DEBUG: Process 2 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3
+DEBUG: Process 3 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3
+DEBUG: Process 4 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3
+DEBUG: Process 5 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3
+DEBUG: Process 6 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3
+DEBUG: Process 7 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3
+EXEC (Rank 0): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 0 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3,PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3,CAS_COUNT_RD:MBOX0C0,CAS_COUNT_WR:MBOX0C1,CAS_COUNT_RD:MBOX1C0,CAS_COUNT_WR:MBOX1C1,CAS_COUNT_RD:MBOX2C0,CAS_COUNT_WR:MBOX2C1,CAS_COUNT_RD:MBOX3C0,CAS_COUNT_WR:MBOX3C1,CAS_COUNT_RD:MBOX4C0,CAS_COUNT_WR:MBOX4C1,CAS_COUNT_RD:MBOX5C0,CAS_COUNT_WR:MBOX5C1,CAS_COUNT_RD:MBOX6C0,CAS_COUNT_WR:MBOX6C1,CAS_COUNT_RD:MBOX7C0,CAS_COUNT_WR:MBOX7C1,CAS_COUNT_RD:MBOX8C0,CAS_COUNT_WR:MBOX8C1,CAS_COUNT_RD:MBOX9C0,CAS_COUNT_WR:MBOX9C1,CAS_COUNT_RD:MBOX10C0,CAS_COUNT_WR:MBOX10C1,CAS_COUNT_RD:MBOX11C0,CAS_COUNT_WR:MBOX11C1,CAS_COUNT_RD:MBOX12C0,CAS_COUNT_WR:MBOX12C1,CAS_COUNT_RD:MBOX13C0,CAS_COUNT_WR:MBOX13C1,CAS_COUNT_RD:MBOX14C0,CAS_COUNT_WR:MBOX14C1,CAS_COUNT_RD:MBOX15C0,CAS_COUNT_WR:MBOX15C1 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521412_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC (Rank 1): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 1 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521412_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC (Rank 2): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 2 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521412_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC (Rank 3): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 3 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521412_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC (Rank 4): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 4 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521412_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC (Rank 5): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 5 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521412_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC (Rank 6): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 6 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521412_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC (Rank 7): /apps/likwid/5.3.0-spr/bin/likwid-perfctr -f  -C 7 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.output_3521412_%r_%h.csv ../../build_MPI_SPR/lulesh2.0 -p -b 0 -s 90 -i 300 -c 0
+EXEC: srun  --nodes=1 --ntasks-per-node=8 --cpus-per-task=1 --cpu_bind=none --ntasks=8 --cpu-freq=2000000-2000000:performance /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig12-2/.likwidscript_3521412.txt
+INFO: You are running LIKWID in a cpuset with 8 CPUs. Taking given IDs as logical ID in cpuset
+INFO: You are running LIKWID in a cpuset with 8 CPUs. Taking given IDs as logical ID in cpuset
+INFO: You are running LIKWID in a cpuset with 8 CPUs. Taking given IDs as logical ID in cpuset
+INFO: You are running LIKWID in a cpuset with 8 CPUs. Taking given IDs as logical ID in cpuset
+INFO: You are running LIKWID in a cpuset with 8 CPUs. Taking given IDs as logical ID in cpuset
+INFO: You are running LIKWID in a cpuset with 8 CPUs. Taking given IDs as logical ID in cpuset
+INFO: You are running LIKWID in a cpuset with 8 CPUs. Taking given IDs as logical ID in cpuset
+INFO: You are running LIKWID in a cpuset with 8 CPUs. Taking given IDs as logical ID in cpuset
+Running problem size 90^3 per domain until completion
+Num processors: 8
+Total number of elements: 5832000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+cycle = 1, time = 4.395572e-08, dt=4.395572e-08
+cycle = 2, time = 9.670259e-08, dt=5.274687e-08
+cycle = 3, time = 1.147822e-07, dt=1.807962e-08
+cycle = 4, time = 1.298801e-07, dt=1.509788e-08
+cycle = 5, time = 1.433393e-07, dt=1.345918e-08
+cycle = 6, time = 1.558367e-07, dt=1.249746e-08
+cycle = 7, time = 1.677186e-07, dt=1.188186e-08
+cycle = 8, time = 1.791952e-07, dt=1.147659e-08
+cycle = 9, time = 1.904089e-07, dt=1.121373e-08
+cycle = 10, time = 2.014645e-07, dt=1.105560e-08
+cycle = 11, time = 2.147312e-07, dt=1.326672e-08
+cycle = 12, time = 2.297100e-07, dt=1.497881e-08
+cycle = 13, time = 2.438698e-07, dt=1.415978e-08
+cycle = 14, time = 2.572139e-07, dt=1.334413e-08
+cycle = 15, time = 2.697416e-07, dt=1.252768e-08
+cycle = 16, time = 2.817017e-07, dt=1.196004e-08
+cycle = 17, time = 2.933053e-07, dt=1.160361e-08
+cycle = 18, time = 3.047338e-07, dt=1.142855e-08
+cycle = 19, time = 3.161606e-07, dt=1.142675e-08
+cycle = 20, time = 3.275873e-07, dt=1.142675e-08
+cycle = 21, time = 3.390141e-07, dt=1.142675e-08
+cycle = 22, time = 3.504408e-07, dt=1.142675e-08
+cycle = 23, time = 3.618676e-07, dt=1.142675e-08
+cycle = 24, time = 3.745153e-07, dt=1.264766e-08
+cycle = 25, time = 3.871629e-07, dt=1.264766e-08
+cycle = 26, time = 3.998106e-07, dt=1.264766e-08
+cycle = 27, time = 4.142267e-07, dt=1.441613e-08
+cycle = 28, time = 4.286428e-07, dt=1.441613e-08
+cycle = 29, time = 4.458584e-07, dt=1.721552e-08
+cycle = 30, time = 4.653941e-07, dt=1.953576e-08
+cycle = 31, time = 4.841484e-07, dt=1.875430e-08
+cycle = 32, time = 5.022693e-07, dt=1.812091e-08
+cycle = 33, time = 5.199551e-07, dt=1.768575e-08
+cycle = 34, time = 5.373585e-07, dt=1.740347e-08
+cycle = 35, time = 5.546347e-07, dt=1.727618e-08
+cycle = 36, time = 5.719109e-07, dt=1.727618e-08
+cycle = 37, time = 5.891871e-07, dt=1.727618e-08
+cycle = 38, time = 6.064632e-07, dt=1.727618e-08
+cycle = 39, time = 6.237394e-07, dt=1.727618e-08
+cycle = 40, time = 6.430987e-07, dt=1.935927e-08
+cycle = 41, time = 6.624579e-07, dt=1.935927e-08
+cycle = 42, time = 6.818172e-07, dt=1.935927e-08
+cycle = 43, time = 7.011765e-07, dt=1.935927e-08
+cycle = 44, time = 7.205357e-07, dt=1.935927e-08
+cycle = 45, time = 7.397402e-07, dt=1.920444e-08
+cycle = 46, time = 7.585363e-07, dt=1.879613e-08
+cycle = 47, time = 7.769834e-07, dt=1.844714e-08
+cycle = 48, time = 7.951445e-07, dt=1.816101e-08
+cycle = 49, time = 8.130796e-07, dt=1.793516e-08
+cycle = 50, time = 8.308546e-07, dt=1.777502e-08
+cycle = 51, time = 8.485338e-07, dt=1.767912e-08
+cycle = 52, time = 8.661983e-07, dt=1.766451e-08
+cycle = 53, time = 8.838628e-07, dt=1.766451e-08
+cycle = 54, time = 9.015273e-07, dt=1.766451e-08
+cycle = 55, time = 9.191918e-07, dt=1.766451e-08
+cycle = 56, time = 9.368563e-07, dt=1.766451e-08
+cycle = 57, time = 9.545208e-07, dt=1.766451e-08
+cycle = 58, time = 9.740865e-07, dt=1.956572e-08
+cycle = 59, time = 9.936523e-07, dt=1.956572e-08
+cycle = 60, time = 1.015308e-06, dt=2.165620e-08
+cycle = 61, time = 1.036965e-06, dt=2.165620e-08
+cycle = 62, time = 1.061141e-06, dt=2.417655e-08
+cycle = 63, time = 1.085318e-06, dt=2.417655e-08
+cycle = 64, time = 1.109494e-06, dt=2.417655e-08
+cycle = 65, time = 1.133671e-06, dt=2.417655e-08
+cycle = 66, time = 1.157847e-06, dt=2.417655e-08
+cycle = 67, time = 1.182024e-06, dt=2.417655e-08
+cycle = 68, time = 1.206201e-06, dt=2.417655e-08
+cycle = 69, time = 1.230377e-06, dt=2.417655e-08
+cycle = 70, time = 1.254554e-06, dt=2.417655e-08
+cycle = 71, time = 1.278730e-06, dt=2.417655e-08
+cycle = 72, time = 1.302907e-06, dt=2.417655e-08
+cycle = 73, time = 1.327083e-06, dt=2.417655e-08
+cycle = 74, time = 1.351260e-06, dt=2.417655e-08
+cycle = 75, time = 1.375436e-06, dt=2.417655e-08
+cycle = 76, time = 1.399613e-06, dt=2.417655e-08
+cycle = 77, time = 1.423789e-06, dt=2.417655e-08
+cycle = 78, time = 1.447966e-06, dt=2.417655e-08
+cycle = 79, time = 1.472143e-06, dt=2.417655e-08
+cycle = 80, time = 1.496282e-06, dt=2.413912e-08
+cycle = 81, time = 1.519942e-06, dt=2.366030e-08
+cycle = 82, time = 1.543192e-06, dt=2.324982e-08
+cycle = 83, time = 1.566106e-06, dt=2.291409e-08
+cycle = 84, time = 1.588757e-06, dt=2.265088e-08
+cycle = 85, time = 1.611217e-06, dt=2.245991e-08
+cycle = 86, time = 1.633554e-06, dt=2.233736e-08
+cycle = 87, time = 1.655834e-06, dt=2.228019e-08
+cycle = 88, time = 1.678114e-06, dt=2.228019e-08
+cycle = 89, time = 1.700395e-06, dt=2.228019e-08
+cycle = 90, time = 1.722675e-06, dt=2.228019e-08
+cycle = 91, time = 1.744955e-06, dt=2.228019e-08
+cycle = 92, time = 1.767235e-06, dt=2.228019e-08
+cycle = 93, time = 1.789515e-06, dt=2.228019e-08
+cycle = 94, time = 1.811796e-06, dt=2.228019e-08
+cycle = 95, time = 1.837006e-06, dt=2.521023e-08
+cycle = 96, time = 1.862216e-06, dt=2.521023e-08
+cycle = 97, time = 1.890368e-06, dt=2.815149e-08
+cycle = 98, time = 1.918519e-06, dt=2.815149e-08
+cycle = 99, time = 1.946671e-06, dt=2.815149e-08
+cycle = 100, time = 1.978029e-06, dt=3.135855e-08
+cycle = 101, time = 2.009388e-06, dt=3.135855e-08
+cycle = 102, time = 2.040746e-06, dt=3.135855e-08
+cycle = 103, time = 2.072105e-06, dt=3.135855e-08
+cycle = 104, time = 2.103463e-06, dt=3.135855e-08
+cycle = 105, time = 2.134822e-06, dt=3.135855e-08
+cycle = 106, time = 2.166180e-06, dt=3.135855e-08
+cycle = 107, time = 2.197539e-06, dt=3.135855e-08
+cycle = 108, time = 2.228897e-06, dt=3.135855e-08
+cycle = 109, time = 2.260256e-06, dt=3.135855e-08
+cycle = 110, time = 2.291615e-06, dt=3.135855e-08
+cycle = 111, time = 2.322973e-06, dt=3.135855e-08
+cycle = 112, time = 2.354332e-06, dt=3.135855e-08
+cycle = 113, time = 2.385690e-06, dt=3.135855e-08
+cycle = 114, time = 2.417049e-06, dt=3.135855e-08
+cycle = 115, time = 2.451779e-06, dt=3.473059e-08
+cycle = 116, time = 2.486510e-06, dt=3.473059e-08
+cycle = 117, time = 2.521241e-06, dt=3.473059e-08
+cycle = 118, time = 2.555360e-06, dt=3.411912e-08
+cycle = 119, time = 2.588672e-06, dt=3.331225e-08
+cycle = 120, time = 2.621269e-06, dt=3.259706e-08
+cycle = 121, time = 2.653241e-06, dt=3.197190e-08
+cycle = 122, time = 2.684672e-06, dt=3.143136e-08
+cycle = 123, time = 2.715642e-06, dt=3.096993e-08
+cycle = 124, time = 2.746226e-06, dt=3.058404e-08
+cycle = 125, time = 2.776499e-06, dt=3.027257e-08
+cycle = 126, time = 2.806562e-06, dt=3.006344e-08
+cycle = 127, time = 2.836526e-06, dt=2.996334e-08
+cycle = 128, time = 2.866489e-06, dt=2.996334e-08
+cycle = 129, time = 2.896452e-06, dt=2.996334e-08
+cycle = 130, time = 2.926416e-06, dt=2.996334e-08
+cycle = 131, time = 2.956379e-06, dt=2.996334e-08
+cycle = 132, time = 2.986342e-06, dt=2.996334e-08
+cycle = 133, time = 3.016306e-06, dt=2.996334e-08
+cycle = 134, time = 3.046269e-06, dt=2.996334e-08
+cycle = 135, time = 3.080164e-06, dt=3.389529e-08
+cycle = 136, time = 3.114060e-06, dt=3.389529e-08
+cycle = 137, time = 3.147955e-06, dt=3.389529e-08
+cycle = 138, time = 3.181850e-06, dt=3.389529e-08
+cycle = 139, time = 3.219262e-06, dt=3.741213e-08
+cycle = 140, time = 3.256674e-06, dt=3.741213e-08
+cycle = 141, time = 3.294086e-06, dt=3.741213e-08
+cycle = 142, time = 3.331499e-06, dt=3.741213e-08
+cycle = 143, time = 3.368911e-06, dt=3.741213e-08
+cycle = 144, time = 3.406323e-06, dt=3.741213e-08
+cycle = 145, time = 3.443735e-06, dt=3.741213e-08
+cycle = 146, time = 3.481147e-06, dt=3.741213e-08
+cycle = 147, time = 3.518559e-06, dt=3.741213e-08
+cycle = 148, time = 3.559989e-06, dt=4.143012e-08
+cycle = 149, time = 3.601420e-06, dt=4.143012e-08
+cycle = 150, time = 3.642850e-06, dt=4.143012e-08
+cycle = 151, time = 3.684280e-06, dt=4.143012e-08
+cycle = 152, time = 3.725710e-06, dt=4.143012e-08
+cycle = 153, time = 3.767140e-06, dt=4.143012e-08
+cycle = 154, time = 3.808570e-06, dt=4.143012e-08
+cycle = 155, time = 3.850000e-06, dt=4.143012e-08
+cycle = 156, time = 3.891430e-06, dt=4.143012e-08
+cycle = 157, time = 3.932860e-06, dt=4.143012e-08
+cycle = 158, time = 3.974291e-06, dt=4.143012e-08
+cycle = 159, time = 4.015721e-06, dt=4.143012e-08
+cycle = 160, time = 4.056598e-06, dt=4.087723e-08
+cycle = 161, time = 4.096618e-06, dt=4.001995e-08
+cycle = 162, time = 4.135897e-06, dt=3.927943e-08
+cycle = 163, time = 4.174553e-06, dt=3.865560e-08
+cycle = 164, time = 4.212696e-06, dt=3.814280e-08
+cycle = 165, time = 4.250434e-06, dt=3.773832e-08
+cycle = 166, time = 4.287876e-06, dt=3.744197e-08
+cycle = 167, time = 4.325144e-06, dt=3.726786e-08
+cycle = 168, time = 4.362364e-06, dt=3.721984e-08
+cycle = 169, time = 4.399584e-06, dt=3.721984e-08
+cycle = 170, time = 4.436803e-06, dt=3.721984e-08
+cycle = 171, time = 4.474023e-06, dt=3.721984e-08
+cycle = 172, time = 4.511243e-06, dt=3.721984e-08
+cycle = 173, time = 4.548463e-06, dt=3.721984e-08
+cycle = 174, time = 4.585683e-06, dt=3.721984e-08
+cycle = 175, time = 4.626887e-06, dt=4.120444e-08
+cycle = 176, time = 4.668092e-06, dt=4.120444e-08
+cycle = 177, time = 4.709296e-06, dt=4.120444e-08
+cycle = 178, time = 4.750501e-06, dt=4.120444e-08
+cycle = 179, time = 4.791705e-06, dt=4.120444e-08
+cycle = 180, time = 4.837744e-06, dt=4.603931e-08
+cycle = 181, time = 4.883784e-06, dt=4.603931e-08
+cycle = 182, time = 4.929823e-06, dt=4.603931e-08
+cycle = 183, time = 4.975862e-06, dt=4.603931e-08
+cycle = 184, time = 5.021901e-06, dt=4.603931e-08
+cycle = 185, time = 5.067941e-06, dt=4.603931e-08
+cycle = 186, time = 5.113980e-06, dt=4.603931e-08
+cycle = 187, time = 5.160019e-06, dt=4.603931e-08
+cycle = 188, time = 5.206059e-06, dt=4.603931e-08
+cycle = 189, time = 5.252098e-06, dt=4.603931e-08
+cycle = 190, time = 5.298137e-06, dt=4.603931e-08
+cycle = 191, time = 5.344177e-06, dt=4.603931e-08
+cycle = 192, time = 5.395217e-06, dt=5.104062e-08
+cycle = 193, time = 5.446258e-06, dt=5.104062e-08
+cycle = 194, time = 5.497299e-06, dt=5.104062e-08
+cycle = 195, time = 5.548339e-06, dt=5.104062e-08
+cycle = 196, time = 5.599380e-06, dt=5.104062e-08
+cycle = 197, time = 5.650420e-06, dt=5.104062e-08
+cycle = 198, time = 5.701461e-06, dt=5.104062e-08
+cycle = 199, time = 5.751654e-06, dt=5.019254e-08
+cycle = 200, time = 5.800617e-06, dt=4.896356e-08
+cycle = 201, time = 5.848467e-06, dt=4.784956e-08
+cycle = 202, time = 5.895318e-06, dt=4.685179e-08
+cycle = 203, time = 5.941302e-06, dt=4.598360e-08
+cycle = 204, time = 5.986569e-06, dt=4.526725e-08
+cycle = 205, time = 6.031265e-06, dt=4.469572e-08
+cycle = 206, time = 6.075530e-06, dt=4.426513e-08
+cycle = 207, time = 6.119506e-06, dt=4.397563e-08
+cycle = 208, time = 6.163337e-06, dt=4.383151e-08
+cycle = 209, time = 6.207169e-06, dt=4.383151e-08
+cycle = 210, time = 6.251000e-06, dt=4.383151e-08
+cycle = 211, time = 6.294832e-06, dt=4.383151e-08
+cycle = 212, time = 6.338663e-06, dt=4.383151e-08
+cycle = 213, time = 6.382495e-06, dt=4.383151e-08
+cycle = 214, time = 6.426326e-06, dt=4.383151e-08
+cycle = 215, time = 6.470158e-06, dt=4.383151e-08
+cycle = 216, time = 6.519225e-06, dt=4.906710e-08
+cycle = 217, time = 6.568292e-06, dt=4.906710e-08
+cycle = 218, time = 6.617359e-06, dt=4.906710e-08
+cycle = 219, time = 6.666426e-06, dt=4.906710e-08
+cycle = 220, time = 6.715493e-06, dt=4.906710e-08
+cycle = 221, time = 6.770531e-06, dt=5.503727e-08
+cycle = 222, time = 6.825568e-06, dt=5.503727e-08
+cycle = 223, time = 6.880605e-06, dt=5.503727e-08
+cycle = 224, time = 6.935642e-06, dt=5.503727e-08
+cycle = 225, time = 6.990680e-06, dt=5.503727e-08
+cycle = 226, time = 7.045717e-06, dt=5.503727e-08
+cycle = 227, time = 7.100754e-06, dt=5.503727e-08
+cycle = 228, time = 7.155792e-06, dt=5.503727e-08
+cycle = 229, time = 7.210829e-06, dt=5.503727e-08
+cycle = 230, time = 7.265866e-06, dt=5.503727e-08
+cycle = 231, time = 7.320903e-06, dt=5.503727e-08
+cycle = 232, time = 7.375941e-06, dt=5.503727e-08
+cycle = 233, time = 7.430978e-06, dt=5.503727e-08
+cycle = 234, time = 7.491718e-06, dt=6.073975e-08
+cycle = 235, time = 7.552404e-06, dt=6.068602e-08
+cycle = 236, time = 7.613087e-06, dt=6.068296e-08
+cycle = 237, time = 7.673770e-06, dt=6.068296e-08
+cycle = 238, time = 7.734453e-06, dt=6.068296e-08
+cycle = 239, time = 7.795136e-06, dt=6.068296e-08
+cycle = 240, time = 7.855818e-06, dt=6.068296e-08
+cycle = 241, time = 7.916501e-06, dt=6.068296e-08
+cycle = 242, time = 7.977184e-06, dt=6.068296e-08
+cycle = 243, time = 8.037867e-06, dt=6.068296e-08
+cycle = 244, time = 8.098550e-06, dt=6.068296e-08
+cycle = 245, time = 8.158539e-06, dt=5.998848e-08
+cycle = 246, time = 8.217326e-06, dt=5.878727e-08
+cycle = 247, time = 8.275052e-06, dt=5.772602e-08
+cycle = 248, time = 8.331862e-06, dt=5.680986e-08
+cycle = 249, time = 8.387896e-06, dt=5.603442e-08
+cycle = 250, time = 8.443294e-06, dt=5.539716e-08
+cycle = 251, time = 8.498240e-06, dt=5.494672e-08
+cycle = 252, time = 8.552932e-06, dt=5.469195e-08
+cycle = 253, time = 8.607572e-06, dt=5.463959e-08
+cycle = 254, time = 8.662211e-06, dt=5.463959e-08
+cycle = 255, time = 8.716851e-06, dt=5.463959e-08
+cycle = 256, time = 8.771491e-06, dt=5.463959e-08
+cycle = 257, time = 8.826130e-06, dt=5.463959e-08
+cycle = 258, time = 8.880770e-06, dt=5.463959e-08
+cycle = 259, time = 8.935409e-06, dt=5.463959e-08
+cycle = 260, time = 8.996470e-06, dt=6.106063e-08
+cycle = 261, time = 9.057531e-06, dt=6.106063e-08
+cycle = 262, time = 9.118591e-06, dt=6.106063e-08
+cycle = 263, time = 9.179652e-06, dt=6.106063e-08
+cycle = 264, time = 9.240713e-06, dt=6.106063e-08
+cycle = 265, time = 9.301773e-06, dt=6.106063e-08
+cycle = 266, time = 9.368947e-06, dt=6.717345e-08
+cycle = 267, time = 9.436120e-06, dt=6.717345e-08
+cycle = 268, time = 9.503294e-06, dt=6.717345e-08
+cycle = 269, time = 9.570467e-06, dt=6.717345e-08
+cycle = 270, time = 9.637640e-06, dt=6.717345e-08
+cycle = 271, time = 9.704814e-06, dt=6.717345e-08
+cycle = 272, time = 9.771987e-06, dt=6.717345e-08
+cycle = 273, time = 9.839161e-06, dt=6.717345e-08
+cycle = 274, time = 9.906334e-06, dt=6.717345e-08
+cycle = 275, time = 9.973508e-06, dt=6.717345e-08
+cycle = 276, time = 1.004068e-05, dt=6.717345e-08
+cycle = 277, time = 1.010785e-05, dt=6.717345e-08
+cycle = 278, time = 1.017503e-05, dt=6.717345e-08
+cycle = 279, time = 1.024220e-05, dt=6.717345e-08
+cycle = 280, time = 1.030937e-05, dt=6.717345e-08
+cycle = 281, time = 1.037655e-05, dt=6.717345e-08
+cycle = 282, time = 1.045080e-05, dt=7.424942e-08
+cycle = 283, time = 1.052464e-05, dt=7.383831e-08
+cycle = 284, time = 1.059823e-05, dt=7.359230e-08
+cycle = 285, time = 1.067182e-05, dt=7.359230e-08
+cycle = 286, time = 1.074541e-05, dt=7.359230e-08
+cycle = 287, time = 1.081901e-05, dt=7.359230e-08
+cycle = 288, time = 1.089137e-05, dt=7.236788e-08
+cycle = 289, time = 1.096223e-05, dt=7.085463e-08
+cycle = 290, time = 1.103173e-05, dt=6.950363e-08
+cycle = 291, time = 1.110005e-05, dt=6.831421e-08
+cycle = 292, time = 1.116732e-05, dt=6.727878e-08
+cycle = 293, time = 1.123373e-05, dt=6.640410e-08
+cycle = 294, time = 1.129945e-05, dt=6.572162e-08
+cycle = 295, time = 1.136468e-05, dt=6.523073e-08
+cycle = 296, time = 1.142965e-05, dt=6.497137e-08
+cycle = 297, time = 1.149461e-05, dt=6.495495e-08
+cycle = 298, time = 1.155956e-05, dt=6.495495e-08
+cycle = 299, time = 1.162452e-05, dt=6.495495e-08
+cycle = 300, time = 1.168947e-05, dt=6.495495e-08
+Run completed:
+   Problem size        =  90
+   MPI tasks           =  8
+   Iteration count     =  300
+   Final Origin Energy =  1.266907e+08
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 2.607703e-08
+        TotalAbsDiff = 1.121682e-07
+        MaxRelDiff   = 4.222253e-12
+
+Elapsed time         =    1.4e+02 (s)
+Grind time (us/z/c)  = 0.63540977 (per dom)  ( 138.96412 overall)
+FOM                  =  12590.301 (z/s)
+
+TABLE,Group 1 Raw,MEM_DP,42,,,,,,
+Event,Counter,f2264:0:0,f2264:1:1,f2264:2:2,f2264:3:3,f2264:4:52,f2264:5:53,f2264:6:54,f2264:7:55
+INSTR_RETIRED_ANY,FIXC0,651427466481,644773901323,647625711149,646939048865,643584649283,647789692578,645291588335,648403113006
+CPU_CLK_UNHALTED_CORE,FIXC1,234111067680,233399598239,234883617987,233490185579,233812596976,233682267778,234228844544,234898195299
+CPU_CLK_UNHALTED_REF,FIXC2,234282232960,233597080400,235080114560,233686909280,233986507760,234086802560,234389539040,235144350240
+TOPDOWN_SLOTS,FIXC3,1404666406080,1400397589434,1409301707922,1400941113474,1402875581856,1402093606668,1405373067264,1409389171794
+PWR_PKG_ENERGY,PWR0,28042.3112,0,0,0,0,0,0,0
+PWR_DRAM_ENERGY,PWR3,979.6180,0,0,0,0,0,0,0
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0,0,0,0,0,0,0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,418682679314,418682384660,418682372182,418682380649,418682380294,418682379823,418682365270,418682363238
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,22088700000,22088700000,22088700000,22088700000,22088700000,22088700000,22088700000,22088700000
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,7124144883,6866116800,6832991100,7112654100,6685006200,6576937500,7239015000,7243848900
+CAS_COUNT_RD,MBOX0C0,19630427634,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX0C1,8797574472,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX1C0,19631775619,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX1C1,8798440765,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX2C0,12754223,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX2C1,12504327,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX3C0,12783531,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX3C1,12516604,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX4C0,12656357,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX4C1,12529213,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX5C0,12702690,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX5C1,12588982,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX6C0,24470868,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX6C1,19931336,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX7C0,24421662,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX7C1,19920781,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX8C0,0,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX8C1,0,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX9C0,0,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX9C1,0,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX10C0,0,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX10C1,0,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX11C0,0,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX11C1,0,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX12C0,0,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX12C1,0,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX13C0,0,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX13C1,0,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX14C0,0,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX14C1,0,0,0,0,0,0,0,0
+CAS_COUNT_RD,MBOX15C0,0,0,0,0,0,0,0,0
+CAS_COUNT_WR,MBOX15C1,0,0,0,0,0,0,0,0
+TABLE,Group 1 Raw STAT,MEM_DP,42,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,
+INSTR_RETIRED_ANY STAT,FIXC0,5175835171020,643584649283,651427466481,6.469794e+11,,,,
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,1872506374082,233399598239,234898195299,2.340633e+11,,,,
+CPU_CLK_UNHALTED_REF STAT,FIXC2,1874253536800,233597080400,235144350240,234281692100,,,,
+TOPDOWN_SLOTS STAT,FIXC3,11235038244492,1400397589434,1409389171794,1.404380e+12,,,,
+PWR_PKG_ENERGY STAT,PWR0,28042.3112,0,28042.3112,3505.2889,,,,
+PWR_DRAM_ENERGY STAT,PWR3,979.6180,0,979.6180,122.4523,,,,
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE STAT,PMC0,0,0,0,0,,,,
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE STAT,PMC1,3349459305430,418682363238,418682679314,4.186824e+11,,,,
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE STAT,PMC2,176709600000,22088700000,22088700000,22088700000,,,,
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE STAT,PMC3,55680714483,6576937500,7243848900,6.960089e+09,,,,
+CAS_COUNT_RD STAT,MBOX0C0,19630427634,0,19630427634,2.453803e+09,,,,
+CAS_COUNT_WR STAT,MBOX0C1,8797574472,0,8797574472,1099696809,,,,
+CAS_COUNT_RD STAT,MBOX1C0,19631775619,0,19631775619,2.453972e+09,,,,
+CAS_COUNT_WR STAT,MBOX1C1,8798440765,0,8798440765,1.099805e+09,,,,
+CAS_COUNT_RD STAT,MBOX2C0,12754223,0,12754223,1.594278e+06,,,,
+CAS_COUNT_WR STAT,MBOX2C1,12504327,0,12504327,1.563041e+06,,,,
+CAS_COUNT_RD STAT,MBOX3C0,12783531,0,12783531,1.597941e+06,,,,
+CAS_COUNT_WR STAT,MBOX3C1,12516604,0,12516604,1.564576e+06,,,,
+CAS_COUNT_RD STAT,MBOX4C0,12656357,0,12656357,1.582045e+06,,,,
+CAS_COUNT_WR STAT,MBOX4C1,12529213,0,12529213,1.566152e+06,,,,
+CAS_COUNT_RD STAT,MBOX5C0,12702690,0,12702690,1.587836e+06,,,,
+CAS_COUNT_WR STAT,MBOX5C1,12588982,0,12588982,1.573623e+06,,,,
+CAS_COUNT_RD STAT,MBOX6C0,24470868,0,24470868,3.058858e+06,,,,
+CAS_COUNT_WR STAT,MBOX6C1,19931336,0,19931336,2491417,,,,
+CAS_COUNT_RD STAT,MBOX7C0,24421662,0,24421662,3.052708e+06,,,,
+CAS_COUNT_WR STAT,MBOX7C1,19920781,0,19920781,2.490098e+06,,,,
+CAS_COUNT_RD STAT,MBOX8C0,0,0,0,0,,,,
+CAS_COUNT_WR STAT,MBOX8C1,0,0,0,0,,,,
+CAS_COUNT_RD STAT,MBOX9C0,0,0,0,0,,,,
+CAS_COUNT_WR STAT,MBOX9C1,0,0,0,0,,,,
+CAS_COUNT_RD STAT,MBOX10C0,0,0,0,0,,,,
+CAS_COUNT_WR STAT,MBOX10C1,0,0,0,0,,,,
+CAS_COUNT_RD STAT,MBOX11C0,0,0,0,0,,,,
+CAS_COUNT_WR STAT,MBOX11C1,0,0,0,0,,,,
+CAS_COUNT_RD STAT,MBOX12C0,0,0,0,0,,,,
+CAS_COUNT_WR STAT,MBOX12C1,0,0,0,0,,,,
+CAS_COUNT_RD STAT,MBOX13C0,0,0,0,0,,,,
+CAS_COUNT_WR STAT,MBOX13C1,0,0,0,0,,,,
+CAS_COUNT_RD STAT,MBOX14C0,0,0,0,0,,,,
+CAS_COUNT_WR STAT,MBOX14C1,0,0,0,0,,,,
+CAS_COUNT_RD STAT,MBOX15C0,0,0,0,0,,,,
+CAS_COUNT_WR STAT,MBOX15C1,0,0,0,0,,,,
+TABLE,Group 1 Metric,MEM_DP,19,,,,,,
+Metric,f2264:0:0,f2264:1:1,f2264:2:2,f2264:3:3,f2264:4:52,f2264:5:53,f2264:6:54,f2264:7:55,
+Runtime (RDTSC) [s],139.6890,139.6521,139.6598,139.6553,140.5480,140.7581,140.6520,140.7132,
+Runtime unhalted [s],117.0576,116.7019,117.4437,116.7474,116.9081,116.8427,117.1164,117.4510,
+Clock [MHz],1998.5042,1998.2740,1998.2968,1998.2766,1998.4821,1996.5165,1998.5958,1997.8744,
+CPI,0.3594,0.3620,0.3627,0.3609,0.3633,0.3607,0.3630,0.3623,
+Energy [J],28042.3112,0,0,0,0,0,0,0,
+Power [W],200.7482,0,0,0,0,0,0,0,
+Energy DRAM [J],979.6180,0,0,0,0,0,0,0,
+Power DRAM [W],7.0128,0,0,0,0,0,0,0,
+DP [MFLOP/s],4037.7599,4024.0435,4021.9240,4038.0738,3988.0840,3975.9892,4016.6459,4015.1738,
+AVX DP [MFLOP/s],1040.5111,1026.0049,1024.0508,1040.1040,1009.1559,1001.5076,1039.9207,1039.7432,
+Packed [MUOPS/s],209.1277,207.3353,207.0867,209.0959,204.7251,203.6518,208.5126,208.4563,
+Scalar [MUOPS/s],2997.2487,2998.0386,2997.8732,2997.9699,2978.9281,2974.4816,2976.7253,2975.4306,
+Memory read bandwidth [MBytes/s],18034.1153,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],2519.1675,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],8103.0318,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],1131.9044,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],26137.1471,0,0,0,0,0,0,0,
+Memory data volume [GBytes],3651.0719,0,0,0,0,0,0,0,
+Operational intensity [FLOP/Byte],0.1545,0,0,0,0,0,0,0,
+TABLE,Group 1 Metric STAT,MEM_DP,19,,,,,,
+Metric,Sum,Min,Max,Avg,%ile 25,%ile 50,%ile 75,,
+Runtime (RDTSC) [s] STAT,1121.3275,139.6521,140.7581,140.1659,139.6553,139.6890,140.6520,,
+Runtime unhalted [s] STAT,936.2688,116.7019,117.4510,117.0336,116.7474,116.9081,117.1164,,
+Clock [MHz] STAT,15984.8204,1996.5165,1998.5958,1998.1026,1997.8744,1998.2766,1998.4821,,
+CPI STAT,2.8943,0.3594,0.3633,0.3618,0.3607,0.3620,0.3627,,
+Energy [J] STAT,28042.3112,0,28042.3112,3505.2889,0,0,0,,
+Power [W] STAT,200.7482,0,200.7482,25.0935,0,0,0,,
+Energy DRAM [J] STAT,979.6180,0,979.6180,122.4523,0,0,0,,
+Power DRAM [W] STAT,7.0128,0,7.0128,0.8766,0,0,0,,
+DP [MFLOP/s] STAT,32117.6941,3975.9892,4038.0738,4014.7118,3988.0840,4016.6459,4024.0435,,
+AVX DP [MFLOP/s] STAT,8220.9982,1001.5076,1040.5111,1027.6248,1009.1559,1026.0049,1039.9207,,
+Packed [MUOPS/s] STAT,1657.9914,203.6518,209.1277,207.2489,204.7251,207.3353,208.5126,,
+Scalar [MUOPS/s] STAT,23896.6960,2974.4816,2998.0386,2987.0870,2975.4306,2978.9281,2997.8732,,
+Memory read bandwidth [MBytes/s] STAT,18034.1153,0,18034.1153,2254.2644,0,0,0,,
+Memory read data volume [GBytes] STAT,2519.1675,0,2519.1675,314.8959,0,0,0,,
+Memory write bandwidth [MBytes/s] STAT,8103.0318,0,8103.0318,1012.8790,0,0,0,,
+Memory write data volume [GBytes] STAT,1131.9044,0,1131.9044,141.4880,0,0,0,,
+Memory bandwidth [MBytes/s] STAT,26137.1471,0,26137.1471,3267.1434,0,0,0,,
+Memory data volume [GBytes] STAT,3651.0719,0,3651.0719,456.3840,0,0,0,,
+Operational intensity [FLOP/Byte] STAT,0.1545,0,0.1545,0.0193,0,0,0,,

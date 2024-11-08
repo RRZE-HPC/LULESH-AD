@@ -1,0 +1,22 @@
+$ module load intel/2023.2.1 cmake/3.23.1 likwid/5.3.0
+$ mkdir build_OMP_ICX36 && cd build_OMP_ICX36 && cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=`which icpc` -DWITH_MPI=Off  -DWITH_OPENMP=On ..
+-- The CXX compiler identification is Intel 2021.10.0.20230609
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/SPACK/0.18.1/opt/linux-ubuntu20.04-broadwell/gcc-9.4.0/intel-oneapi-compilers-2023.2.1-w5xspo5smexqooptupdcekxiosxeltyh/compiler/2023.2.1/linux/bin/intel64/icpc - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -qopenmp (found version "5.0") 
+-- Found OpenMP: TRUE (found version "5.0")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/build_OMP_ICX36
+$ make
+[ 16%] Building CXX object CMakeFiles/lulesh2.0.dir/lulesh-comm.cc.o
+[ 33%] Building CXX object CMakeFiles/lulesh2.0.dir/lulesh-init.cc.o
+[ 50%] Building CXX object CMakeFiles/lulesh2.0.dir/lulesh-util.cc.o
+[ 66%] Building CXX object CMakeFiles/lulesh2.0.dir/lulesh-viz.cc.o
+[ 83%] Building CXX object CMakeFiles/lulesh2.0.dir/lulesh.cc.o
+[100%] Linking CXX executable lulesh2.0
+[100%] Built target lulesh2.0
+

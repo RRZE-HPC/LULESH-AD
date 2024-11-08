@@ -1,0 +1,1492 @@
+_________
+DEBUG: Executable given on commandline: ../../build_MPI2/lulesh2.0 -p -b 0 -s 150 -i 300 -c 0
+DEBUG: MPI options given on commandline: --cpu-freq=2400000-2400000:performance
+DEBUG: Reading hostfile from batch system
+Available hosts for scheduling:
+Host                	Slots	MaxSlots	Interface
+f0345               	5184	5184	
+DEBUG: Switch to perfctr mode, there are 1 eventsets given on the commandline
+DEBUG: Working on host f0345 with 5184 slots and 5184 slots maximally
+DEBUG: NperDomain string E:N:1:1 covers the domains: N 
+DEBUG: Resolved NperDomain string E:N:1:1 to CPUs: [0] 
+DEBUG: Process 1 runs on CPUs 0
+DEBUG: Assign 1 processes with 1 per node and 1 threads per process to 1 hosts
+DEBUG: Add Host f0345 with 1/1 slots to host list
+DEBUG: Scheduling on hosts:
+DEBUG: Host f0345 with 1 slots (max. 5184 slots)
+DEBUG: Process 0 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3,PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3,CAS_COUNT_RD:MBOX0C0,CAS_COUNT_WR:MBOX0C1,CAS_COUNT_RD:MBOX1C0,CAS_COUNT_WR:MBOX1C1,CAS_COUNT_RD:MBOX2C0,CAS_COUNT_WR:MBOX2C1,CAS_COUNT_RD:MBOX3C0,CAS_COUNT_WR:MBOX3C1,CAS_COUNT_RD:MBOX4C0,CAS_COUNT_WR:MBOX4C1,CAS_COUNT_RD:MBOX5C0,CAS_COUNT_WR:MBOX5C1,CAS_COUNT_RD:MBOX6C0,CAS_COUNT_WR:MBOX6C1,CAS_COUNT_RD:MBOX7C0,CAS_COUNT_WR:MBOX7C1
+DEBUG: Detected environment
+DEBUG: MPI slurm
+DEBUG: Resolved likwid-pin to /home/hpc/unrz/unrz139/.modules/likwid-master-mpirun/bin/likwid-pin
+EXEC (Rank 0): /home/hpc/unrz/unrz139/.modules/likwid-master-mpirun/bin/likwid-perfctr -m -f  -C L:N:0-0 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3,PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3,CAS_COUNT_RD:MBOX0C0,CAS_COUNT_WR:MBOX0C1,CAS_COUNT_RD:MBOX1C0,CAS_COUNT_WR:MBOX1C1,CAS_COUNT_RD:MBOX2C0,CAS_COUNT_WR:MBOX2C1,CAS_COUNT_RD:MBOX3C0,CAS_COUNT_WR:MBOX3C1,CAS_COUNT_RD:MBOX4C0,CAS_COUNT_WR:MBOX4C1,CAS_COUNT_RD:MBOX5C0,CAS_COUNT_WR:MBOX5C1,CAS_COUNT_RD:MBOX6C0,CAS_COUNT_WR:MBOX6C1,CAS_COUNT_RD:MBOX7C0,CAS_COUNT_WR:MBOX7C1 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig3-MPI/.output_1315616_%r_%h.csv ../../build_MPI2/lulesh2.0 -p -b 0 -s 150 -i 300 -c 0
+EXEC: srun  --mpi=pmi2 --ntasks-per-node=1 --ntasks=1 --nodes=1 --cpu-bind=mask_cpu:0x1 --cpu-freq=2400000-2400000:performance /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig3-MPI/.likwidscript_1315616.txt
+Running problem size 150^3 per domain until completion
+Num processors: 1
+Total number of elements: 3375000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+cycle = 1, time = 6.933756e-08, dt=6.933756e-08
+cycle = 2, time = 1.525426e-07, dt=8.320507e-08
+cycle = 3, time = 1.810622e-07, dt=2.851953e-08
+cycle = 4, time = 2.048782e-07, dt=2.381602e-08
+cycle = 5, time = 2.261092e-07, dt=2.123106e-08
+cycle = 6, time = 2.458232e-07, dt=1.971401e-08
+cycle = 7, time = 2.645662e-07, dt=1.874294e-08
+cycle = 8, time = 2.826698e-07, dt=1.810364e-08
+cycle = 9, time = 3.003588e-07, dt=1.768900e-08
+cycle = 10, time = 3.177984e-07, dt=1.743955e-08
+cycle = 11, time = 3.387258e-07, dt=2.092746e-08
+cycle = 12, time = 3.623540e-07, dt=2.362818e-08
+cycle = 13, time = 3.846902e-07, dt=2.233622e-08
+cycle = 14, time = 4.057398e-07, dt=2.104957e-08
+cycle = 15, time = 4.255015e-07, dt=1.976167e-08
+cycle = 16, time = 4.443677e-07, dt=1.886626e-08
+cycle = 17, time = 4.626718e-07, dt=1.830401e-08
+cycle = 18, time = 4.806996e-07, dt=1.802787e-08
+cycle = 19, time = 4.987247e-07, dt=1.802503e-08
+cycle = 20, time = 5.167497e-07, dt=1.802503e-08
+cycle = 21, time = 5.347747e-07, dt=1.802503e-08
+cycle = 22, time = 5.527997e-07, dt=1.802503e-08
+cycle = 23, time = 5.708248e-07, dt=1.802503e-08
+cycle = 24, time = 5.907757e-07, dt=1.995094e-08
+cycle = 25, time = 6.107266e-07, dt=1.995094e-08
+cycle = 26, time = 6.306776e-07, dt=1.995094e-08
+cycle = 27, time = 6.534182e-07, dt=2.274059e-08
+cycle = 28, time = 6.761588e-07, dt=2.274059e-08
+cycle = 29, time = 7.033152e-07, dt=2.715647e-08
+cycle = 30, time = 7.341317e-07, dt=3.081650e-08
+cycle = 31, time = 7.637155e-07, dt=2.958380e-08
+cycle = 32, time = 7.923002e-07, dt=2.858467e-08
+cycle = 33, time = 8.201984e-07, dt=2.789822e-08
+cycle = 34, time = 8.476514e-07, dt=2.745294e-08
+cycle = 35, time = 8.749035e-07, dt=2.725215e-08
+cycle = 36, time = 9.021557e-07, dt=2.725215e-08
+cycle = 37, time = 9.294078e-07, dt=2.725215e-08
+cycle = 38, time = 9.566600e-07, dt=2.725215e-08
+cycle = 39, time = 9.839121e-07, dt=2.725215e-08
+cycle = 40, time = 1.014450e-06, dt=3.053810e-08
+cycle = 41, time = 1.044988e-06, dt=3.053810e-08
+cycle = 42, time = 1.075526e-06, dt=3.053810e-08
+cycle = 43, time = 1.106064e-06, dt=3.053810e-08
+cycle = 44, time = 1.136603e-06, dt=3.053810e-08
+cycle = 45, time = 1.166896e-06, dt=3.029387e-08
+cycle = 46, time = 1.196546e-06, dt=2.964978e-08
+cycle = 47, time = 1.225646e-06, dt=2.909927e-08
+cycle = 48, time = 1.254293e-06, dt=2.864792e-08
+cycle = 49, time = 1.282585e-06, dt=2.829165e-08
+cycle = 50, time = 1.310624e-06, dt=2.803904e-08
+cycle = 51, time = 1.338512e-06, dt=2.788778e-08
+cycle = 52, time = 1.366377e-06, dt=2.786473e-08
+cycle = 53, time = 1.394241e-06, dt=2.786473e-08
+cycle = 54, time = 1.422106e-06, dt=2.786473e-08
+cycle = 55, time = 1.449971e-06, dt=2.786473e-08
+cycle = 56, time = 1.477836e-06, dt=2.786473e-08
+cycle = 57, time = 1.505700e-06, dt=2.786473e-08
+cycle = 58, time = 1.536564e-06, dt=3.086377e-08
+cycle = 59, time = 1.567428e-06, dt=3.086377e-08
+cycle = 60, time = 1.601589e-06, dt=3.416138e-08
+cycle = 61, time = 1.635751e-06, dt=3.416138e-08
+cycle = 62, time = 1.673888e-06, dt=3.813708e-08
+cycle = 63, time = 1.712025e-06, dt=3.813708e-08
+cycle = 64, time = 1.750162e-06, dt=3.813708e-08
+cycle = 65, time = 1.788299e-06, dt=3.813708e-08
+cycle = 66, time = 1.826436e-06, dt=3.813708e-08
+cycle = 67, time = 1.864573e-06, dt=3.813708e-08
+cycle = 68, time = 1.902710e-06, dt=3.813708e-08
+cycle = 69, time = 1.940847e-06, dt=3.813708e-08
+cycle = 70, time = 1.978984e-06, dt=3.813708e-08
+cycle = 71, time = 2.017121e-06, dt=3.813708e-08
+cycle = 72, time = 2.055258e-06, dt=3.813708e-08
+cycle = 73, time = 2.093395e-06, dt=3.813708e-08
+cycle = 74, time = 2.131533e-06, dt=3.813708e-08
+cycle = 75, time = 2.169670e-06, dt=3.813708e-08
+cycle = 76, time = 2.207807e-06, dt=3.813708e-08
+cycle = 77, time = 2.245944e-06, dt=3.813708e-08
+cycle = 78, time = 2.284081e-06, dt=3.813708e-08
+cycle = 79, time = 2.322218e-06, dt=3.813708e-08
+cycle = 80, time = 2.360296e-06, dt=3.807804e-08
+cycle = 81, time = 2.397619e-06, dt=3.732273e-08
+cycle = 82, time = 2.434294e-06, dt=3.667523e-08
+cycle = 83, time = 2.470440e-06, dt=3.614563e-08
+cycle = 84, time = 2.506170e-06, dt=3.573042e-08
+cycle = 85, time = 2.541599e-06, dt=3.542919e-08
+cycle = 86, time = 2.576835e-06, dt=3.523587e-08
+cycle = 87, time = 2.611981e-06, dt=3.514569e-08
+cycle = 88, time = 2.647126e-06, dt=3.514569e-08
+cycle = 89, time = 2.682272e-06, dt=3.514569e-08
+cycle = 90, time = 2.717418e-06, dt=3.514569e-08
+cycle = 91, time = 2.752564e-06, dt=3.514569e-08
+cycle = 92, time = 2.787709e-06, dt=3.514569e-08
+cycle = 93, time = 2.822855e-06, dt=3.514569e-08
+cycle = 94, time = 2.858001e-06, dt=3.514569e-08
+cycle = 95, time = 2.897768e-06, dt=3.976766e-08
+cycle = 96, time = 2.937536e-06, dt=3.976766e-08
+cycle = 97, time = 2.981943e-06, dt=4.440731e-08
+cycle = 98, time = 3.026350e-06, dt=4.440731e-08
+cycle = 99, time = 3.070758e-06, dt=4.440731e-08
+cycle = 100, time = 3.120224e-06, dt=4.946627e-08
+cycle = 101, time = 3.169690e-06, dt=4.946627e-08
+cycle = 102, time = 3.219157e-06, dt=4.946627e-08
+cycle = 103, time = 3.268623e-06, dt=4.946627e-08
+cycle = 104, time = 3.318089e-06, dt=4.946627e-08
+cycle = 105, time = 3.367555e-06, dt=4.946627e-08
+cycle = 106, time = 3.417022e-06, dt=4.946627e-08
+cycle = 107, time = 3.466488e-06, dt=4.946627e-08
+cycle = 108, time = 3.515954e-06, dt=4.946627e-08
+cycle = 109, time = 3.565420e-06, dt=4.946627e-08
+cycle = 110, time = 3.614887e-06, dt=4.946627e-08
+cycle = 111, time = 3.664353e-06, dt=4.946627e-08
+cycle = 112, time = 3.713819e-06, dt=4.946627e-08
+cycle = 113, time = 3.763286e-06, dt=4.946627e-08
+cycle = 114, time = 3.812752e-06, dt=4.946627e-08
+cycle = 115, time = 3.867537e-06, dt=5.478545e-08
+cycle = 116, time = 3.922323e-06, dt=5.478545e-08
+cycle = 117, time = 3.977108e-06, dt=5.478545e-08
+cycle = 118, time = 4.030929e-06, dt=5.382090e-08
+cycle = 119, time = 4.083477e-06, dt=5.254810e-08
+cycle = 120, time = 4.134897e-06, dt=5.141994e-08
+cycle = 121, time = 4.185331e-06, dt=5.043379e-08
+cycle = 122, time = 4.234912e-06, dt=4.958111e-08
+cycle = 123, time = 4.283765e-06, dt=4.885323e-08
+cycle = 124, time = 4.332010e-06, dt=4.824451e-08
+cycle = 125, time = 4.379763e-06, dt=4.775319e-08
+cycle = 126, time = 4.427186e-06, dt=4.742330e-08
+cycle = 127, time = 4.474452e-06, dt=4.726540e-08
+cycle = 128, time = 4.521717e-06, dt=4.726540e-08
+cycle = 129, time = 4.568982e-06, dt=4.726540e-08
+cycle = 130, time = 4.616248e-06, dt=4.726540e-08
+cycle = 131, time = 4.663513e-06, dt=4.726540e-08
+cycle = 132, time = 4.710779e-06, dt=4.726540e-08
+cycle = 133, time = 4.758044e-06, dt=4.726540e-08
+cycle = 134, time = 4.805309e-06, dt=4.726540e-08
+cycle = 135, time = 4.858777e-06, dt=5.346782e-08
+cycle = 136, time = 4.912245e-06, dt=5.346782e-08
+cycle = 137, time = 4.965713e-06, dt=5.346782e-08
+cycle = 138, time = 5.019181e-06, dt=5.346782e-08
+cycle = 139, time = 5.078196e-06, dt=5.901542e-08
+cycle = 140, time = 5.137212e-06, dt=5.901542e-08
+cycle = 141, time = 5.196227e-06, dt=5.901542e-08
+cycle = 142, time = 5.255242e-06, dt=5.901542e-08
+cycle = 143, time = 5.314258e-06, dt=5.901542e-08
+cycle = 144, time = 5.373273e-06, dt=5.901542e-08
+cycle = 145, time = 5.432289e-06, dt=5.901542e-08
+cycle = 146, time = 5.491304e-06, dt=5.901542e-08
+cycle = 147, time = 5.550320e-06, dt=5.901542e-08
+cycle = 148, time = 5.615673e-06, dt=6.535357e-08
+cycle = 149, time = 5.681027e-06, dt=6.535357e-08
+cycle = 150, time = 5.746380e-06, dt=6.535357e-08
+cycle = 151, time = 5.811734e-06, dt=6.535357e-08
+cycle = 152, time = 5.877087e-06, dt=6.535357e-08
+cycle = 153, time = 5.942441e-06, dt=6.535357e-08
+cycle = 154, time = 6.007795e-06, dt=6.535357e-08
+cycle = 155, time = 6.073148e-06, dt=6.535357e-08
+cycle = 156, time = 6.138502e-06, dt=6.535357e-08
+cycle = 157, time = 6.203855e-06, dt=6.535357e-08
+cycle = 158, time = 6.269209e-06, dt=6.535357e-08
+cycle = 159, time = 6.334562e-06, dt=6.535357e-08
+cycle = 160, time = 6.399044e-06, dt=6.448142e-08
+cycle = 161, time = 6.462173e-06, dt=6.312910e-08
+cycle = 162, time = 6.524134e-06, dt=6.196099e-08
+cycle = 163, time = 6.585111e-06, dt=6.097693e-08
+cycle = 164, time = 6.645279e-06, dt=6.016801e-08
+cycle = 165, time = 6.704809e-06, dt=5.952997e-08
+cycle = 166, time = 6.763871e-06, dt=5.906250e-08
+cycle = 167, time = 6.822659e-06, dt=5.878785e-08
+cycle = 168, time = 6.881371e-06, dt=5.871210e-08
+cycle = 169, time = 6.940083e-06, dt=5.871210e-08
+cycle = 170, time = 6.998795e-06, dt=5.871210e-08
+cycle = 171, time = 7.057508e-06, dt=5.871210e-08
+cycle = 172, time = 7.116220e-06, dt=5.871210e-08
+cycle = 173, time = 7.174932e-06, dt=5.871210e-08
+cycle = 174, time = 7.233644e-06, dt=5.871210e-08
+cycle = 175, time = 7.298641e-06, dt=6.499758e-08
+cycle = 176, time = 7.363639e-06, dt=6.499758e-08
+cycle = 177, time = 7.428637e-06, dt=6.499758e-08
+cycle = 178, time = 7.493634e-06, dt=6.499758e-08
+cycle = 179, time = 7.558632e-06, dt=6.499758e-08
+cycle = 180, time = 7.631256e-06, dt=7.262429e-08
+cycle = 181, time = 7.703880e-06, dt=7.262429e-08
+cycle = 182, time = 7.776505e-06, dt=7.262429e-08
+cycle = 183, time = 7.849129e-06, dt=7.262429e-08
+cycle = 184, time = 7.921753e-06, dt=7.262429e-08
+cycle = 185, time = 7.994377e-06, dt=7.262429e-08
+cycle = 186, time = 8.067002e-06, dt=7.262429e-08
+cycle = 187, time = 8.139626e-06, dt=7.262429e-08
+cycle = 188, time = 8.212250e-06, dt=7.262429e-08
+cycle = 189, time = 8.284875e-06, dt=7.262429e-08
+cycle = 190, time = 8.357499e-06, dt=7.262429e-08
+cycle = 191, time = 8.430123e-06, dt=7.262429e-08
+cycle = 192, time = 8.510637e-06, dt=8.051357e-08
+cycle = 193, time = 8.591150e-06, dt=8.051357e-08
+cycle = 194, time = 8.671664e-06, dt=8.051357e-08
+cycle = 195, time = 8.752177e-06, dt=8.051357e-08
+cycle = 196, time = 8.832691e-06, dt=8.051357e-08
+cycle = 197, time = 8.913205e-06, dt=8.051357e-08
+cycle = 198, time = 8.993718e-06, dt=8.051357e-08
+cycle = 199, time = 9.072894e-06, dt=7.917577e-08
+cycle = 200, time = 9.150131e-06, dt=7.723713e-08
+cycle = 201, time = 9.225611e-06, dt=7.547986e-08
+cycle = 202, time = 9.299517e-06, dt=7.390593e-08
+cycle = 203, time = 9.372053e-06, dt=7.253642e-08
+cycle = 204, time = 9.443460e-06, dt=7.140642e-08
+cycle = 205, time = 9.513965e-06, dt=7.050486e-08
+cycle = 206, time = 9.583790e-06, dt=6.982563e-08
+cycle = 207, time = 9.653159e-06, dt=6.936896e-08
+cycle = 208, time = 9.722301e-06, dt=6.914162e-08
+cycle = 209, time = 9.791442e-06, dt=6.914162e-08
+cycle = 210, time = 9.860584e-06, dt=6.914162e-08
+cycle = 211, time = 9.929726e-06, dt=6.914162e-08
+cycle = 212, time = 9.998867e-06, dt=6.914162e-08
+cycle = 213, time = 1.006801e-05, dt=6.914162e-08
+cycle = 214, time = 1.013715e-05, dt=6.914162e-08
+cycle = 215, time = 1.020629e-05, dt=6.914162e-08
+cycle = 216, time = 1.028369e-05, dt=7.740045e-08
+cycle = 217, time = 1.036109e-05, dt=7.740045e-08
+cycle = 218, time = 1.043849e-05, dt=7.740045e-08
+cycle = 219, time = 1.051589e-05, dt=7.740045e-08
+cycle = 220, time = 1.059329e-05, dt=7.740045e-08
+cycle = 221, time = 1.068011e-05, dt=8.681805e-08
+cycle = 222, time = 1.076693e-05, dt=8.681805e-08
+cycle = 223, time = 1.085375e-05, dt=8.681805e-08
+cycle = 224, time = 1.094057e-05, dt=8.681805e-08
+cycle = 225, time = 1.102738e-05, dt=8.681805e-08
+cycle = 226, time = 1.111420e-05, dt=8.681805e-08
+cycle = 227, time = 1.120102e-05, dt=8.681805e-08
+cycle = 228, time = 1.128784e-05, dt=8.681805e-08
+cycle = 229, time = 1.137466e-05, dt=8.681805e-08
+cycle = 230, time = 1.146147e-05, dt=8.681805e-08
+cycle = 231, time = 1.154829e-05, dt=8.681805e-08
+cycle = 232, time = 1.163511e-05, dt=8.681805e-08
+cycle = 233, time = 1.172193e-05, dt=8.681805e-08
+cycle = 234, time = 1.181774e-05, dt=9.581336e-08
+cycle = 235, time = 1.191347e-05, dt=9.572861e-08
+cycle = 236, time = 1.200919e-05, dt=9.572379e-08
+cycle = 237, time = 1.210492e-05, dt=9.572379e-08
+cycle = 238, time = 1.220064e-05, dt=9.572379e-08
+cycle = 239, time = 1.229637e-05, dt=9.572379e-08
+cycle = 240, time = 1.239209e-05, dt=9.572379e-08
+cycle = 241, time = 1.248781e-05, dt=9.572379e-08
+cycle = 242, time = 1.258354e-05, dt=9.572379e-08
+cycle = 243, time = 1.267926e-05, dt=9.572379e-08
+cycle = 244, time = 1.277499e-05, dt=9.572379e-08
+cycle = 245, time = 1.286961e-05, dt=9.462829e-08
+cycle = 246, time = 1.296235e-05, dt=9.273346e-08
+cycle = 247, time = 1.305341e-05, dt=9.105939e-08
+cycle = 248, time = 1.314302e-05, dt=8.961420e-08
+cycle = 249, time = 1.323141e-05, dt=8.839100e-08
+cycle = 250, time = 1.331880e-05, dt=8.738575e-08
+cycle = 251, time = 1.340547e-05, dt=8.667520e-08
+cycle = 252, time = 1.349175e-05, dt=8.627332e-08
+cycle = 253, time = 1.357794e-05, dt=8.619073e-08
+cycle = 254, time = 1.366413e-05, dt=8.619073e-08
+cycle = 255, time = 1.375032e-05, dt=8.619073e-08
+cycle = 256, time = 1.383651e-05, dt=8.619073e-08
+cycle = 257, time = 1.392270e-05, dt=8.619073e-08
+cycle = 258, time = 1.400889e-05, dt=8.619073e-08
+cycle = 259, time = 1.409508e-05, dt=8.619073e-08
+cycle = 260, time = 1.419140e-05, dt=9.631954e-08
+cycle = 261, time = 1.428772e-05, dt=9.631954e-08
+cycle = 262, time = 1.438404e-05, dt=9.631954e-08
+cycle = 263, time = 1.448036e-05, dt=9.631954e-08
+cycle = 264, time = 1.457668e-05, dt=9.631954e-08
+cycle = 265, time = 1.467300e-05, dt=9.631954e-08
+cycle = 266, time = 1.477896e-05, dt=1.059621e-07
+cycle = 267, time = 1.488492e-05, dt=1.059621e-07
+cycle = 268, time = 1.499088e-05, dt=1.059621e-07
+cycle = 269, time = 1.509685e-05, dt=1.059621e-07
+cycle = 270, time = 1.520281e-05, dt=1.059621e-07
+cycle = 271, time = 1.530877e-05, dt=1.059621e-07
+cycle = 272, time = 1.541473e-05, dt=1.059621e-07
+cycle = 273, time = 1.552070e-05, dt=1.059621e-07
+cycle = 274, time = 1.562666e-05, dt=1.059621e-07
+cycle = 275, time = 1.573262e-05, dt=1.059621e-07
+cycle = 276, time = 1.583858e-05, dt=1.059621e-07
+cycle = 277, time = 1.594454e-05, dt=1.059621e-07
+cycle = 278, time = 1.605051e-05, dt=1.059621e-07
+cycle = 279, time = 1.615647e-05, dt=1.059621e-07
+cycle = 280, time = 1.626243e-05, dt=1.059621e-07
+cycle = 281, time = 1.636839e-05, dt=1.059621e-07
+cycle = 282, time = 1.648552e-05, dt=1.171241e-07
+cycle = 283, time = 1.660199e-05, dt=1.164756e-07
+cycle = 284, time = 1.671808e-05, dt=1.160875e-07
+cycle = 285, time = 1.683417e-05, dt=1.160875e-07
+cycle = 286, time = 1.695025e-05, dt=1.160875e-07
+cycle = 287, time = 1.706634e-05, dt=1.160875e-07
+cycle = 288, time = 1.718050e-05, dt=1.141561e-07
+cycle = 289, time = 1.729227e-05, dt=1.117690e-07
+cycle = 290, time = 1.740190e-05, dt=1.096379e-07
+cycle = 291, time = 1.750967e-05, dt=1.077616e-07
+cycle = 292, time = 1.761579e-05, dt=1.061283e-07
+cycle = 293, time = 1.772054e-05, dt=1.047485e-07
+cycle = 294, time = 1.782422e-05, dt=1.036720e-07
+cycle = 295, time = 1.792711e-05, dt=1.028976e-07
+cycle = 296, time = 1.802960e-05, dt=1.024885e-07
+cycle = 297, time = 1.813206e-05, dt=1.024626e-07
+cycle = 298, time = 1.823453e-05, dt=1.024626e-07
+cycle = 299, time = 1.833699e-05, dt=1.024626e-07
+cycle = 300, time = 1.843945e-05, dt=1.024626e-07
+Run completed:
+   Problem size        =  150
+   MPI tasks           =  1
+   Iteration count     =  300
+   Final Origin Energy =  7.331635e+07
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 7.916242e-09
+        TotalAbsDiff = 8.662317e-08
+        MaxRelDiff   = 5.127395e-12
+
+Elapsed time         =    6.4e+02 (s)
+Grind time (us/z/c)  = 0.63065477 (per dom)  ( 638.53795 overall)
+FOM                  =  1585.6536 (z/s)
+
+TABLE,Region InitStressTermsForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,3.429034
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,8107075000
+CPU_CLK_UNHALTED_CORE,FIXC1,8149397000
+CPU_CLK_UNHALTED_REF,FIXC2,8149325000
+TOPDOWN_SLOTS,FIXC3,40747060000
+PWR_PKG_ENERGY,PWR0,364.9865
+PWR_DRAM_ENERGY,PWR3,37.1854
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,1012551000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,158890500
+CAS_COUNT_WR,MBOX0C1,103847400
+CAS_COUNT_RD,MBOX1C0,158865500
+CAS_COUNT_WR,MBOX1C1,103815200
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,158884200
+CAS_COUNT_WR,MBOX3C1,103847600
+CAS_COUNT_RD,MBOX4C0,158878400
+CAS_COUNT_WR,MBOX4C1,103865700
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,14183
+CAS_COUNT_WR,MBOX6C1,15148
+CAS_COUNT_RD,MBOX7C0,13240
+CAS_COUNT_WR,MBOX7C1,14149
+TABLE,Region InitStressTermsForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],3.4290,
+Runtime unhalted [s],3.4036,
+Clock [MHz],2394.3400,
+CPI,1.0052,
+Energy [J],364.9865,
+Power [W],106.4400,
+Energy DRAM [J],37.1854,
+Power DRAM [W],10.8443,
+DP [MFLOP/s],295.2875,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],295.2875,
+Memory read bandwidth [MBytes/s],11861.9254,
+Memory read data volume [GBytes],40.6749,
+Memory write bandwidth [MBytes/s],7753.1843,
+Memory write data volume [GBytes],26.5859,
+Memory bandwidth [MBytes/s],19615.1097,
+Memory data volume [GBytes],67.2609,
+Operational intensity [FLOP/Byte],0.0151,
+Vectorization ratio [%],0,
+TABLE,Region IntegrateStressForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,84.88481
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,569113700000
+CPU_CLK_UNHALTED_CORE,FIXC1,202454000000
+CPU_CLK_UNHALTED_REF,FIXC2,202453200000
+TOPDOWN_SLOTS,FIXC3,1012271000000
+PWR_PKG_ENERGY,PWR0,8577.4750
+PWR_DRAM_ENERGY,PWR3,693.3505
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,390825900000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,456792900
+CAS_COUNT_WR,MBOX0C1,132614200
+CAS_COUNT_RD,MBOX1C0,456646400
+CAS_COUNT_WR,MBOX1C1,132574700
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,456819000
+CAS_COUNT_WR,MBOX3C1,132563700
+CAS_COUNT_RD,MBOX4C0,456687200
+CAS_COUNT_WR,MBOX4C1,132480100
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,351377
+CAS_COUNT_WR,MBOX6C1,375470
+CAS_COUNT_RD,MBOX7C0,337309
+CAS_COUNT_WR,MBOX7C1,347440
+TABLE,Region IntegrateStressForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],84.8848,
+Runtime unhalted [s],84.5560,
+Clock [MHz],2394.3283,
+CPI,0.3557,
+Energy [J],8577.4750,
+Power [W],101.0484,
+Energy DRAM [J],693.3505,
+Power DRAM [W],8.1681,
+DP [MFLOP/s],4604.1913,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],4604.1913,
+Memory read bandwidth [MBytes/s],1377.9684,
+Memory read data volume [GBytes],116.9686,
+Memory write bandwidth [MBytes/s],400.3208,
+Memory write data volume [GBytes],33.9812,
+Memory bandwidth [MBytes/s],1778.2893,
+Memory data volume [GBytes],150.9497,
+Operational intensity [FLOP/Byte],2.5891,
+Vectorization ratio [%],0,
+TABLE,Region CalcHourglassControlForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,113.3004
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,409168200000
+CPU_CLK_UNHALTED_CORE,FIXC1,159079400000
+CPU_CLK_UNHALTED_REF,FIXC2,159079500000
+TOPDOWN_SLOTS,FIXC3,795396900000
+PWR_PKG_ENERGY,PWR0,11753.8400
+PWR_DRAM_ENERGY,PWR3,1085.6140
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,329063800000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,2726671000
+CAS_COUNT_WR,MBOX0C1,2337871000
+CAS_COUNT_RD,MBOX1C0,2726451000
+CAS_COUNT_WR,MBOX1C1,2337778000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,2727600000
+CAS_COUNT_WR,MBOX3C1,2338024000
+CAS_COUNT_RD,MBOX4C0,2727550000
+CAS_COUNT_WR,MBOX4C1,2338031000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,482021
+CAS_COUNT_WR,MBOX6C1,503267
+CAS_COUNT_RD,MBOX7C0,463104
+CAS_COUNT_WR,MBOX7C1,465969
+TABLE,Region CalcHourglassControlForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],113.3004,
+Runtime unhalted [s],66.4404,
+Clock [MHz],2394.3173,
+CPI,0.3888,
+Energy [J],11753.8400,
+Power [W],103.7405,
+Energy DRAM [J],1085.6140,
+Power DRAM [W],9.5817,
+DP [MFLOP/s],2904.3481,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],2904.3481,
+Memory read bandwidth [MBytes/s],6162.2898,
+Memory read data volume [GBytes],698.1899,
+Memory write bandwidth [MBytes/s],5283.0448,
+Memory write data volume [GBytes],598.5711,
+Memory bandwidth [MBytes/s],11445.3346,
+Memory data volume [GBytes],1296.7610,
+Operational intensity [FLOP/Byte],0.2538,
+Vectorization ratio [%],0,
+TABLE,Region CalcFBHourglassForceForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,100.2765
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,677467800000
+CPU_CLK_UNHALTED_CORE,FIXC1,239148900000
+CPU_CLK_UNHALTED_REF,FIXC2,239148500000
+TOPDOWN_SLOTS,FIXC3,1195746000000
+PWR_PKG_ENERGY,PWR0,10166.6500
+PWR_DRAM_ENERGY,PWR3,856.4628
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,425251100000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,102262500000
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,1982850000
+CAS_COUNT_WR,MBOX0C1,127468300
+CAS_COUNT_RD,MBOX1C0,1982861000
+CAS_COUNT_WR,MBOX1C1,127418600
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,1983822000
+CAS_COUNT_WR,MBOX3C1,127425700
+CAS_COUNT_RD,MBOX4C0,1983776000
+CAS_COUNT_WR,MBOX4C1,127285600
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,447659
+CAS_COUNT_WR,MBOX6C1,483972
+CAS_COUNT_RD,MBOX7C0,430050
+CAS_COUNT_WR,MBOX7C1,448994
+TABLE,Region CalcFBHourglassForceForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],100.2765,
+Runtime unhalted [s],99.8818,
+Clock [MHz],2394.3228,
+CPI,0.3530,
+Energy [J],10166.6500,
+Power [W],101.3862,
+Energy DRAM [J],856.4628,
+Power DRAM [W],8.5410,
+DP [MFLOP/s],8320.0062,
+AVX DP [MFLOP/s],4079.2210,
+Packed [MUOPS/s],1019.8052,
+Scalar [MUOPS/s],4240.7852,
+Memory read bandwidth [MBytes/s],5063.8779,
+Memory read data volume [GBytes],507.7879,
+Memory write bandwidth [MBytes/s],325.8390,
+Memory write data volume [GBytes],32.6740,
+Memory bandwidth [MBytes/s],5389.7169,
+Memory data volume [GBytes],540.4619,
+Operational intensity [FLOP/Byte],1.5437,
+Vectorization ratio [%],19.3858,
+TABLE,Region CalcAccelerationForNodes,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,3.836327
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,2008665000
+CPU_CLK_UNHALTED_CORE,FIXC1,9117442000
+CPU_CLK_UNHALTED_REF,FIXC2,9117513000
+TOPDOWN_SLOTS,FIXC3,45587400000
+PWR_PKG_ENERGY,PWR0,412.3922
+PWR_DRAM_ENERGY,PWR3,42.9150
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,54080
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,1420221000
+CAS_COUNT_RD,MBOX0C0,225251100
+CAS_COUNT_WR,MBOX0C1,102198300
+CAS_COUNT_RD,MBOX1C0,225209800
+CAS_COUNT_WR,MBOX1C1,102214900
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,225254200
+CAS_COUNT_WR,MBOX3C1,102196100
+CAS_COUNT_RD,MBOX4C0,225227500
+CAS_COUNT_WR,MBOX4C1,102249000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,16552
+CAS_COUNT_WR,MBOX6C1,17072
+CAS_COUNT_RD,MBOX7C0,15412
+CAS_COUNT_WR,MBOX7C1,15830
+TABLE,Region CalcAccelerationForNodes,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],3.8363,
+Runtime unhalted [s],3.8079,
+Clock [MHz],2394.3002,
+CPI,4.5391,
+Energy [J],412.3922,
+Power [W],107.4966,
+Energy DRAM [J],42.9150,
+Power DRAM [W],11.1865,
+DP [MFLOP/s],2961.6407,
+AVX DP [MFLOP/s],2961.6266,
+Packed [MUOPS/s],370.2033,
+Scalar [MUOPS/s],0.0141,
+Memory read bandwidth [MBytes/s],15030.6197,
+Memory read data volume [GBytes],57.6624,
+Memory write bandwidth [MBytes/s],6821.3781,
+Memory write data volume [GBytes],26.1690,
+Memory bandwidth [MBytes/s],21851.9978,
+Memory data volume [GBytes],83.8314,
+Operational intensity [FLOP/Byte],0.1355,
+Vectorization ratio [%],99.9962,
+TABLE,Region ApplyAccelerationBoundaryConditionsForNodes,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,0.087386
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,93404560
+CPU_CLK_UNHALTED_CORE,FIXC1,212244800
+CPU_CLK_UNHALTED_REF,FIXC2,212324200
+TOPDOWN_SLOTS,FIXC3,1062117000
+PWR_PKG_ENERGY,PWR0,16.7851
+PWR_DRAM_ENERGY,PWR3,1.5847
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,9600
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,2588564
+CAS_COUNT_WR,MBOX0C1,1381417
+CAS_COUNT_RD,MBOX1C0,2585314
+CAS_COUNT_WR,MBOX1C1,1380592
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,2589726
+CAS_COUNT_WR,MBOX3C1,1386898
+CAS_COUNT_RD,MBOX4C0,2604112
+CAS_COUNT_WR,MBOX4C1,1394535
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,621
+CAS_COUNT_WR,MBOX6C1,601
+CAS_COUNT_RD,MBOX7C0,755
+CAS_COUNT_WR,MBOX7C1,549
+TABLE,Region ApplyAccelerationBoundaryConditionsForNodes,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],0.0874,
+Runtime unhalted [s],0.0886,
+Clock [MHz],2393.4235,
+CPI,2.2723,
+Energy [J],16.7851,
+Power [W],192.0800,
+Energy DRAM [J],1.5847,
+Power DRAM [W],18.1345,
+DP [MFLOP/s],0.1099,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],0.1099,
+Memory read bandwidth [MBytes/s],7594.1442,
+Memory read data volume [GBytes],0.6636,
+Memory write bandwidth [MBytes/s],4060.7636,
+Memory write data volume [GBytes],0.3549,
+Memory bandwidth [MBytes/s],11654.9078,
+Memory data volume [GBytes],1.0185,
+Operational intensity [FLOP/Byte],9.425850e-06,
+Vectorization ratio [%],0,
+TABLE,Region CalcVelocityForNodes,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,3.311712
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,2718210000
+CPU_CLK_UNHALTED_CORE,FIXC1,7903649000
+CPU_CLK_UNHALTED_REF,FIXC2,7903795000
+TOPDOWN_SLOTS,FIXC3,39519320000
+PWR_PKG_ENERGY,PWR0,356.5965
+PWR_DRAM_ENERGY,PWR3,37.2917
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,47236
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,774666000
+CAS_COUNT_RD,MBOX0C0,191052100
+CAS_COUNT_WR,MBOX0C1,91764150
+CAS_COUNT_RD,MBOX1C0,191039200
+CAS_COUNT_WR,MBOX1C1,91776670
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,191070000
+CAS_COUNT_WR,MBOX3C1,91797020
+CAS_COUNT_RD,MBOX4C0,191069300
+CAS_COUNT_WR,MBOX4C1,91737010
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,12632
+CAS_COUNT_WR,MBOX6C1,13718
+CAS_COUNT_RD,MBOX7C0,12209
+CAS_COUNT_WR,MBOX7C1,12856
+TABLE,Region CalcVelocityForNodes,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],3.3117,
+Runtime unhalted [s],3.3010,
+Clock [MHz],2394.2746,
+CPI,2.9077,
+Energy [J],356.5965,
+Power [W],107.6774,
+Energy DRAM [J],37.2917,
+Power DRAM [W],11.2606,
+DP [MFLOP/s],1871.3509,
+AVX DP [MFLOP/s],1871.3366,
+Packed [MUOPS/s],233.9171,
+Scalar [MUOPS/s],0.0143,
+Memory read bandwidth [MBytes/s],14769.5054,
+Memory read data volume [GBytes],48.9123,
+Memory write bandwidth [MBytes/s],7094.3642,
+Memory write data volume [GBytes],23.4945,
+Memory bandwidth [MBytes/s],21863.8696,
+Memory data volume [GBytes],72.4068,
+Operational intensity [FLOP/Byte],0.0856,
+Vectorization ratio [%],99.9939,
+TABLE,Region CalcKinematicsForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,91.83944
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,617721300000
+CPU_CLK_UNHALTED_CORE,FIXC1,219017300000
+CPU_CLK_UNHALTED_REF,FIXC2,219016500000
+TOPDOWN_SLOTS,FIXC3,1095087000000
+PWR_PKG_ENERGY,PWR0,9279.8740
+PWR_DRAM_ENERGY,PWR3,748.9859
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,493088500000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,594401800
+CAS_COUNT_WR,MBOX0C1,206774900
+CAS_COUNT_RD,MBOX1C0,594333600
+CAS_COUNT_WR,MBOX1C1,206775200
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,594500500
+CAS_COUNT_WR,MBOX3C1,206728700
+CAS_COUNT_RD,MBOX4C0,594344700
+CAS_COUNT_WR,MBOX4C1,206734700
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,372204
+CAS_COUNT_WR,MBOX6C1,400089
+CAS_COUNT_RD,MBOX7C0,357565
+CAS_COUNT_WR,MBOX7C1,369538
+TABLE,Region CalcKinematicsForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],91.8394,
+Runtime unhalted [s],91.4737,
+Clock [MHz],2394.3276,
+CPI,0.3546,
+Energy [J],9279.8740,
+Power [W],101.0445,
+Energy DRAM [J],748.9859,
+Power DRAM [W],8.1554,
+DP [MFLOP/s],5369.0277,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],5369.0277,
+Memory read bandwidth [MBytes/s],1657.3692,
+Memory read data volume [GBytes],152.2119,
+Memory write bandwidth [MBytes/s],576.8559,
+Memory write data volume [GBytes],52.9781,
+Memory bandwidth [MBytes/s],2234.2251,
+Memory data volume [GBytes],205.1900,
+Operational intensity [FLOP/Byte],2.4031,
+Vectorization ratio [%],0,
+TABLE,Region CalcLagrangeElements,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,8.996734
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,24312270000
+CPU_CLK_UNHALTED_CORE,FIXC1,21447890000
+CPU_CLK_UNHALTED_REF,FIXC2,21448070000
+TOPDOWN_SLOTS,FIXC3,107240700000
+PWR_PKG_ENERGY,PWR0,919.0867
+PWR_DRAM_ENERGY,PWR3,81.6360
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,6075107000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,158348300
+CAS_COUNT_WR,MBOX0C1,110226400
+CAS_COUNT_RD,MBOX1C0,158318300
+CAS_COUNT_WR,MBOX1C1,110144100
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,158349800
+CAS_COUNT_WR,MBOX3C1,110181900
+CAS_COUNT_RD,MBOX4C0,158343600
+CAS_COUNT_WR,MBOX4C1,110135600
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,37430
+CAS_COUNT_WR,MBOX6C1,38702
+CAS_COUNT_RD,MBOX7C0,34827
+CAS_COUNT_WR,MBOX7C1,35743
+TABLE,Region CalcLagrangeElements,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],8.9967,
+Runtime unhalted [s],8.9578,
+Clock [MHz],2394.2987,
+CPI,0.8822,
+Energy [J],919.0867,
+Power [W],102.1578,
+Energy DRAM [J],81.6360,
+Power DRAM [W],9.0740,
+DP [MFLOP/s],675.2569,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],675.2569,
+Memory read bandwidth [MBytes/s],4506.0424,
+Memory read data volume [GBytes],40.5397,
+Memory write bandwidth [MBytes/s],3135.4485,
+Memory write data volume [GBytes],28.2088,
+Memory bandwidth [MBytes/s],7641.4909,
+Memory data volume [GBytes],68.7485,
+Operational intensity [FLOP/Byte],0.0884,
+Vectorization ratio [%],0,
+TABLE,Region CalcMonotonicQGradientsForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,47.85252
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,311901500000
+CPU_CLK_UNHALTED_CORE,FIXC1,109405500000
+CPU_CLK_UNHALTED_REF,FIXC2,109405400000
+TOPDOWN_SLOTS,FIXC3,547028500000
+PWR_PKG_ENERGY,PWR0,4850.3020
+PWR_DRAM_ENERGY,PWR3,414.2097
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,207563000000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,632467700
+CAS_COUNT_WR,MBOX0C1,250027400
+CAS_COUNT_RD,MBOX1C0,632398500
+CAS_COUNT_WR,MBOX1C1,250080200
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,632557000
+CAS_COUNT_WR,MBOX3C1,250059900
+CAS_COUNT_RD,MBOX4C0,632472500
+CAS_COUNT_WR,MBOX4C1,250051600
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,222382
+CAS_COUNT_WR,MBOX6C1,244812
+CAS_COUNT_RD,MBOX7C0,213083
+CAS_COUNT_WR,MBOX7C1,226095
+TABLE,Region CalcMonotonicQGradientsForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],47.8525,
+Runtime unhalted [s],45.6938,
+Clock [MHz],2394.3210,
+CPI,0.3508,
+Energy [J],4850.3020,
+Power [W],101.3594,
+Energy DRAM [J],414.2097,
+Power DRAM [W],8.6560,
+DP [MFLOP/s],4337.5563,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],4337.5563,
+Memory read bandwidth [MBytes/s],3384.1728,
+Memory read data volume [GBytes],161.9412,
+Memory write bandwidth [MBytes/s],1338.3655,
+Memory write data volume [GBytes],64.0442,
+Memory bandwidth [MBytes/s],4722.5382,
+Memory data volume [GBytes],225.9854,
+Operational intensity [FLOP/Byte],0.9185,
+Vectorization ratio [%],0,
+TABLE,Region ApplyMaterialPropertiesForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,2.860473
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,8137889000
+CPU_CLK_UNHALTED_CORE,FIXC1,6828759000
+CPU_CLK_UNHALTED_REF,FIXC2,6828768000
+TOPDOWN_SLOTS,FIXC3,34143900000
+PWR_PKG_ENERGY,PWR0,310.6890
+PWR_DRAM_ENERGY,PWR3,28.7673
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,2025040000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,253125600
+CAS_COUNT_RD,MBOX0C0,118788400
+CAS_COUNT_WR,MBOX0C1,73822110
+CAS_COUNT_RD,MBOX1C0,118772000
+CAS_COUNT_WR,MBOX1C1,73823700
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,118788700
+CAS_COUNT_WR,MBOX3C1,73780760
+CAS_COUNT_RD,MBOX4C0,118759700
+CAS_COUNT_WR,MBOX4C1,73819500
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,12942
+CAS_COUNT_WR,MBOX6C1,12394
+CAS_COUNT_RD,MBOX7C0,11233
+CAS_COUNT_WR,MBOX7C1,11457
+TABLE,Region ApplyMaterialPropertiesForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],2.8605,
+Runtime unhalted [s],2.8521,
+Clock [MHz],2394.3157,
+CPI,0.8391,
+Energy [J],310.6890,
+Power [W],108.6146,
+Energy DRAM [J],28.7673,
+Power DRAM [W],10.0568,
+DP [MFLOP/s],1415.8654,
+AVX DP [MFLOP/s],707.9266,
+Packed [MUOPS/s],88.4908,
+Scalar [MUOPS/s],707.9389,
+Memory read bandwidth [MBytes/s],10630.5882,
+Memory read data volume [GBytes],30.4085,
+Memory write bandwidth [MBytes/s],6606.3462,
+Memory write data volume [GBytes],18.8973,
+Memory bandwidth [MBytes/s],17236.9344,
+Memory data volume [GBytes],49.3058,
+Operational intensity [FLOP/Byte],0.0821,
+Vectorization ratio [%],11.1109,
+TABLE,Region EvalEOSForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,32.7209
+Region calls,CTR,6000
+INSTR_RETIRED_ANY,FIXC0,16982820000
+CPU_CLK_UNHALTED_CORE,FIXC1,78092960000
+CPU_CLK_UNHALTED_REF,FIXC2,78094180000
+TOPDOWN_SLOTS,FIXC3,390475100000
+PWR_PKG_ENERGY,PWR0,3582.3090
+PWR_DRAM_ENERGY,PWR3,340.0004
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,566024
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,5018950000
+CAS_COUNT_RD,MBOX0C0,1359212000
+CAS_COUNT_WR,MBOX0C1,478860200
+CAS_COUNT_RD,MBOX1C0,1360880000
+CAS_COUNT_WR,MBOX1C1,478782400
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,1360405000
+CAS_COUNT_WR,MBOX3C1,478793400
+CAS_COUNT_RD,MBOX4C0,1361251000
+CAS_COUNT_WR,MBOX4C1,479110500
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,139381
+CAS_COUNT_WR,MBOX6C1,150208
+CAS_COUNT_RD,MBOX7C0,135385
+CAS_COUNT_WR,MBOX7C1,139289
+TABLE,Region EvalEOSForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],32.7209,
+Runtime unhalted [s],32.6159,
+Clock [MHz],2394.2814,
+CPI,4.5984,
+Energy [J],3582.3090,
+Power [W],109.4808,
+Energy DRAM [J],340.0004,
+Power DRAM [W],10.3909,
+DP [MFLOP/s],1227.1107,
+AVX DP [MFLOP/s],1227.0934,
+Packed [MUOPS/s],153.3867,
+Scalar [MUOPS/s],0.0173,
+Memory read bandwidth [MBytes/s],10644.2505,
+Memory read data volume [GBytes],348.2895,
+Memory write bandwidth [MBytes/s],3747.2534,
+Memory write data volume [GBytes],122.6135,
+Memory bandwidth [MBytes/s],14391.5039,
+Memory data volume [GBytes],470.9030,
+Operational intensity [FLOP/Byte],0.0853,
+Vectorization ratio [%],99.9887,
+TABLE,Region CalcEnergyForElems:KERNEL_1,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,4.507535
+Region calls,CTR,6000
+INSTR_RETIRED_ANY,FIXC0,2017028000
+CPU_CLK_UNHALTED_CORE,FIXC1,10855330000
+CPU_CLK_UNHALTED_REF,FIXC2,10856440000
+TOPDOWN_SLOTS,FIXC3,54285400000
+PWR_PKG_ENERGY,PWR0,599.6784
+PWR_DRAM_ENERGY,PWR3,50.8917
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,276624
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,140737000000000
+CAS_COUNT_RD,MBOX0C0,216694800
+CAS_COUNT_WR,MBOX0C1,70561210
+CAS_COUNT_RD,MBOX1C0,216667600
+CAS_COUNT_WR,MBOX1C1,70522750
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,216515200
+CAS_COUNT_WR,MBOX3C1,70540880
+CAS_COUNT_RD,MBOX4C0,216776100
+CAS_COUNT_WR,MBOX4C1,70587130
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,24053
+CAS_COUNT_WR,MBOX6C1,26216
+CAS_COUNT_RD,MBOX7C0,23135
+CAS_COUNT_WR,MBOX7C1,23861
+TABLE,Region CalcEnergyForElems:KERNEL_1,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],4.5075,
+Runtime unhalted [s],4.5338,
+Clock [MHz],2394.0740,
+CPI,5.3818,
+Energy [J],599.6784,
+Power [W],133.0391,
+Energy DRAM [J],50.8917,
+Power DRAM [W],11.2904,
+DP [MFLOP/s],2.497809e+08,
+AVX DP [MFLOP/s],2.497809e+08,
+Packed [MUOPS/s],3.122261e+07,
+Scalar [MUOPS/s],0.0614,
+Memory read bandwidth [MBytes/s],12305.8072,
+Memory read data volume [GBytes],55.4689,
+Memory write bandwidth [MBytes/s],4007.6829,
+Memory write data volume [GBytes],18.0648,
+Memory bandwidth [MBytes/s],16313.4902,
+Memory data volume [GBytes],73.5336,
+Operational intensity [FLOP/Byte],15311.3077,
+Vectorization ratio [%],100.0000,
+TABLE,Region CalcPressureForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,8.296952
+Region calls,CTR,18000
+INSTR_RETIRED_ANY,FIXC0,3975861000
+CPU_CLK_UNHALTED_CORE,FIXC1,20073220000
+CPU_CLK_UNHALTED_REF,FIXC2,20074940000
+TOPDOWN_SLOTS,FIXC3,100379000000
+PWR_PKG_ENERGY,PWR0,1268.0610
+PWR_DRAM_ENERGY,PWR3,108.9292
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,699714
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,1368801000
+CAS_COUNT_RD,MBOX0C0,241191100
+CAS_COUNT_WR,MBOX0C1,119524800
+CAS_COUNT_RD,MBOX1C0,241287700
+CAS_COUNT_WR,MBOX1C1,119614900
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,241057800
+CAS_COUNT_WR,MBOX3C1,119473000
+CAS_COUNT_RD,MBOX4C0,241173200
+CAS_COUNT_WR,MBOX4C1,120000200
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,49043
+CAS_COUNT_WR,MBOX6C1,51578
+CAS_COUNT_RD,MBOX7C0,48317
+CAS_COUNT_WR,MBOX7C1,48817
+TABLE,Region CalcPressureForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],8.2970,
+Runtime unhalted [s],8.3837,
+Clock [MHz],2394.1137,
+CPI,5.0488,
+Energy [J],1268.0610,
+Power [W],152.8346,
+Energy DRAM [J],108.9292,
+Power DRAM [W],13.1288,
+DP [MFLOP/s],1319.8953,
+AVX DP [MFLOP/s],1319.8109,
+Packed [MUOPS/s],164.9764,
+Scalar [MUOPS/s],0.0843,
+Memory read bandwidth [MBytes/s],7442.2099,
+Memory read data volume [GBytes],61.7477,
+Memory write bandwidth [MBytes/s],3692.6393,
+Memory write data volume [GBytes],30.6377,
+Memory bandwidth [MBytes/s],11134.8492,
+Memory data volume [GBytes],92.3853,
+Operational intensity [FLOP/Byte],0.1185,
+Vectorization ratio [%],99.9489,
+TABLE,Region CalcEnergyForElems:KERNEL_2,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,8.23691
+Region calls,CTR,6000
+INSTR_RETIRED_ANY,FIXC0,11941960000
+CPU_CLK_UNHALTED_CORE,FIXC1,19752010000
+CPU_CLK_UNHALTED_REF,FIXC2,19752280000
+TOPDOWN_SLOTS,FIXC3,98760570000
+PWR_PKG_ENERGY,PWR0,1010.4990
+PWR_DRAM_ENERGY,PWR3,91.2267
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,286492
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,8212943000
+CAS_COUNT_RD,MBOX0C0,342918900
+CAS_COUNT_WR,MBOX0C1,110135800
+CAS_COUNT_RD,MBOX1C0,342728600
+CAS_COUNT_WR,MBOX1C1,110069400
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,342626000
+CAS_COUNT_WR,MBOX3C1,110264600
+CAS_COUNT_RD,MBOX4C0,342797600
+CAS_COUNT_WR,MBOX4C1,109979500
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,41039
+CAS_COUNT_WR,MBOX6C1,44373
+CAS_COUNT_RD,MBOX7C0,39498
+CAS_COUNT_WR,MBOX7C1,39921
+TABLE,Region CalcEnergyForElems:KERNEL_2,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],8.2369,
+Runtime unhalted [s],8.2495,
+Clock [MHz],2394.2861,
+CPI,1.6540,
+Energy [J],1010.4990,
+Power [W],122.6794,
+Energy DRAM [J],91.2267,
+Power DRAM [W],11.0754,
+DP [MFLOP/s],7976.7571,
+AVX DP [MFLOP/s],7976.7223,
+Packed [MUOPS/s],997.0903,
+Scalar [MUOPS/s],0.0348,
+Memory read bandwidth [MBytes/s],10653.7166,
+Memory read data volume [GBytes],87.7537,
+Memory write bandwidth [MBytes/s],3422.9037,
+Memory write data volume [GBytes],28.1942,
+Memory bandwidth [MBytes/s],14076.6203,
+Memory data volume [GBytes],115.9479,
+Operational intensity [FLOP/Byte],0.5667,
+Vectorization ratio [%],99.9965,
+TABLE,Region CalcEnergyForElems:KERNEL_3,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,1.500328
+Region calls,CTR,6000
+INSTR_RETIRED_ANY,FIXC0,2354237000
+CPU_CLK_UNHALTED_CORE,FIXC1,3669335000
+CPU_CLK_UNHALTED_REF,FIXC2,3669836000
+TOPDOWN_SLOTS,FIXC3,18350520000
+PWR_PKG_ENERGY,PWR0,299.2657
+PWR_DRAM_ENERGY,PWR3,27.4121
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,221372
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,684402300
+CAS_COUNT_RD,MBOX0C0,44495230
+CAS_COUNT_WR,MBOX0C1,8373774
+CAS_COUNT_RD,MBOX1C0,44519710
+CAS_COUNT_WR,MBOX1C1,8353181
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,44450490
+CAS_COUNT_WR,MBOX3C1,8393018
+CAS_COUNT_RD,MBOX4C0,44532880
+CAS_COUNT_WR,MBOX4C1,8336719
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,12003
+CAS_COUNT_WR,MBOX6C1,11618
+CAS_COUNT_RD,MBOX7C0,11181
+CAS_COUNT_WR,MBOX7C1,10624
+TABLE,Region CalcEnergyForElems:KERNEL_3,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],1.5003,
+Runtime unhalted [s],1.5325,
+Clock [MHz],2393.9920,
+CPI,1.5586,
+Energy [J],299.2657,
+Power [W],199.4668,
+Energy DRAM [J],27.4121,
+Power DRAM [W],18.2707,
+DP [MFLOP/s],3649.4952,
+AVX DP [MFLOP/s],3649.3476,
+Packed [MUOPS/s],456.1685,
+Scalar [MUOPS/s],0.1475,
+Memory read bandwidth [MBytes/s],7593.9232,
+Memory read data volume [GBytes],11.3934,
+Memory write bandwidth [MBytes/s],1428.1222,
+Memory write data volume [GBytes],2.1427,
+Memory bandwidth [MBytes/s],9022.0454,
+Memory data volume [GBytes],13.5360,
+Operational intensity [FLOP/Byte],0.4045,
+Vectorization ratio [%],99.9677,
+TABLE,Region CalcEnergyForElems:KERNEL_4,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,10.21367
+Region calls,CTR,6000
+INSTR_RETIRED_ANY,FIXC0,12173100000
+CPU_CLK_UNHALTED_CORE,FIXC1,24462180000
+CPU_CLK_UNHALTED_REF,FIXC2,24462500000
+TOPDOWN_SLOTS,FIXC3,122311800000
+PWR_PKG_ENERGY,PWR0,1217.1580
+PWR_DRAM_ENERGY,PWR3,105.4756
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,317132
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,6844138000
+CAS_COUNT_RD,MBOX0C0,322946300
+CAS_COUNT_WR,MBOX0C1,46639610
+CAS_COUNT_RD,MBOX1C0,322969600
+CAS_COUNT_WR,MBOX1C1,46654810
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,322828300
+CAS_COUNT_WR,MBOX3C1,46668710
+CAS_COUNT_RD,MBOX4C0,323133100
+CAS_COUNT_WR,MBOX4C1,46556530
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,45335
+CAS_COUNT_WR,MBOX6C1,48430
+CAS_COUNT_RD,MBOX7C0,44485
+CAS_COUNT_WR,MBOX7C1,44525
+TABLE,Region CalcEnergyForElems:KERNEL_4,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],10.2137,
+Runtime unhalted [s],10.2168,
+Clock [MHz],2394.2875,
+CPI,2.0095,
+Energy [J],1217.1580,
+Power [W],119.1695,
+Energy DRAM [J],105.4756,
+Power DRAM [W],10.3269,
+DP [MFLOP/s],5360.7979,
+AVX DP [MFLOP/s],5360.7669,
+Packed [MUOPS/s],670.0959,
+Scalar [MUOPS/s],0.0310,
+Memory read bandwidth [MBytes/s],8095.6107,
+Memory read data volume [GBytes],82.6859,
+Memory write bandwidth [MBytes/s],1169.3355,
+Memory write data volume [GBytes],11.9432,
+Memory bandwidth [MBytes/s],9264.9462,
+Memory data volume [GBytes],94.6291,
+Operational intensity [FLOP/Byte],0.5786,
+Vectorization ratio [%],99.9954,
+TABLE,Region CalcEnergyForElems:KERNEL_5,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,8.496731
+Region calls,CTR,6000
+INSTR_RETIRED_ANY,FIXC0,9205013000
+CPU_CLK_UNHALTED_CORE,FIXC1,20363500000
+CPU_CLK_UNHALTED_REF,FIXC2,20363730000
+TOPDOWN_SLOTS,FIXC3,101819200000
+PWR_PKG_ENERGY,PWR0,1022.0660
+PWR_DRAM_ENERGY,PWR3,84.4951
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,294968
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,4334671000
+CAS_COUNT_RD,MBOX0C0,176207100
+CAS_COUNT_WR,MBOX0C1,39181060
+CAS_COUNT_RD,MBOX1C0,176101700
+CAS_COUNT_WR,MBOX1C1,39409530
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,176211000
+CAS_COUNT_WR,MBOX3C1,39422770
+CAS_COUNT_RD,MBOX4C0,176176300
+CAS_COUNT_WR,MBOX4C1,39261690
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,72753
+CAS_COUNT_WR,MBOX6C1,84971
+CAS_COUNT_RD,MBOX7C0,68177
+CAS_COUNT_WR,MBOX7C1,76160
+TABLE,Region CalcEnergyForElems:KERNEL_5,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],8.4967,
+Runtime unhalted [s],8.5049,
+Clock [MHz],2394.2918,
+CPI,2.2122,
+Energy [J],1022.0660,
+Power [W],120.2893,
+Energy DRAM [J],84.4951,
+Power DRAM [W],9.9444,
+DP [MFLOP/s],4081.2947,
+AVX DP [MFLOP/s],4081.2600,
+Packed [MUOPS/s],510.1575,
+Scalar [MUOPS/s],0.0347,
+Memory read bandwidth [MBytes/s],5309.0500,
+Memory read data volume [GBytes],45.1096,
+Memory write bandwidth [MBytes/s],1185.8579,
+Memory write data volume [GBytes],10.0759,
+Memory bandwidth [MBytes/s],6494.9079,
+Memory data volume [GBytes],55.1855,
+Operational intensity [FLOP/Byte],0.6284,
+Vectorization ratio [%],99.9932,
+TABLE,Region CalcSoundSpeedForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,3.126516
+Region calls,CTR,3300
+INSTR_RETIRED_ANY,FIXC0,16239290000
+CPU_CLK_UNHALTED_CORE,FIXC1,7504537000
+CPU_CLK_UNHALTED_REF,FIXC2,7504636000
+TOPDOWN_SLOTS,FIXC3,37522680000
+PWR_PKG_ENERGY,PWR0,391.7477
+PWR_DRAM_ENERGY,PWR3,36.2827
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,6075285000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,108783000
+CAS_COUNT_WR,MBOX0C1,52080560
+CAS_COUNT_RD,MBOX1C0,108842100
+CAS_COUNT_WR,MBOX1C1,52056180
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,108782400
+CAS_COUNT_WR,MBOX3C1,52067140
+CAS_COUNT_RD,MBOX4C0,108725400
+CAS_COUNT_WR,MBOX4C1,52007880
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,15259
+CAS_COUNT_WR,MBOX6C1,15874
+CAS_COUNT_RD,MBOX7C0,14916
+CAS_COUNT_WR,MBOX7C1,14646
+TABLE,Region CalcSoundSpeedForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],3.1265,
+Runtime unhalted [s],3.1343,
+Clock [MHz],2394.2872,
+CPI,0.4621,
+Energy [J],391.7477,
+Power [W],125.2985,
+Energy DRAM [J],36.2827,
+Power DRAM [W],11.6048,
+DP [MFLOP/s],1943.1485,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],1943.1485,
+Memory read bandwidth [MBytes/s],8907.8184,
+Memory read data volume [GBytes],27.8504,
+Memory write bandwidth [MBytes/s],4262.7340,
+Memory write data volume [GBytes],13.3275,
+Memory bandwidth [MBytes/s],13170.5524,
+Memory data volume [GBytes],41.1779,
+Operational intensity [FLOP/Byte],0.1475,
+Vectorization ratio [%],0,
+TABLE,Region UpdateVolumesForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,1.179139
+Region calls,CTR,300
+INSTR_RETIRED_ANY,FIXC0,1143113000
+CPU_CLK_UNHALTED_CORE,FIXC1,2815973000
+CPU_CLK_UNHALTED_REF,FIXC2,2816001000
+TOPDOWN_SLOTS,FIXC3,14080160000
+PWR_PKG_ENERGY,PWR0,133.1064
+PWR_DRAM_ENERGY,PWR3,12.8024
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,16602
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,126562800
+CAS_COUNT_RD,MBOX0C0,63941380
+CAS_COUNT_WR,MBOX0C1,32981380
+CAS_COUNT_RD,MBOX1C0,63933410
+CAS_COUNT_WR,MBOX1C1,32973710
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,63947500
+CAS_COUNT_WR,MBOX3C1,33025610
+CAS_COUNT_RD,MBOX4C0,63945050
+CAS_COUNT_WR,MBOX4C1,33002750
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,4846
+CAS_COUNT_WR,MBOX6C1,5839
+CAS_COUNT_RD,MBOX7C0,4746
+CAS_COUNT_WR,MBOX7C1,5484
+TABLE,Region UpdateVolumesForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],1.1791,
+Runtime unhalted [s],1.1761,
+Clock [MHz],2394.2950,
+CPI,2.4634,
+Energy [J],133.1064,
+Power [W],112.8844,
+Energy DRAM [J],12.8024,
+Power DRAM [W],10.8574,
+DP [MFLOP/s],858.6935,
+AVX DP [MFLOP/s],858.6794,
+Packed [MUOPS/s],107.3349,
+Scalar [MUOPS/s],0.0141,
+Memory read bandwidth [MBytes/s],13882.7769,
+Memory read data volume [GBytes],16.3697,
+Memory write bandwidth [MBytes/s],7164.2660,
+Memory write data volume [GBytes],8.4477,
+Memory bandwidth [MBytes/s],21047.0429,
+Memory data volume [GBytes],24.8174,
+Operational intensity [FLOP/Byte],0.0408,
+Vectorization ratio [%],99.9869,
+TABLE,Region CalcCourantConstraintForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,4.955991
+Region calls,CTR,3300
+INSTR_RETIRED_ANY,FIXC0,15231870000
+CPU_CLK_UNHALTED_CORE,FIXC1,11847960000
+CPU_CLK_UNHALTED_REF,FIXC2,11848310000
+TOPDOWN_SLOTS,FIXC3,59242840000
+PWR_PKG_ENERGY,PWR0,569.2352
+PWR_DRAM_ENERGY,PWR3,47.7766
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,3038592000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,167489200
+CAS_COUNT_WR,MBOX0C1,12372890
+CAS_COUNT_RD,MBOX1C0,167497900
+CAS_COUNT_WR,MBOX1C1,12396990
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,167645600
+CAS_COUNT_WR,MBOX3C1,12368810
+CAS_COUNT_RD,MBOX4C0,167503400
+CAS_COUNT_WR,MBOX4C1,12349600
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,24133
+CAS_COUNT_WR,MBOX6C1,25487
+CAS_COUNT_RD,MBOX7C0,23546
+CAS_COUNT_WR,MBOX7C1,23960
+TABLE,Region CalcCourantConstraintForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],4.9560,
+Runtime unhalted [s],4.9484,
+Clock [MHz],2394.2481,
+CPI,0.7778,
+Energy [J],569.2352,
+Power [W],114.8580,
+Energy DRAM [J],47.7766,
+Power DRAM [W],9.6402,
+DP [MFLOP/s],613.1149,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],613.1149,
+Memory read bandwidth [MBytes/s],8654.5278,
+Memory read data volume [GBytes],42.8918,
+Memory write bandwidth [MBytes/s],639.7137,
+Memory write data volume [GBytes],3.1704,
+Memory bandwidth [MBytes/s],9294.2415,
+Memory data volume [GBytes],46.0622,
+Operational intensity [FLOP/Byte],0.0660,
+Vectorization ratio [%],0,
+TABLE,Region CalcHydroConstraintForElems,Group 1 Raw,MEM_DP,28
+Event,Counter,f0345:0:0
+Runtime (RDTSC) [s],TSC,1.387533
+Region calls,CTR,3300
+INSTR_RETIRED_ANY,FIXC0,7636445000
+CPU_CLK_UNHALTED_CORE,FIXC1,3359465000
+CPU_CLK_UNHALTED_REF,FIXC2,3359873000
+TOPDOWN_SLOTS,FIXC3,16800200000
+PWR_PKG_ENERGY,PWR0,229.5223
+PWR_DRAM_ENERGY,PWR3,19.3646
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,782169
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,29657960
+CAS_COUNT_WR,MBOX0C1,5500097
+CAS_COUNT_RD,MBOX1C0,29723900
+CAS_COUNT_WR,MBOX1C1,5547859
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,29678440
+CAS_COUNT_WR,MBOX3C1,5540289
+CAS_COUNT_RD,MBOX4C0,29806190
+CAS_COUNT_WR,MBOX4C1,5534931
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,7673
+CAS_COUNT_WR,MBOX6C1,7989
+CAS_COUNT_RD,MBOX7C0,7489
+CAS_COUNT_WR,MBOX7C1,7326
+TABLE,Region CalcHydroConstraintForElems,Group 1 Metric,MEM_DP,20
+Metric,f0345:0:0,
+Runtime (RDTSC) [s],1.3875,
+Runtime unhalted [s],1.4031,
+Clock [MHz],2394.0281,
+CPI,0.4399,
+Energy [J],229.5223,
+Power [W],165.4175,
+Energy DRAM [J],19.3646,
+Power DRAM [W],13.9561,
+DP [MFLOP/s],0.5637,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],0.5637,
+Memory read bandwidth [MBytes/s],5483.4197,
+Memory read data volume [GBytes],7.6084,
+Memory write bandwidth [MBytes/s],1021.1385,
+Memory write data volume [GBytes],1.4169,
+Memory bandwidth [MBytes/s],6504.5582,
+Memory data volume [GBytes],9.0253,
+Operational intensity [FLOP/Byte],0.0001,
+Vectorization ratio [%],0,

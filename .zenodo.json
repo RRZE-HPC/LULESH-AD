@@ -1,0 +1,40 @@
+{
+  "title": "Artifact Description/Artifact Evaluation/Computational Artifact for paper, entitled Analytic Roofline Modeling and Energy Analysis of the LULESH Proxy Application on Multi-Core Clusters",
+  "description": "We provide reproducibility initiative dependencies (Artifact Description or Artifact Evaluation or Computational Results Analysis) appendix. To allow a third party to duplicate the findings, this article provides our extensive performance data artifact and describes further details regarding the software environments, experimental design, and methodology employed for the results shown in the paper. The computational artifacts will enable experienced performance engineers to reproduce and interpret the data shown in the paper in the appropriate way and to follow the conclusions we draw from it.",
+  "creators": [
+    {
+      "affiliation": "Erlangen National High Performance Computing Center (NHR@FAU), Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "name": "Ayesha Afzal",
+      "orcid": "0000-0001-5061-0438"
+    },
+    {
+      "affiliation": "Erlangen National High Performance Computing Center (NHR@FAU), Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "name": "Georg Hager",
+      "orcid": "0000-0002-8723-2781"
+    },
+    {
+      "affiliation": "Erlangen National High Performance Computing Center (NHR@FAU), Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "name": "Gerhard Wellein",
+      "orcid": "0000-0001-7371-3026"
+    }
+  ],
+  "upload_type": "dataset",
+  "license": "GPL-3.0",
+  "access_right": "open",
+  "keywords": [
+    "performance-engineering",
+    "Livermore-Unstructured-Lagrangian-Explicit-Shock-Hydrodynamics-LULESH",
+    "power-dissipation",
+    "energy-consumption",
+    "IceLake-processor",
+    "SapphireRapids-processor",
+    "Infiniband-cluster",
+    "open-source"
+  ],
+  "notes": "This research was partly supported by the Competence Network for Scientific High-Performance Computing in Bavaria (KONWIHR) under project ``OMI4Papps.'' ",
+  "communities": [
+    {"identifier": "fau"}
+  ]
+}
+
+

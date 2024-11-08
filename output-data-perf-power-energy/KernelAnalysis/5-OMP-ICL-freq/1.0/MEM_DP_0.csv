@@ -1,0 +1,1588 @@
+_________
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+--------------------------------------------------------------------------------
+Running problem size 350^3 per domain until completion
+Num processors: 1
+Num threads: 1
+Total number of elements: 42875000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+cycle = 1, time = 8.337322e-09, dt=8.337322e-09
+cycle = 2, time = 1.834211e-08, dt=1.000479e-08
+cycle = 3, time = 2.177137e-08, dt=3.429259e-09
+cycle = 4, time = 2.463507e-08, dt=2.863698e-09
+cycle = 5, time = 2.718794e-08, dt=2.552876e-09
+cycle = 6, time = 2.955840e-08, dt=2.370462e-09
+cycle = 7, time = 3.181210e-08, dt=2.253698e-09
+cycle = 8, time = 3.398893e-08, dt=2.176828e-09
+cycle = 9, time = 3.611590e-08, dt=2.126970e-09
+cycle = 10, time = 3.821287e-08, dt=2.096975e-09
+cycle = 11, time = 4.072924e-08, dt=2.516370e-09
+cycle = 12, time = 4.357036e-08, dt=2.841112e-09
+cycle = 13, time = 4.625612e-08, dt=2.685764e-09
+cycle = 14, time = 4.878717e-08, dt=2.531054e-09
+cycle = 15, time = 5.116337e-08, dt=2.376193e-09
+cycle = 16, time = 5.343189e-08, dt=2.268527e-09
+cycle = 17, time = 5.563281e-08, dt=2.200920e-09
+cycle = 18, time = 5.780053e-08, dt=2.167716e-09
+cycle = 19, time = 5.996790e-08, dt=2.167375e-09
+cycle = 20, time = 6.213528e-08, dt=2.167375e-09
+cycle = 21, time = 6.430265e-08, dt=2.167375e-09
+cycle = 22, time = 6.647003e-08, dt=2.167375e-09
+cycle = 23, time = 6.863740e-08, dt=2.167375e-09
+cycle = 24, time = 7.103635e-08, dt=2.398951e-09
+cycle = 25, time = 7.343531e-08, dt=2.398951e-09
+cycle = 26, time = 7.583426e-08, dt=2.398951e-09
+cycle = 27, time = 7.856864e-08, dt=2.734385e-09
+cycle = 28, time = 8.130303e-08, dt=2.734385e-09
+cycle = 29, time = 8.456839e-08, dt=3.265362e-09
+cycle = 30, time = 8.827384e-08, dt=3.705453e-09
+cycle = 31, time = 9.183107e-08, dt=3.557231e-09
+cycle = 32, time = 9.526817e-08, dt=3.437092e-09
+cycle = 33, time = 9.862272e-08, dt=3.354552e-09
+cycle = 34, time = 1.019237e-07, dt=3.301011e-09
+cycle = 35, time = 1.052006e-07, dt=3.276867e-09
+cycle = 36, time = 1.084775e-07, dt=3.276867e-09
+cycle = 37, time = 1.117543e-07, dt=3.276867e-09
+cycle = 38, time = 1.150312e-07, dt=3.276867e-09
+cycle = 39, time = 1.183081e-07, dt=3.276867e-09
+cycle = 40, time = 1.219800e-07, dt=3.671978e-09
+cycle = 41, time = 1.256520e-07, dt=3.671978e-09
+cycle = 42, time = 1.293240e-07, dt=3.671978e-09
+cycle = 43, time = 1.329960e-07, dt=3.671978e-09
+cycle = 44, time = 1.366680e-07, dt=3.671978e-09
+cycle = 45, time = 1.403106e-07, dt=3.642611e-09
+cycle = 46, time = 1.438757e-07, dt=3.565164e-09
+cycle = 47, time = 1.473747e-07, dt=3.498969e-09
+cycle = 48, time = 1.508194e-07, dt=3.444697e-09
+cycle = 49, time = 1.542213e-07, dt=3.401859e-09
+cycle = 50, time = 1.575927e-07, dt=3.371484e-09
+cycle = 51, time = 1.609460e-07, dt=3.353296e-09
+cycle = 52, time = 1.642966e-07, dt=3.350525e-09
+cycle = 53, time = 1.676471e-07, dt=3.350525e-09
+cycle = 54, time = 1.709976e-07, dt=3.350525e-09
+cycle = 55, time = 1.743481e-07, dt=3.350525e-09
+cycle = 56, time = 1.776987e-07, dt=3.350525e-09
+cycle = 57, time = 1.810492e-07, dt=3.350525e-09
+cycle = 58, time = 1.847603e-07, dt=3.711137e-09
+cycle = 59, time = 1.884715e-07, dt=3.711137e-09
+cycle = 60, time = 1.925791e-07, dt=4.107650e-09
+cycle = 61, time = 1.966868e-07, dt=4.107650e-09
+cycle = 62, time = 2.012725e-07, dt=4.585698e-09
+cycle = 63, time = 2.058582e-07, dt=4.585698e-09
+cycle = 64, time = 2.104438e-07, dt=4.585698e-09
+cycle = 65, time = 2.150295e-07, dt=4.585698e-09
+cycle = 66, time = 2.196152e-07, dt=4.585698e-09
+cycle = 67, time = 2.242009e-07, dt=4.585698e-09
+cycle = 68, time = 2.287866e-07, dt=4.585698e-09
+cycle = 69, time = 2.333723e-07, dt=4.585698e-09
+cycle = 70, time = 2.379580e-07, dt=4.585698e-09
+cycle = 71, time = 2.425437e-07, dt=4.585698e-09
+cycle = 72, time = 2.471294e-07, dt=4.585698e-09
+cycle = 73, time = 2.517151e-07, dt=4.585698e-09
+cycle = 74, time = 2.563008e-07, dt=4.585698e-09
+cycle = 75, time = 2.608865e-07, dt=4.585698e-09
+cycle = 76, time = 2.654722e-07, dt=4.585698e-09
+cycle = 77, time = 2.700579e-07, dt=4.585698e-09
+cycle = 78, time = 2.746436e-07, dt=4.585698e-09
+cycle = 79, time = 2.792293e-07, dt=4.585698e-09
+cycle = 80, time = 2.838079e-07, dt=4.578599e-09
+cycle = 81, time = 2.882957e-07, dt=4.487779e-09
+cycle = 82, time = 2.927056e-07, dt=4.409921e-09
+cycle = 83, time = 2.970519e-07, dt=4.346241e-09
+cycle = 84, time = 3.013482e-07, dt=4.296316e-09
+cycle = 85, time = 3.056083e-07, dt=4.260094e-09
+cycle = 86, time = 3.098451e-07, dt=4.236849e-09
+cycle = 87, time = 3.140711e-07, dt=4.226005e-09
+cycle = 88, time = 3.182971e-07, dt=4.226005e-09
+cycle = 89, time = 3.225231e-07, dt=4.226005e-09
+cycle = 90, time = 3.267491e-07, dt=4.226005e-09
+cycle = 91, time = 3.309751e-07, dt=4.226005e-09
+cycle = 92, time = 3.352012e-07, dt=4.226005e-09
+cycle = 93, time = 3.394272e-07, dt=4.226005e-09
+cycle = 94, time = 3.436532e-07, dt=4.226005e-09
+cycle = 95, time = 3.484349e-07, dt=4.781763e-09
+cycle = 96, time = 3.532167e-07, dt=4.781763e-09
+cycle = 97, time = 3.585563e-07, dt=5.339647e-09
+cycle = 98, time = 3.638960e-07, dt=5.339647e-09
+cycle = 99, time = 3.692356e-07, dt=5.339647e-09
+cycle = 100, time = 3.751836e-07, dt=5.947948e-09
+cycle = 101, time = 3.811315e-07, dt=5.947948e-09
+cycle = 102, time = 3.870795e-07, dt=5.947948e-09
+cycle = 103, time = 3.930274e-07, dt=5.947948e-09
+cycle = 104, time = 3.989754e-07, dt=5.947948e-09
+cycle = 105, time = 4.049233e-07, dt=5.947948e-09
+cycle = 106, time = 4.108713e-07, dt=5.947948e-09
+cycle = 107, time = 4.168192e-07, dt=5.947948e-09
+cycle = 108, time = 4.227672e-07, dt=5.947948e-09
+cycle = 109, time = 4.287151e-07, dt=5.947948e-09
+cycle = 110, time = 4.346631e-07, dt=5.947948e-09
+cycle = 111, time = 4.406110e-07, dt=5.947948e-09
+cycle = 112, time = 4.465590e-07, dt=5.947948e-09
+cycle = 113, time = 4.525069e-07, dt=5.947948e-09
+cycle = 114, time = 4.584548e-07, dt=5.947948e-09
+cycle = 115, time = 4.650424e-07, dt=6.587541e-09
+cycle = 116, time = 4.716299e-07, dt=6.587541e-09
+cycle = 117, time = 4.782175e-07, dt=6.587541e-09
+cycle = 118, time = 4.846890e-07, dt=6.471560e-09
+cycle = 119, time = 4.910075e-07, dt=6.318516e-09
+cycle = 120, time = 4.971904e-07, dt=6.182862e-09
+cycle = 121, time = 5.032547e-07, dt=6.064285e-09
+cycle = 122, time = 5.092165e-07, dt=5.961757e-09
+cycle = 123, time = 5.150907e-07, dt=5.874236e-09
+cycle = 124, time = 5.208917e-07, dt=5.801041e-09
+cycle = 125, time = 5.266337e-07, dt=5.741963e-09
+cycle = 126, time = 5.323360e-07, dt=5.702297e-09
+cycle = 127, time = 5.380193e-07, dt=5.683310e-09
+cycle = 128, time = 5.437026e-07, dt=5.683310e-09
+cycle = 129, time = 5.493859e-07, dt=5.683310e-09
+cycle = 130, time = 5.550692e-07, dt=5.683310e-09
+cycle = 131, time = 5.607525e-07, dt=5.683310e-09
+cycle = 132, time = 5.664359e-07, dt=5.683310e-09
+cycle = 133, time = 5.721192e-07, dt=5.683310e-09
+cycle = 134, time = 5.778025e-07, dt=5.683310e-09
+cycle = 135, time = 5.842316e-07, dt=6.429105e-09
+cycle = 136, time = 5.906607e-07, dt=6.429105e-09
+cycle = 137, time = 5.970898e-07, dt=6.429105e-09
+cycle = 138, time = 6.035189e-07, dt=6.429105e-09
+cycle = 139, time = 6.106151e-07, dt=7.096163e-09
+cycle = 140, time = 6.177112e-07, dt=7.096163e-09
+cycle = 141, time = 6.248074e-07, dt=7.096163e-09
+cycle = 142, time = 6.319035e-07, dt=7.096163e-09
+cycle = 143, time = 6.389997e-07, dt=7.096163e-09
+cycle = 144, time = 6.460959e-07, dt=7.096163e-09
+cycle = 145, time = 6.531920e-07, dt=7.096163e-09
+cycle = 146, time = 6.602882e-07, dt=7.096163e-09
+cycle = 147, time = 6.673844e-07, dt=7.096163e-09
+cycle = 148, time = 6.752426e-07, dt=7.858277e-09
+cycle = 149, time = 6.831009e-07, dt=7.858277e-09
+cycle = 150, time = 6.909592e-07, dt=7.858277e-09
+cycle = 151, time = 6.988175e-07, dt=7.858277e-09
+cycle = 152, time = 7.066757e-07, dt=7.858277e-09
+cycle = 153, time = 7.145340e-07, dt=7.858277e-09
+cycle = 154, time = 7.223923e-07, dt=7.858277e-09
+cycle = 155, time = 7.302506e-07, dt=7.858277e-09
+cycle = 156, time = 7.381089e-07, dt=7.858277e-09
+cycle = 157, time = 7.459671e-07, dt=7.858277e-09
+cycle = 158, time = 7.538254e-07, dt=7.858277e-09
+cycle = 159, time = 7.616837e-07, dt=7.858277e-09
+cycle = 160, time = 7.694371e-07, dt=7.753408e-09
+cycle = 161, time = 7.770279e-07, dt=7.590802e-09
+cycle = 162, time = 7.844782e-07, dt=7.450345e-09
+cycle = 163, time = 7.918103e-07, dt=7.332020e-09
+cycle = 164, time = 7.990450e-07, dt=7.234753e-09
+cycle = 165, time = 8.062030e-07, dt=7.158033e-09
+cycle = 166, time = 8.133049e-07, dt=7.101824e-09
+cycle = 167, time = 8.203737e-07, dt=7.068799e-09
+cycle = 168, time = 8.274334e-07, dt=7.059690e-09
+cycle = 169, time = 8.344930e-07, dt=7.059690e-09
+cycle = 170, time = 8.415527e-07, dt=7.059690e-09
+cycle = 171, time = 8.486124e-07, dt=7.059690e-09
+cycle = 172, time = 8.556721e-07, dt=7.059690e-09
+cycle = 173, time = 8.627318e-07, dt=7.059690e-09
+cycle = 174, time = 8.697915e-07, dt=7.059690e-09
+cycle = 175, time = 8.776070e-07, dt=7.815472e-09
+cycle = 176, time = 8.854224e-07, dt=7.815472e-09
+cycle = 177, time = 8.932379e-07, dt=7.815472e-09
+cycle = 178, time = 9.010534e-07, dt=7.815472e-09
+cycle = 179, time = 9.088689e-07, dt=7.815472e-09
+cycle = 180, time = 9.176014e-07, dt=8.732527e-09
+cycle = 181, time = 9.263339e-07, dt=8.732527e-09
+cycle = 182, time = 9.350664e-07, dt=8.732527e-09
+cycle = 183, time = 9.437990e-07, dt=8.732527e-09
+cycle = 184, time = 9.525315e-07, dt=8.732527e-09
+cycle = 185, time = 9.612640e-07, dt=8.732527e-09
+cycle = 186, time = 9.699965e-07, dt=8.732527e-09
+cycle = 187, time = 9.787291e-07, dt=8.732527e-09
+cycle = 188, time = 9.874616e-07, dt=8.732527e-09
+cycle = 189, time = 9.961941e-07, dt=8.732527e-09
+cycle = 190, time = 1.004927e-06, dt=8.732527e-09
+cycle = 191, time = 1.013659e-06, dt=8.732527e-09
+cycle = 192, time = 1.023340e-06, dt=9.681154e-09
+cycle = 193, time = 1.033021e-06, dt=9.681154e-09
+cycle = 194, time = 1.042703e-06, dt=9.681154e-09
+cycle = 195, time = 1.052384e-06, dt=9.681154e-09
+cycle = 196, time = 1.062065e-06, dt=9.681154e-09
+cycle = 197, time = 1.071746e-06, dt=9.681154e-09
+cycle = 198, time = 1.081427e-06, dt=9.681154e-09
+cycle = 199, time = 1.090948e-06, dt=9.520294e-09
+cycle = 200, time = 1.100235e-06, dt=9.287186e-09
+cycle = 201, time = 1.109311e-06, dt=9.075888e-09
+cycle = 202, time = 1.118197e-06, dt=8.886634e-09
+cycle = 203, time = 1.126919e-06, dt=8.721961e-09
+cycle = 204, time = 1.135505e-06, dt=8.586087e-09
+cycle = 205, time = 1.143983e-06, dt=8.477682e-09
+cycle = 206, time = 1.152379e-06, dt=8.396009e-09
+cycle = 207, time = 1.160720e-06, dt=8.341098e-09
+cycle = 208, time = 1.169034e-06, dt=8.313761e-09
+cycle = 209, time = 1.177348e-06, dt=8.313761e-09
+cycle = 210, time = 1.185661e-06, dt=8.313761e-09
+cycle = 211, time = 1.193975e-06, dt=8.313761e-09
+cycle = 212, time = 1.202289e-06, dt=8.313761e-09
+cycle = 213, time = 1.210603e-06, dt=8.313761e-09
+cycle = 214, time = 1.218916e-06, dt=8.313761e-09
+cycle = 215, time = 1.227230e-06, dt=8.313761e-09
+cycle = 216, time = 1.236537e-06, dt=9.306824e-09
+cycle = 217, time = 1.245844e-06, dt=9.306824e-09
+cycle = 218, time = 1.255151e-06, dt=9.306824e-09
+cycle = 219, time = 1.264457e-06, dt=9.306824e-09
+cycle = 220, time = 1.273764e-06, dt=9.306824e-09
+cycle = 221, time = 1.284204e-06, dt=1.043922e-08
+cycle = 222, time = 1.294643e-06, dt=1.043922e-08
+cycle = 223, time = 1.305082e-06, dt=1.043922e-08
+cycle = 224, time = 1.315521e-06, dt=1.043922e-08
+cycle = 225, time = 1.325960e-06, dt=1.043922e-08
+cycle = 226, time = 1.336400e-06, dt=1.043922e-08
+cycle = 227, time = 1.346839e-06, dt=1.043922e-08
+cycle = 228, time = 1.357278e-06, dt=1.043922e-08
+cycle = 229, time = 1.367717e-06, dt=1.043922e-08
+cycle = 230, time = 1.378157e-06, dt=1.043922e-08
+cycle = 231, time = 1.388596e-06, dt=1.043922e-08
+cycle = 232, time = 1.399035e-06, dt=1.043922e-08
+cycle = 233, time = 1.409474e-06, dt=1.043922e-08
+cycle = 234, time = 1.420995e-06, dt=1.152084e-08
+cycle = 235, time = 1.432506e-06, dt=1.151065e-08
+cycle = 236, time = 1.444016e-06, dt=1.151007e-08
+cycle = 237, time = 1.455526e-06, dt=1.151007e-08
+cycle = 238, time = 1.467036e-06, dt=1.151007e-08
+cycle = 239, time = 1.478546e-06, dt=1.151007e-08
+cycle = 240, time = 1.490056e-06, dt=1.151007e-08
+cycle = 241, time = 1.501566e-06, dt=1.151007e-08
+cycle = 242, time = 1.513076e-06, dt=1.151007e-08
+cycle = 243, time = 1.524586e-06, dt=1.151007e-08
+cycle = 244, time = 1.536096e-06, dt=1.151007e-08
+cycle = 245, time = 1.547475e-06, dt=1.137834e-08
+cycle = 246, time = 1.558625e-06, dt=1.115050e-08
+cycle = 247, time = 1.569574e-06, dt=1.094921e-08
+cycle = 248, time = 1.580350e-06, dt=1.077544e-08
+cycle = 249, time = 1.590978e-06, dt=1.062836e-08
+cycle = 250, time = 1.601486e-06, dt=1.050748e-08
+cycle = 251, time = 1.611908e-06, dt=1.042204e-08
+cycle = 252, time = 1.622281e-06, dt=1.037372e-08
+cycle = 253, time = 1.632645e-06, dt=1.036379e-08
+cycle = 254, time = 1.643009e-06, dt=1.036379e-08
+cycle = 255, time = 1.653373e-06, dt=1.036379e-08
+cycle = 256, time = 1.663737e-06, dt=1.036379e-08
+cycle = 257, time = 1.674100e-06, dt=1.036379e-08
+cycle = 258, time = 1.684464e-06, dt=1.036379e-08
+cycle = 259, time = 1.694828e-06, dt=1.036379e-08
+cycle = 260, time = 1.706410e-06, dt=1.158170e-08
+cycle = 261, time = 1.717991e-06, dt=1.158170e-08
+cycle = 262, time = 1.729573e-06, dt=1.158170e-08
+cycle = 263, time = 1.741155e-06, dt=1.158170e-08
+cycle = 264, time = 1.752736e-06, dt=1.158170e-08
+cycle = 265, time = 1.764318e-06, dt=1.158170e-08
+cycle = 266, time = 1.777059e-06, dt=1.274115e-08
+cycle = 267, time = 1.789800e-06, dt=1.274115e-08
+cycle = 268, time = 1.802542e-06, dt=1.274115e-08
+cycle = 269, time = 1.815283e-06, dt=1.274115e-08
+cycle = 270, time = 1.828024e-06, dt=1.274115e-08
+cycle = 271, time = 1.840765e-06, dt=1.274115e-08
+cycle = 272, time = 1.853506e-06, dt=1.274115e-08
+cycle = 273, time = 1.866247e-06, dt=1.274115e-08
+cycle = 274, time = 1.878989e-06, dt=1.274115e-08
+cycle = 275, time = 1.891730e-06, dt=1.274115e-08
+cycle = 276, time = 1.904471e-06, dt=1.274115e-08
+cycle = 277, time = 1.917212e-06, dt=1.274115e-08
+cycle = 278, time = 1.929953e-06, dt=1.274115e-08
+cycle = 279, time = 1.942694e-06, dt=1.274115e-08
+cycle = 280, time = 1.955435e-06, dt=1.274115e-08
+cycle = 281, time = 1.968177e-06, dt=1.274115e-08
+cycle = 282, time = 1.982260e-06, dt=1.408329e-08
+cycle = 283, time = 1.996265e-06, dt=1.400531e-08
+cycle = 284, time = 2.010224e-06, dt=1.395865e-08
+cycle = 285, time = 2.024183e-06, dt=1.395865e-08
+cycle = 286, time = 2.038141e-06, dt=1.395865e-08
+cycle = 287, time = 2.052100e-06, dt=1.395865e-08
+cycle = 288, time = 2.065826e-06, dt=1.372641e-08
+cycle = 289, time = 2.079266e-06, dt=1.343938e-08
+cycle = 290, time = 2.092449e-06, dt=1.318313e-08
+cycle = 291, time = 2.105406e-06, dt=1.295753e-08
+cycle = 292, time = 2.118167e-06, dt=1.276113e-08
+cycle = 293, time = 2.130763e-06, dt=1.259523e-08
+cycle = 294, time = 2.143228e-06, dt=1.246578e-08
+cycle = 295, time = 2.155601e-06, dt=1.237267e-08
+cycle = 296, time = 2.167925e-06, dt=1.232348e-08
+cycle = 297, time = 2.180245e-06, dt=1.232036e-08
+cycle = 298, time = 2.192565e-06, dt=1.232036e-08
+cycle = 299, time = 2.204886e-06, dt=1.232036e-08
+cycle = 300, time = 2.217206e-06, dt=1.232036e-08
+Run completed:
+   Problem size        =  350
+   MPI tasks           =  1
+   Iteration count     =  300
+   Final Origin Energy =  9.313892e+08
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 1.490116e-07
+        TotalAbsDiff = 1.244503e-06
+        MaxRelDiff   = 4.657194e-11
+
+Elapsed time         =    1.8e+04 (s)
+Grind time (us/z/c)  =  1.4229731 (per dom)  ( 18302.991 overall)
+FOM                  =  702.75398 (z/s)
+
+--------------------------------------------------------------------------------
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region InitStressTermsForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],135.713300,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,167216500000
+CPU_CLK_UNHALTED_CORE,FIXC1,79091890000
+CPU_CLK_UNHALTED_REF,FIXC2,189820400000
+TOPDOWN_SLOTS,FIXC3,395459400000
+PWR_PKG_ENERGY,PWR0,8499.3440
+PWR_DRAM_ENERGY,PWR3,687.6496
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,12862510000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,2350999000
+CAS_COUNT_WR,MBOX0C1,1538117000
+CAS_COUNT_RD,MBOX1C0,2350878000
+CAS_COUNT_WR,MBOX1C1,1538155000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,2351575000
+CAS_COUNT_WR,MBOX3C1,1538460000
+CAS_COUNT_RD,MBOX4C0,2351415000
+CAS_COUNT_WR,MBOX4C1,1538377000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,4856123
+CAS_COUNT_WR,MBOX6C1,5294444
+CAS_COUNT_RD,MBOX7C0,4442831
+CAS_COUNT_WR,MBOX7C1,5027702
+TABLE,Region InitStressTermsForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],135.7133,
+Runtime unhalted [s],33.0331,
+Clock [MHz],997.6346,
+CPI,0.4730,
+Energy [J],8499.3440,
+Power [W],62.6272,
+Energy DRAM [J],687.6496,
+Power DRAM [W],5.0669,
+DP [MFLOP/s],94.7771,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],94.7771,
+Memory read bandwidth [MBytes/s],4439.5547,
+Memory read data volume [GBytes],602.5066,
+Memory write bandwidth [MBytes/s],2906.5655,
+Memory write data volume [GBytes],394.4596,
+Memory bandwidth [MBytes/s],7346.1202,
+Memory data volume [GBytes],996.9662,
+Operational intensity [FLOP/Byte],0.0129,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region IntegrateStressForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],2900.666000,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,7666062000000
+CPU_CLK_UNHALTED_CORE,FIXC1,2854108000000
+CPU_CLK_UNHALTED_REF,FIXC2,6849911000000
+TOPDOWN_SLOTS,FIXC3,14270540000000
+PWR_PKG_ENERGY,PWR0,154026.4000
+PWR_DRAM_ENERGY,PWR3,8838.5740
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,4964925000000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,7159212000
+CAS_COUNT_WR,MBOX0C1,2510117000
+CAS_COUNT_RD,MBOX1C0,7157129000
+CAS_COUNT_WR,MBOX1C1,2507375000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,7159642000
+CAS_COUNT_WR,MBOX3C1,2509289000
+CAS_COUNT_RD,MBOX4C0,7157126000
+CAS_COUNT_WR,MBOX4C1,2505403000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,105734900
+CAS_COUNT_WR,MBOX6C1,115535100
+CAS_COUNT_RD,MBOX7C0,103399700
+CAS_COUNT_WR,MBOX7C1,117745100
+TABLE,Region IntegrateStressForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],2900.6660,
+Runtime unhalted [s],1192.0321,
+Clock [MHz],997.6264,
+CPI,0.3723,
+Energy [J],154026.4000,
+Power [W],53.1004,
+Energy DRAM [J],8838.5740,
+Power DRAM [W],3.0471,
+DP [MFLOP/s],1711.6500,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],1711.6500,
+Memory read bandwidth [MBytes/s],636.3723,
+Memory read data volume [GBytes],1845.9036,
+Memory write bandwidth [MBytes/s],226.4962,
+Memory write data volume [GBytes],656.9897,
+Memory bandwidth [MBytes/s],862.8685,
+Memory data volume [GBytes],2502.8933,
+Operational intensity [FLOP/Byte],1.9837,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcHourglassControlForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],2892.878000,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,5222189000000
+CPU_CLK_UNHALTED_CORE,FIXC1,1796057000000
+CPU_CLK_UNHALTED_REF,FIXC2,4310537000000
+TOPDOWN_SLOTS,FIXC3,8980284000000
+PWR_PKG_ENERGY,PWR0,156684.6000
+PWR_DRAM_ENERGY,PWR3,13540.5500
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,4180313000000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,31988830000
+CAS_COUNT_WR,MBOX0C1,26848920000
+CAS_COUNT_RD,MBOX1C0,31985510000
+CAS_COUNT_WR,MBOX1C1,26847490000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,31998280000
+CAS_COUNT_WR,MBOX3C1,26854610000
+CAS_COUNT_RD,MBOX4C0,31994810000
+CAS_COUNT_WR,MBOX4C1,26851760000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,110037700
+CAS_COUNT_WR,MBOX6C1,120027800
+CAS_COUNT_RD,MBOX7C0,100499600
+CAS_COUNT_WR,MBOX7C1,113616700
+TABLE,Region CalcHourglassControlForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],2892.8780,
+Runtime unhalted [s],750.1320,
+Clock [MHz],997.6339,
+CPI,0.3439,
+Energy [J],156684.6000,
+Power [W],54.1622,
+Energy DRAM [J],13540.5500,
+Power DRAM [W],4.6807,
+DP [MFLOP/s],1445.0361,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],1445.0361,
+Memory read bandwidth [MBytes/s],2835.7193,
+Memory read data volume [GBytes],8203.3899,
+Memory write bandwidth [MBytes/s],2381.2726,
+Memory write data volume [GBytes],6888.7312,
+Memory bandwidth [MBytes/s],5216.9919,
+Memory data volume [GBytes],15092.1211,
+Operational intensity [FLOP/Byte],0.2770,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcFBHourglassForceForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],3263.781000,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,9415363000000
+CPU_CLK_UNHALTED_CORE,FIXC1,3228604000000
+CPU_CLK_UNHALTED_REF,FIXC2,7748664000000
+TOPDOWN_SLOTS,FIXC3,16143020000000
+PWR_PKG_ENERGY,PWR0,173773.5000
+PWR_DRAM_ENERGY,PWR3,11458.8200
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,5402250000000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,1299112000000
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,27582920000
+CAS_COUNT_WR,MBOX0C1,2507564000
+CAS_COUNT_RD,MBOX1C0,27577800000
+CAS_COUNT_WR,MBOX1C1,2503694000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,27606350000
+CAS_COUNT_WR,MBOX3C1,2506088000
+CAS_COUNT_RD,MBOX4C0,27594990000
+CAS_COUNT_WR,MBOX4C1,2500175000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,125414200
+CAS_COUNT_WR,MBOX6C1,135749000
+CAS_COUNT_RD,MBOX7C0,116908400
+CAS_COUNT_WR,MBOX7C1,131728700
+TABLE,Region CalcFBHourglassForceForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],3263.7810,
+Runtime unhalted [s],1348.4422,
+Clock [MHz],997.6321,
+CPI,0.3429,
+Energy [J],173773.5000,
+Power [W],53.2430,
+Energy DRAM [J],11458.8200,
+Power DRAM [W],3.5109,
+DP [MFLOP/s],3247.3680,
+AVX DP [MFLOP/s],1592.1558,
+Packed [MUOPS/s],398.0390,
+Scalar [MUOPS/s],1655.2122,
+Memory read bandwidth [MBytes/s],2168.8589,
+Memory read data volume [GBytes],7078.6805,
+Memory write bandwidth [MBytes/s],201.6802,
+Memory write data volume [GBytes],658.2399,
+Memory bandwidth [MBytes/s],2370.5391,
+Memory data volume [GBytes],7736.9204,
+Operational intensity [FLOP/Byte],1.3699,
+Vectorization ratio [%],19.3858,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcAccelerationForNodes,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],158.786300,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,181626600000
+CPU_CLK_UNHALTED_CORE,FIXC1,156883900000
+CPU_CLK_UNHALTED_REF,FIXC2,376521600000
+TOPDOWN_SLOTS,FIXC3,784419500000
+PWR_PKG_ENERGY,PWR0,9475.2190
+PWR_DRAM_ENERGY,PWR3,735.1469
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,38919210000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,2898391000
+CAS_COUNT_WR,MBOX0C1,1234598000
+CAS_COUNT_RD,MBOX1C0,2898393000
+CAS_COUNT_WR,MBOX1C1,1234489000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,2899363000
+CAS_COUNT_WR,MBOX3C1,1234543000
+CAS_COUNT_RD,MBOX4C0,2899015000
+CAS_COUNT_WR,MBOX4C1,1234197000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,6362022
+CAS_COUNT_WR,MBOX6C1,6802172
+CAS_COUNT_RD,MBOX7C0,5771627
+CAS_COUNT_WR,MBOX7C1,6504334
+TABLE,Region CalcAccelerationForNodes,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],158.7863,
+Runtime unhalted [s],65.5233,
+Clock [MHz],997.6333,
+CPI,0.8638,
+Energy [J],9475.2190,
+Power [W],59.6728,
+Energy DRAM [J],735.1469,
+Power DRAM [W],4.6298,
+DP [MFLOP/s],245.1043,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],245.1043,
+Memory read bandwidth [MBytes/s],4678.4069,
+Memory read data volume [GBytes],742.8669,
+Memory write bandwidth [MBytes/s],1995.5912,
+Memory write data volume [GBytes],316.8725,
+Memory bandwidth [MBytes/s],6673.9981,
+Memory data volume [GBytes],1059.7395,
+Operational intensity [FLOP/Byte],0.0367,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region ApplyAccelerationBoundaryConditionsForNodes,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],0.776164,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,266756200
+CPU_CLK_UNHALTED_CORE,FIXC1,773462700
+CPU_CLK_UNHALTED_REF,FIXC2,1856521000
+TOPDOWN_SLOTS,FIXC3,3868146000
+PWR_PKG_ENERGY,PWR0,51.6271
+PWR_DRAM_ENERGY,PWR3,4.3074
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,9600
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,14330170
+CAS_COUNT_WR,MBOX0C1,10932230
+CAS_COUNT_RD,MBOX1C0,14328650
+CAS_COUNT_WR,MBOX1C1,10911130
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,14342140
+CAS_COUNT_WR,MBOX3C1,10940680
+CAS_COUNT_RD,MBOX4C0,14341320
+CAS_COUNT_WR,MBOX4C1,10935530
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,26613
+CAS_COUNT_WR,MBOX6C1,29028
+CAS_COUNT_RD,MBOX7C0,26054
+CAS_COUNT_WR,MBOX7C1,26345
+TABLE,Region ApplyAccelerationBoundaryConditionsForNodes,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],0.7762,
+Runtime unhalted [s],0.3230,
+Clock [MHz],997.5208,
+CPI,2.8995,
+Energy [J],51.6271,
+Power [W],66.5157,
+Energy DRAM [J],4.3074,
+Power DRAM [W],5.5496,
+DP [MFLOP/s],0.0124,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],0.0124,
+Memory read bandwidth [MBytes/s],4732.6049,
+Memory read data volume [GBytes],3.6733,
+Memory write bandwidth [MBytes/s],3609.5427,
+Memory write data volume [GBytes],2.8016,
+Memory bandwidth [MBytes/s],8342.1476,
+Memory data volume [GBytes],6.4749,
+Operational intensity [FLOP/Byte],1.482655e-06,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcVelocityForNodes,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],84.471150,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,324329400000
+CPU_CLK_UNHALTED_CORE,FIXC1,83747880000
+CPU_CLK_UNHALTED_REF,FIXC2,200995000000
+TOPDOWN_SLOTS,FIXC3,418740000000
+PWR_PKG_ENERGY,PWR0,5854.4420
+PWR_DRAM_ENERGY,PWR3,478.5724
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,77838400000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,2491038000
+CAS_COUNT_WR,MBOX0C1,1217934000
+CAS_COUNT_RD,MBOX1C0,2490729000
+CAS_COUNT_WR,MBOX1C1,1217834000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,2491841000
+CAS_COUNT_WR,MBOX3C1,1217922000
+CAS_COUNT_RD,MBOX4C0,2491402000
+CAS_COUNT_WR,MBOX4C1,1217752000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,3187699
+CAS_COUNT_WR,MBOX6C1,3447508
+CAS_COUNT_RD,MBOX7C0,3055309
+CAS_COUNT_WR,MBOX7C1,3421778
+TABLE,Region CalcVelocityForNodes,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],84.4711,
+Runtime unhalted [s],34.9777,
+Clock [MHz],997.6335,
+CPI,0.2582,
+Energy [J],5854.4420,
+Power [W],69.3070,
+Energy DRAM [J],478.5724,
+Power DRAM [W],5.6655,
+DP [MFLOP/s],921.4791,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],921.4791,
+Memory read bandwidth [MBytes/s],7554.7710,
+Memory read data volume [GBytes],638.1602,
+Memory write bandwidth [MBytes/s],3696.0776,
+Memory write data volume [GBytes],312.2119,
+Memory bandwidth [MBytes/s],11250.8485,
+Memory data volume [GBytes],950.3721,
+Operational intensity [FLOP/Byte],0.0819,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcKinematicsForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],2832.082000,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,7653200000000
+CPU_CLK_UNHALTED_CORE,FIXC1,2740362000000
+CPU_CLK_UNHALTED_REF,FIXC2,6576912000000
+TOPDOWN_SLOTS,FIXC3,13701810000000
+PWR_PKG_ENERGY,PWR0,150998.2000
+PWR_DRAM_ENERGY,PWR3,8777.3600
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,6264038000000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,9760006000
+CAS_COUNT_WR,MBOX0C1,3393194000
+CAS_COUNT_RD,MBOX1C0,9757208000
+CAS_COUNT_WR,MBOX1C1,3390607000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,9761830000
+CAS_COUNT_WR,MBOX3C1,3393102000
+CAS_COUNT_RD,MBOX4C0,9758241000
+CAS_COUNT_WR,MBOX4C1,3389153000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,102044100
+CAS_COUNT_WR,MBOX6C1,111147100
+CAS_COUNT_RD,MBOX7C0,97068660
+CAS_COUNT_WR,MBOX7C1,110172500
+TABLE,Region CalcKinematicsForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],2832.0820,
+Runtime unhalted [s],1144.5255,
+Clock [MHz],997.6274,
+CPI,0.3581,
+Energy [J],150998.2000,
+Power [W],53.3170,
+Energy DRAM [J],8777.3600,
+Power DRAM [W],3.0993,
+DP [MFLOP/s],2211.8138,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],2211.8138,
+Memory read bandwidth [MBytes/s],886.6726,
+Memory read data volume [GBytes],2511.1295,
+Memory write bandwidth [MBytes/s],311.5701,
+Memory write data volume [GBytes],882.3920,
+Memory bandwidth [MBytes/s],1198.2427,
+Memory data volume [GBytes],3393.5215,
+Operational intensity [FLOP/Byte],1.8459,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcLagrangeElements,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],118.601600,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,257253500000
+CPU_CLK_UNHALTED_CORE,FIXC1,117283100000
+CPU_CLK_UNHALTED_REF,FIXC2,281478700000
+TOPDOWN_SLOTS,FIXC3,586416200000
+PWR_PKG_ENERGY,PWR0,6726.1200
+PWR_DRAM_ENERGY,PWR3,595.9954
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,77175010000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,2064969000
+CAS_COUNT_WR,MBOX0C1,1597807000
+CAS_COUNT_RD,MBOX1C0,2064667000
+CAS_COUNT_WR,MBOX1C1,1597621000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,2065813000
+CAS_COUNT_WR,MBOX3C1,1597737000
+CAS_COUNT_RD,MBOX4C0,2065472000
+CAS_COUNT_WR,MBOX4C1,1597523000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,4102675
+CAS_COUNT_WR,MBOX6C1,4427352
+CAS_COUNT_RD,MBOX7C0,3767488
+CAS_COUNT_WR,MBOX7C1,4278487
+TABLE,Region CalcLagrangeElements,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],118.6016,
+Runtime unhalted [s],48.9839,
+Clock [MHz],997.6365,
+CPI,0.4559,
+Energy [J],6726.1200,
+Power [W],56.7119,
+Energy DRAM [J],595.9954,
+Power DRAM [W],5.0252,
+DP [MFLOP/s],650.7080,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],650.7080,
+Memory read bandwidth [MBytes/s],4462.0194,
+Memory read data volume [GBytes],529.2026,
+Memory write bandwidth [MBytes/s],3453.2519,
+Memory write data volume [GBytes],409.5612,
+Memory bandwidth [MBytes/s],7915.2713,
+Memory data volume [GBytes],938.7638,
+Operational intensity [FLOP/Byte],0.0822,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcMonotonicQGradientsForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],1549.607000,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,4000246000000
+CPU_CLK_UNHALTED_CORE,FIXC1,1399662000000
+CPU_CLK_UNHALTED_REF,FIXC2,3359193000000
+TOPDOWN_SLOTS,FIXC3,6998309000000
+PWR_PKG_ENERGY,PWR0,82602.5100
+PWR_DRAM_ENERGY,PWR3,5763.2920
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,2636813000000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,10789790000
+CAS_COUNT_WR,MBOX0C1,4212753000
+CAS_COUNT_RD,MBOX1C0,10787960000
+CAS_COUNT_WR,MBOX1C1,4211398000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,10792460000
+CAS_COUNT_WR,MBOX3C1,4213377000
+CAS_COUNT_RD,MBOX4C0,10789810000
+CAS_COUNT_WR,MBOX4C1,4211109000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,55685980
+CAS_COUNT_WR,MBOX6C1,59959760
+CAS_COUNT_RD,MBOX7C0,53687840
+CAS_COUNT_WR,MBOX7C1,60243100
+TABLE,Region CalcMonotonicQGradientsForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],1549.6070,
+Runtime unhalted [s],584.5756,
+Clock [MHz],997.6327,
+CPI,0.3499,
+Energy [J],82602.5100,
+Power [W],53.3055,
+Energy DRAM [J],5763.2920,
+Power DRAM [W],3.7192,
+DP [MFLOP/s],1701.6011,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],1701.6011,
+Memory read bandwidth [MBytes/s],1787.0603,
+Memory read data volume [GBytes],2769.2412,
+Memory write bandwidth [MBytes/s],700.8266,
+Memory write data volume [GBytes],1086.0058,
+Memory bandwidth [MBytes/s],2487.8869,
+Memory data volume [GBytes],3855.2470,
+Operational intensity [FLOP/Byte],0.6840,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region ApplyMaterialPropertiesForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],122.031200,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,265292900000
+CPU_CLK_UNHALTED_CORE,FIXC1,104378800000
+CPU_CLK_UNHALTED_REF,FIXC2,250509000000
+TOPDOWN_SLOTS,FIXC3,521894100000
+PWR_PKG_ENERGY,PWR0,8129.9400
+PWR_DRAM_ENERGY,PWR3,569.7776
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,25725010000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,3215624000
+CAS_COUNT_RD,MBOX0C0,2158031000
+CAS_COUNT_WR,MBOX0C1,1327390000
+CAS_COUNT_RD,MBOX1C0,2157773000
+CAS_COUNT_WR,MBOX1C1,1327213000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,2158135000
+CAS_COUNT_WR,MBOX3C1,1327322000
+CAS_COUNT_RD,MBOX4C0,2157941000
+CAS_COUNT_WR,MBOX4C1,1327076000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,4600375
+CAS_COUNT_WR,MBOX6C1,4928748
+CAS_COUNT_RD,MBOX7C0,4341721
+CAS_COUNT_WR,MBOX7C1,4829765
+TABLE,Region ApplyMaterialPropertiesForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],122.0312,
+Runtime unhalted [s],43.5943,
+Clock [MHz],997.6344,
+CPI,0.3934,
+Energy [J],8129.9400,
+Power [W],66.6218,
+Energy DRAM [J],569.7776,
+Power DRAM [W],4.6691,
+DP [MFLOP/s],421.6135,
+AVX DP [MFLOP/s],210.8067,
+Packed [MUOPS/s],26.3508,
+Scalar [MUOPS/s],210.8068,
+Memory read bandwidth [MBytes/s],4531.7313,
+Memory read data volume [GBytes],553.0126,
+Memory write bandwidth [MBytes/s],2789.4556,
+Memory write data volume [GBytes],340.4006,
+Memory bandwidth [MBytes/s],7321.1869,
+Memory data volume [GBytes],893.4132,
+Operational intensity [FLOP/Byte],0.0576,
+Vectorization ratio [%],11.1111,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region EvalEOSForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],1061.968000,
+call count,6000,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,631907800000
+CPU_CLK_UNHALTED_CORE,FIXC1,885635800000
+CPU_CLK_UNHALTED_REF,FIXC2,2125528000000
+TOPDOWN_SLOTS,FIXC3,4428190000000
+PWR_PKG_ENERGY,PWR0,75996.2400
+PWR_DRAM_ENERGY,PWR3,5527.5740
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,192000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,63471160000
+CAS_COUNT_RD,MBOX0C0,25363000000
+CAS_COUNT_WR,MBOX0C1,7732708000
+CAS_COUNT_RD,MBOX1C0,25360320000
+CAS_COUNT_WR,MBOX1C1,7731448000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,25363280000
+CAS_COUNT_WR,MBOX3C1,7732730000
+CAS_COUNT_RD,MBOX4C0,25365890000
+CAS_COUNT_WR,MBOX4C1,7731093000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,38406280
+CAS_COUNT_WR,MBOX6C1,41109670
+CAS_COUNT_RD,MBOX7C0,35708810
+CAS_COUNT_WR,MBOX7C1,39894800
+TABLE,Region EvalEOSForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],1061.9680,
+Runtime unhalted [s],369.8901,
+Clock [MHz],997.6330,
+CPI,1.4015,
+Energy [J],75996.2400,
+Power [W],71.5617,
+Energy DRAM [J],5527.5740,
+Power DRAM [W],5.2050,
+DP [MFLOP/s],478.1401,
+AVX DP [MFLOP/s],478.1399,
+Packed [MUOPS/s],59.7675,
+Scalar [MUOPS/s],0.0002,
+Memory read bandwidth [MBytes/s],6118.5485,
+Memory read data volume [GBytes],6497.7027,
+Memory write bandwidth [MBytes/s],1868.7709,
+Memory write data volume [GBytes],1984.5749,
+Memory bandwidth [MBytes/s],7987.3195,
+Memory data volume [GBytes],8482.2777,
+Operational intensity [FLOP/Byte],0.0599,
+Vectorization ratio [%],99.9997,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcEnergyForElems:KERNEL_1,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],127.138500,
+call count,6000,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,253948800000
+CPU_CLK_UNHALTED_CORE,FIXC1,105396200000
+CPU_CLK_UNHALTED_REF,FIXC2,252954300000
+TOPDOWN_SLOTS,FIXC3,526994700000
+PWR_PKG_ENERGY,PWR0,8362.9330
+PWR_DRAM_ENERGY,PWR3,753.4344
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,138482600000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,4456320000
+CAS_COUNT_WR,MBOX0C1,1123820000
+CAS_COUNT_RD,MBOX1C0,4456030000
+CAS_COUNT_WR,MBOX1C1,1123624000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,4456911000
+CAS_COUNT_WR,MBOX3C1,1124485000
+CAS_COUNT_RD,MBOX4C0,4456206000
+CAS_COUNT_WR,MBOX4C1,1124407000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,4832959
+CAS_COUNT_WR,MBOX6C1,5153332
+CAS_COUNT_RD,MBOX7C0,4465735
+CAS_COUNT_WR,MBOX7C1,4971473
+TABLE,Region CalcEnergyForElems:KERNEL_1,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],127.1385,
+Runtime unhalted [s],44.0192,
+Clock [MHz],997.6204,
+CPI,0.4150,
+Energy [J],8362.9330,
+Power [W],65.7781,
+Energy DRAM [J],753.4344,
+Power DRAM [W],5.9261,
+DP [MFLOP/s],1089.2263,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],1089.2263,
+Memory read bandwidth [MBytes/s],8977.8077,
+Memory read data volume [GBytes],1141.4250,
+Memory write bandwidth [MBytes/s],2268.4985,
+Memory write data volume [GBytes],288.4135,
+Memory bandwidth [MBytes/s],11246.3062,
+Memory data volume [GBytes],1429.8385,
+Operational intensity [FLOP/Byte],0.0969,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcPressureForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],328.138900,
+call count,18000,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,588737200000
+CPU_CLK_UNHALTED_CORE,FIXC1,285198100000
+CPU_CLK_UNHALTED_REF,FIXC2,684485300000
+TOPDOWN_SLOTS,FIXC3,1426032000000
+PWR_PKG_ENERGY,PWR0,24214.8300
+PWR_DRAM_ENERGY,PWR3,1740.8550
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,138483000000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,281450900000000
+CAS_COUNT_RD,MBOX0C0,6690655000
+CAS_COUNT_WR,MBOX0C1,3829128000
+CAS_COUNT_RD,MBOX1C0,6690128000
+CAS_COUNT_WR,MBOX1C1,3828940000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,6692714000
+CAS_COUNT_WR,MBOX3C1,3830331000
+CAS_COUNT_RD,MBOX4C0,6691138000
+CAS_COUNT_WR,MBOX4C1,3829834000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,12535680
+CAS_COUNT_WR,MBOX6C1,13247290
+CAS_COUNT_RD,MBOX7C0,11702410
+CAS_COUNT_WR,MBOX7C1,12919220
+TABLE,Region CalcPressureForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],328.1389,
+Runtime unhalted [s],119.1144,
+Clock [MHz],997.6196,
+CPI,0.4844,
+Energy [J],24214.8300,
+Power [W],73.7945,
+Energy DRAM [J],1740.8550,
+Power DRAM [W],5.3052,
+DP [MFLOP/s],6.862172e+06,
+AVX DP [MFLOP/s],6.861750e+06,
+Packed [MUOPS/s],857718.7892,
+Scalar [MUOPS/s],422.0256,
+Memory read bandwidth [MBytes/s],5224.8846,
+Memory read data volume [GBytes],1714.4879,
+Memory write bandwidth [MBytes/s],2992.7618,
+Memory write data volume [GBytes],982.0416,
+Memory bandwidth [MBytes/s],8217.6464,
+Memory data volume [GBytes],2696.5294,
+Operational intensity [FLOP/Byte],835.0533,
+Vectorization ratio [%],99.9508,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcEnergyForElems:KERNEL_2,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],232.087300,
+call count,6000,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,677239700000
+CPU_CLK_UNHALTED_CORE,FIXC1,210451600000
+CPU_CLK_UNHALTED_REF,FIXC2,505083600000
+TOPDOWN_SLOTS,FIXC3,1052258000000
+PWR_PKG_ENERGY,PWR0,16543.0200
+PWR_DRAM_ENERGY,PWR3,1356.1960
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,359128300000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,7882972000
+CAS_COUNT_WR,MBOX0C1,1628880000
+CAS_COUNT_RD,MBOX1C0,7882226000
+CAS_COUNT_WR,MBOX1C1,1628480000
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,7883663000
+CAS_COUNT_WR,MBOX3C1,1628947000
+CAS_COUNT_RD,MBOX4C0,7882478000
+CAS_COUNT_WR,MBOX4C1,1628540000
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,8378865
+CAS_COUNT_WR,MBOX6C1,8990464
+CAS_COUNT_RD,MBOX7C0,7810648
+CAS_COUNT_WR,MBOX7C1,8765566
+TABLE,Region CalcEnergyForElems:KERNEL_2,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],232.0873,
+Runtime unhalted [s],87.8961,
+Clock [MHz],997.6344,
+CPI,0.3107,
+Energy [J],16543.0200,
+Power [W],71.2793,
+Energy DRAM [J],1356.1960,
+Power DRAM [W],5.8435,
+DP [MFLOP/s],1547.3845,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],1547.3845,
+Memory read bandwidth [MBytes/s],8699.4929,
+Memory read data volume [GBytes],2019.0418,
+Memory write bandwidth [MBytes/s],1801.4195,
+Memory write data volume [GBytes],418.0866,
+Memory bandwidth [MBytes/s],10500.9125,
+Memory data volume [GBytes],2437.1284,
+Operational intensity [FLOP/Byte],0.1474,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcEnergyForElems:KERNEL_3,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],39.212010,
+call count,6000,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,34684120000
+CPU_CLK_UNHALTED_CORE,FIXC1,38964730000
+CPU_CLK_UNHALTED_REF,FIXC2,93518530000
+TOPDOWN_SLOTS,FIXC3,194836900000
+PWR_PKG_ENERGY,PWR0,3121.0820
+PWR_DRAM_ENERGY,PWR3,244.2920
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,299172
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,8655136000
+CAS_COUNT_RD,MBOX0C0,1407968000
+CAS_COUNT_WR,MBOX0C1,561720500
+CAS_COUNT_RD,MBOX1C0,1408017000
+CAS_COUNT_WR,MBOX1C1,561597700
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,1408531000
+CAS_COUNT_WR,MBOX3C1,561774800
+CAS_COUNT_RD,MBOX4C0,1408426000
+CAS_COUNT_WR,MBOX4C1,561566800
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,1644439
+CAS_COUNT_WR,MBOX6C1,1718361
+CAS_COUNT_RD,MBOX7C0,1540062
+CAS_COUNT_WR,MBOX7C1,1672629
+TABLE,Region CalcEnergyForElems:KERNEL_3,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],39.2120,
+Runtime unhalted [s],16.2738,
+Clock [MHz],997.6000,
+CPI,1.1234,
+Energy [J],3121.0820,
+Power [W],79.5951,
+Energy DRAM [J],244.2920,
+Power DRAM [W],6.2300,
+DP [MFLOP/s],1765.8209,
+AVX DP [MFLOP/s],1765.8133,
+Packed [MUOPS/s],220.7267,
+Scalar [MUOPS/s],0.0076,
+Memory read bandwidth [MBytes/s],9199.0208,
+Memory read data volume [GBytes],360.7121,
+Memory write bandwidth [MBytes/s],3672.4272,
+Memory write data volume [GBytes],144.0033,
+Memory bandwidth [MBytes/s],12871.4480,
+Memory data volume [GBytes],504.7153,
+Operational intensity [FLOP/Byte],0.1372,
+Vectorization ratio [%],99.9965,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcEnergyForElems:KERNEL_4,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],256.887300,
+call count,6000,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,808680100000
+CPU_CLK_UNHALTED_CORE,FIXC1,254856300000
+CPU_CLK_UNHALTED_REF,FIXC2,611655500000
+TOPDOWN_SLOTS,FIXC3,1274282000000
+PWR_PKG_ENERGY,PWR0,20858.5900
+PWR_DRAM_ENERGY,PWR3,1496.6270
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,382208700000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,9677550000
+CAS_COUNT_WR,MBOX0C1,804855500
+CAS_COUNT_RD,MBOX1C0,9676618000
+CAS_COUNT_WR,MBOX1C1,804426900
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,9677433000
+CAS_COUNT_WR,MBOX3C1,804700700
+CAS_COUNT_RD,MBOX4C0,9676510000
+CAS_COUNT_WR,MBOX4C1,804177100
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,9120817
+CAS_COUNT_WR,MBOX6C1,9943361
+CAS_COUNT_RD,MBOX7C0,8592513
+CAS_COUNT_WR,MBOX7C1,9782274
+TABLE,Region CalcEnergyForElems:KERNEL_4,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],256.8873,
+Runtime unhalted [s],106.4420,
+Clock [MHz],997.6333,
+CPI,0.3152,
+Energy [J],20858.5900,
+Power [W],81.1974,
+Energy DRAM [J],1496.6270,
+Power DRAM [W],5.8260,
+DP [MFLOP/s],1487.8458,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],1487.8458,
+Memory read bandwidth [MBytes/s],9648.0159,
+Memory read data volume [GBytes],2478.4528,
+Memory write bandwidth [MBytes/s],806.6755,
+Memory write data volume [GBytes],207.2247,
+Memory bandwidth [MBytes/s],10454.6914,
+Memory data volume [GBytes],2685.6775,
+Operational intensity [FLOP/Byte],0.1423,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcEnergyForElems:KERNEL_5,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],166.656300,
+call count,6000,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,489475500000
+CPU_CLK_UNHALTED_CORE,FIXC1,165407500000
+CPU_CLK_UNHALTED_REF,FIXC2,396978100000
+TOPDOWN_SLOTS,FIXC3,827037400000
+PWR_PKG_ENERGY,PWR0,14756.2700
+PWR_DRAM_ENERGY,PWR3,1001.6240
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,128324300000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,7251617000
+CAS_COUNT_WR,MBOX0C1,581452300
+CAS_COUNT_RD,MBOX1C0,7251484000
+CAS_COUNT_WR,MBOX1C1,581129500
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,7251813000
+CAS_COUNT_WR,MBOX3C1,581286300
+CAS_COUNT_RD,MBOX4C0,7250986000
+CAS_COUNT_WR,MBOX4C1,580892200
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,6084722
+CAS_COUNT_WR,MBOX6C1,6567235
+CAS_COUNT_RD,MBOX7C0,5699313
+CAS_COUNT_WR,MBOX7C1,6409597
+TABLE,Region CalcEnergyForElems:KERNEL_5,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],166.6563,
+Runtime unhalted [s],69.0832,
+Clock [MHz],997.6337,
+CPI,0.3379,
+Energy [J],14756.2700,
+Power [W],88.5431,
+Energy DRAM [J],1001.6240,
+Power DRAM [W],6.0101,
+DP [MFLOP/s],769.9937,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],769.9937,
+Memory read bandwidth [MBytes/s],11143.4838,
+Memory read data volume [GBytes],1857.1318,
+Memory write bandwidth [MBytes/s],897.7469,
+Memory write data volume [GBytes],149.6152,
+Memory bandwidth [MBytes/s],12041.2307,
+Memory data volume [GBytes],2006.7470,
+Operational intensity [FLOP/Byte],0.0639,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcSoundSpeedForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],78.387470,
+call count,3300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,218696300000
+CPU_CLK_UNHALTED_CORE,FIXC1,77770510000
+CPU_CLK_UNHALTED_REF,FIXC2,186649300000
+TOPDOWN_SLOTS,FIXC3,388853300000
+PWR_PKG_ENERGY,PWR0,6518.0380
+PWR_DRAM_ENERGY,PWR3,496.3605
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,77175260000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,140727600000000
+CAS_COUNT_RD,MBOX0C0,3518740000
+CAS_COUNT_WR,MBOX0C1,541237000
+CAS_COUNT_RD,MBOX1C0,3518461000
+CAS_COUNT_WR,MBOX1C1,540972400
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,3519293000
+CAS_COUNT_WR,MBOX3C1,541343000
+CAS_COUNT_RD,MBOX4C0,3518710000
+CAS_COUNT_WR,MBOX4C1,540944500
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,3102838
+CAS_COUNT_WR,MBOX6C1,3265863
+CAS_COUNT_RD,MBOX7C0,2945847
+CAS_COUNT_WR,MBOX7C1,3212179
+TABLE,Region CalcSoundSpeedForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],78.3875,
+Runtime unhalted [s],32.4812,
+Clock [MHz],997.6335,
+CPI,0.3556,
+Energy [J],6518.0380,
+Power [W],83.1515,
+Energy DRAM [J],496.3605,
+Power DRAM [W],6.3321,
+DP [MFLOP/s],1.436324e+07,
+AVX DP [MFLOP/s],1.436225e+07,
+Packed [MUOPS/s],1.795282e+06,
+Scalar [MUOPS/s],984.5357,
+Memory read bandwidth [MBytes/s],11496.7376,
+Memory read data volume [GBytes],901.2002,
+Memory write bandwidth [MBytes/s],1772.5077,
+Memory write data volume [GBytes],138.9424,
+Memory bandwidth [MBytes/s],13269.2453,
+Memory data volume [GBytes],1040.1426,
+Operational intensity [FLOP/Byte],1082.4458,
+Vectorization ratio [%],99.9452,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region UpdateVolumesForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],28.406170,
+call count,300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,122196700000
+CPU_CLK_UNHALTED_CORE,FIXC1,28174430000
+CPU_CLK_UNHALTED_REF,FIXC2,67618680000
+TOPDOWN_SLOTS,FIXC3,140872400000
+PWR_PKG_ENERGY,PWR0,2141.8520
+PWR_DRAM_ENERGY,PWR3,158.8436
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,12862510000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,815618500
+CAS_COUNT_WR,MBOX0C1,400403500
+CAS_COUNT_RD,MBOX1C0,815565300
+CAS_COUNT_WR,MBOX1C1,400408400
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,815755000
+CAS_COUNT_WR,MBOX3C1,400406900
+CAS_COUNT_RD,MBOX4C0,815849000
+CAS_COUNT_WR,MBOX4C1,400366800
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,1058776
+CAS_COUNT_WR,MBOX6C1,1144560
+CAS_COUNT_RD,MBOX7C0,1005717
+CAS_COUNT_WR,MBOX7C1,1135812
+TABLE,Region UpdateVolumesForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],28.4062,
+Runtime unhalted [s],11.7672,
+Clock [MHz],997.6332,
+CPI,0.2306,
+Energy [J],2141.8520,
+Power [W],75.4009,
+Energy DRAM [J],158.8436,
+Power DRAM [W],5.5919,
+DP [MFLOP/s],452.8069,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],452.8069,
+Memory read bandwidth [MBytes/s],7355.8155,
+Memory read data volume [GBytes],208.9505,
+Memory write bandwidth [MBytes/s],3613.5608,
+Memory write data volume [GBytes],102.6474,
+Memory bandwidth [MBytes/s],10969.3763,
+Memory data volume [GBytes],311.5980,
+Operational intensity [FLOP/Byte],0.0413,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region CalcCourantConstraintForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],139.663300,
+call count,3300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,205836300000
+CPU_CLK_UNHALTED_CORE,FIXC1,138399800000
+CPU_CLK_UNHALTED_REF,FIXC2,332162100000
+TOPDOWN_SLOTS,FIXC3,692007600000
+PWR_PKG_ENERGY,PWR0,8625.5560
+PWR_DRAM_ENERGY,PWR3,605.2756
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,38588550000
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,3024560000
+CAS_COUNT_WR,MBOX0C1,18552590
+CAS_COUNT_RD,MBOX1C0,3024390000
+CAS_COUNT_WR,MBOX1C1,18375800
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,3026111000
+CAS_COUNT_WR,MBOX3C1,18490950
+CAS_COUNT_RD,MBOX4C0,3026046000
+CAS_COUNT_WR,MBOX4C1,18204860
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,4849220
+CAS_COUNT_WR,MBOX6C1,5297113
+CAS_COUNT_RD,MBOX7C0,4494531
+CAS_COUNT_WR,MBOX7C1,5085772
+TABLE,Region CalcCourantConstraintForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],139.6633,
+Runtime unhalted [s],57.8034,
+Clock [MHz],997.6262,
+CPI,0.6724,
+Energy [J],8625.5560,
+Power [W],61.7596,
+Energy DRAM [J],605.2756,
+Power DRAM [W],4.3338,
+DP [MFLOP/s],276.2970,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],276.2970,
+Memory read bandwidth [MBytes/s],5549.5527,
+Memory read data volume [GBytes],775.0688,
+Memory write bandwidth [MBytes/s],38.4958,
+Memory write data volume [GBytes],5.3765,
+Memory bandwidth [MBytes/s],5588.0486,
+Memory data volume [GBytes],780.4453,
+Operational intensity [FLOP/Byte],0.0494,
+Vectorization ratio [%],0,
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz,
+CPU type:,Intel Icelake SP processor,
+CPU clock:,2.394321424 GHz,
+TABLE,Region  CalcHydroConstraintForElems,Group 1 Raw,MEM_DP,26
+Region Info,HWThread 0,
+RDTSC Runtime [s],42.650020,
+call count,3300,
+Event,Counter,HWThread 0
+INSTR_RETIRED_ANY,FIXC0,128660300000
+CPU_CLK_UNHALTED_CORE,FIXC1,42305910000
+CPU_CLK_UNHALTED_REF,FIXC2,101536300000
+TOPDOWN_SLOTS,FIXC3,211537200000
+PWR_PKG_ENERGY,PWR0,2633.5220
+PWR_DRAM_ENERGY,PWR3,199.2091
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,769995
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,0
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,0
+CAS_COUNT_RD,MBOX0C0,1273267000
+CAS_COUNT_WR,MBOX0C1,2421176
+CAS_COUNT_RD,MBOX1C0,1272638000
+CAS_COUNT_WR,MBOX1C1,2380861
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,1273134000
+CAS_COUNT_WR,MBOX3C1,2398078
+CAS_COUNT_RD,MBOX4C0,1273355000
+CAS_COUNT_WR,MBOX4C1,2294434
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,1591863
+CAS_COUNT_WR,MBOX6C1,1703720
+CAS_COUNT_RD,MBOX7C0,1466032
+CAS_COUNT_WR,MBOX7C1,1629261
+TABLE,Region  CalcHydroConstraintForElems,Group 1 Metric,MEM_DP,20
+Metric,HWThread 0,
+Runtime (RDTSC) [s],42.6500,
+Runtime unhalted [s],17.6693,
+Clock [MHz],997.6131,
+CPI,0.3288,
+Energy [J],2633.5220,
+Power [W],61.7473,
+Energy DRAM [J],199.2091,
+Power DRAM [W],4.6708,
+DP [MFLOP/s],0.0181,
+AVX DP [MFLOP/s],0,
+Packed [MUOPS/s],0,
+Scalar [MUOPS/s],0.0181,
+Memory read bandwidth [MBytes/s],7646.1610,
+Memory read data volume [GBytes],326.1089,
+Memory write bandwidth [MBytes/s],19.2488,
+Memory write data volume [GBytes],0.8210,
+Memory bandwidth [MBytes/s],7665.4098,
+Memory data volume [GBytes],326.9299,
+Operational intensity [FLOP/Byte],2.355230e-06,
+Vectorization ratio [%],0,

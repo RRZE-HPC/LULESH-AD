@@ -1,0 +1,399 @@
+_________
+DEBUG: Executable given on commandline: ../../build_MPI/lulesh2.0 -p -b 0 -s 30 -i 300 -c 0
+DEBUG: MPI options given on commandline: --cpu-freq=2400000-2400000:performance
+DEBUG: Reading hostfile from batch system
+Available hosts for scheduling:
+Host                	Slots	MaxSlots	Interface
+f0486               	5184	5184	
+DEBUG: Switch to perfctr mode, there are 1 eventsets given on the commandline
+DEBUG: Working on host f0486 with 5184 slots and 5184 slots maximally
+DEBUG: NperDomain string E:N:1:1 covers the domains: N 
+DEBUG: Resolved NperDomain string E:N:1:1 to CPUs: [0] 
+DEBUG: Process 1 runs on CPUs 0
+DEBUG: Assign 1 processes with 1 per node and 1 threads per process to 1 hosts
+DEBUG: Add Host f0486 with 1/1 slots to host list
+DEBUG: Scheduling on hosts:
+DEBUG: Host f0486 with 1 slots (max. 5184 slots)
+DEBUG: Process 0 measures with event set: INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3,PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3,CAS_COUNT_RD:MBOX0C0,CAS_COUNT_WR:MBOX0C1,CAS_COUNT_RD:MBOX1C0,CAS_COUNT_WR:MBOX1C1,CAS_COUNT_RD:MBOX2C0,CAS_COUNT_WR:MBOX2C1,CAS_COUNT_RD:MBOX3C0,CAS_COUNT_WR:MBOX3C1,CAS_COUNT_RD:MBOX4C0,CAS_COUNT_WR:MBOX4C1,CAS_COUNT_RD:MBOX5C0,CAS_COUNT_WR:MBOX5C1,CAS_COUNT_RD:MBOX6C0,CAS_COUNT_WR:MBOX6C1,CAS_COUNT_RD:MBOX7C0,CAS_COUNT_WR:MBOX7C1
+DEBUG: Detected environment
+DEBUG: MPI slurm
+DEBUG: Resolved likwid-pin to /home/hpc/unrz/unrz139/.modules/likwid-master-mpirun/bin/likwid-pin
+EXEC (Rank 0): /home/hpc/unrz/unrz139/.modules/likwid-master-mpirun/bin/likwid-perfctr -f  -C L:N:0-0 -g INSTR_RETIRED_ANY:FIXC0,CPU_CLK_UNHALTED_CORE:FIXC1,CPU_CLK_UNHALTED_REF:FIXC2,TOPDOWN_SLOTS:FIXC3,FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE:PMC0,FP_ARITH_INST_RETIRED_SCALAR_DOUBLE:PMC1,FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE:PMC2,FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE:PMC3,PWR_PKG_ENERGY:PWR0,PWR_DRAM_ENERGY:PWR3,CAS_COUNT_RD:MBOX0C0,CAS_COUNT_WR:MBOX0C1,CAS_COUNT_RD:MBOX1C0,CAS_COUNT_WR:MBOX1C1,CAS_COUNT_RD:MBOX2C0,CAS_COUNT_WR:MBOX2C1,CAS_COUNT_RD:MBOX3C0,CAS_COUNT_WR:MBOX3C1,CAS_COUNT_RD:MBOX4C0,CAS_COUNT_WR:MBOX4C1,CAS_COUNT_RD:MBOX5C0,CAS_COUNT_WR:MBOX5C1,CAS_COUNT_RD:MBOX6C0,CAS_COUNT_WR:MBOX6C1,CAS_COUNT_RD:MBOX7C0,CAS_COUNT_WR:MBOX7C1 -o /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig6/.output_1842636_%r_%h.csv ../../build_MPI/lulesh2.0 -p -b 0 -s 30 -i 300 -c 0
+EXEC: srun  --ntasks=1 --cpu-bind=mask_cpu:0x1 --ntasks-per-node=1 --nodes=1 --mpi=pmi2 --cpu-freq=2400000-2400000:performance /home/hpc/ihpc/ihpc040h/LULESH_AD/LULESH/run/Fig6/.likwidscript_1842636.txt
+Running problem size 30^3 per domain until completion
+Num processors: 1
+Total number of elements: 27000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+cycle = 1, time = 3.876087e-06, dt=3.876087e-06
+cycle = 2, time = 8.527392e-06, dt=4.651305e-06
+cycle = 3, time = 1.012168e-05, dt=1.594290e-06
+cycle = 4, time = 1.145304e-05, dt=1.331356e-06
+cycle = 5, time = 1.263989e-05, dt=1.186852e-06
+cycle = 6, time = 1.374194e-05, dt=1.102046e-06
+cycle = 7, time = 1.478970e-05, dt=1.047762e-06
+cycle = 8, time = 1.580172e-05, dt=1.012024e-06
+cycle = 9, time = 1.679057e-05, dt=9.888451e-07
+cycle = 10, time = 1.776547e-05, dt=9.749005e-07
+cycle = 11, time = 1.893535e-05, dt=1.169881e-06
+cycle = 12, time = 2.025621e-05, dt=1.320856e-06
+cycle = 13, time = 2.150484e-05, dt=1.248633e-06
+cycle = 14, time = 2.268155e-05, dt=1.176707e-06
+cycle = 15, time = 2.378626e-05, dt=1.104711e-06
+cycle = 16, time = 2.484091e-05, dt=1.054656e-06
+cycle = 17, time = 2.586414e-05, dt=1.023225e-06
+cycle = 18, time = 2.687193e-05, dt=1.007788e-06
+cycle = 19, time = 2.787956e-05, dt=1.007630e-06
+cycle = 20, time = 2.888719e-05, dt=1.007630e-06
+cycle = 21, time = 2.989482e-05, dt=1.007630e-06
+cycle = 22, time = 3.090245e-05, dt=1.007630e-06
+cycle = 23, time = 3.191007e-05, dt=1.007630e-06
+cycle = 24, time = 3.302537e-05, dt=1.115291e-06
+cycle = 25, time = 3.414066e-05, dt=1.115291e-06
+cycle = 26, time = 3.525595e-05, dt=1.115291e-06
+cycle = 27, time = 3.652719e-05, dt=1.271237e-06
+cycle = 28, time = 3.779842e-05, dt=1.271237e-06
+cycle = 29, time = 3.931652e-05, dt=1.518093e-06
+cycle = 30, time = 4.103921e-05, dt=1.722695e-06
+cycle = 31, time = 4.269300e-05, dt=1.653785e-06
+cycle = 32, time = 4.429093e-05, dt=1.597931e-06
+cycle = 33, time = 4.585049e-05, dt=1.559558e-06
+cycle = 34, time = 4.738515e-05, dt=1.534666e-06
+cycle = 35, time = 4.890859e-05, dt=1.523441e-06
+cycle = 36, time = 5.043203e-05, dt=1.523441e-06
+cycle = 37, time = 5.195548e-05, dt=1.523441e-06
+cycle = 38, time = 5.347892e-05, dt=1.523441e-06
+cycle = 39, time = 5.500236e-05, dt=1.523441e-06
+cycle = 40, time = 5.670949e-05, dt=1.707132e-06
+cycle = 41, time = 5.841662e-05, dt=1.707132e-06
+cycle = 42, time = 6.012375e-05, dt=1.707132e-06
+cycle = 43, time = 6.183089e-05, dt=1.707132e-06
+cycle = 44, time = 6.353802e-05, dt=1.707132e-06
+cycle = 45, time = 6.523150e-05, dt=1.693479e-06
+cycle = 46, time = 6.688897e-05, dt=1.657473e-06
+cycle = 47, time = 6.851567e-05, dt=1.626699e-06
+cycle = 48, time = 7.011713e-05, dt=1.601467e-06
+cycle = 49, time = 7.169869e-05, dt=1.581551e-06
+cycle = 50, time = 7.326612e-05, dt=1.567430e-06
+cycle = 51, time = 7.482509e-05, dt=1.558974e-06
+cycle = 52, time = 7.638278e-05, dt=1.557685e-06
+cycle = 53, time = 7.794046e-05, dt=1.557685e-06
+cycle = 54, time = 7.949815e-05, dt=1.557685e-06
+cycle = 55, time = 8.105583e-05, dt=1.557685e-06
+cycle = 56, time = 8.261352e-05, dt=1.557685e-06
+cycle = 57, time = 8.417120e-05, dt=1.557685e-06
+cycle = 58, time = 8.589654e-05, dt=1.725337e-06
+cycle = 59, time = 8.762188e-05, dt=1.725337e-06
+cycle = 60, time = 8.953156e-05, dt=1.909679e-06
+cycle = 61, time = 9.144124e-05, dt=1.909679e-06
+cycle = 62, time = 9.357316e-05, dt=2.131927e-06
+cycle = 63, time = 9.570509e-05, dt=2.131927e-06
+cycle = 64, time = 9.783702e-05, dt=2.131927e-06
+cycle = 65, time = 9.996895e-05, dt=2.131927e-06
+cycle = 66, time = 1.021009e-04, dt=2.131927e-06
+cycle = 67, time = 1.042328e-04, dt=2.131927e-06
+cycle = 68, time = 1.063647e-04, dt=2.131927e-06
+cycle = 69, time = 1.084967e-04, dt=2.131927e-06
+cycle = 70, time = 1.106286e-04, dt=2.131927e-06
+cycle = 71, time = 1.127605e-04, dt=2.131927e-06
+cycle = 72, time = 1.148924e-04, dt=2.131927e-06
+cycle = 73, time = 1.170244e-04, dt=2.131927e-06
+cycle = 74, time = 1.191563e-04, dt=2.131927e-06
+cycle = 75, time = 1.212882e-04, dt=2.131927e-06
+cycle = 76, time = 1.234201e-04, dt=2.131927e-06
+cycle = 77, time = 1.255521e-04, dt=2.131927e-06
+cycle = 78, time = 1.276840e-04, dt=2.131927e-06
+cycle = 79, time = 1.298159e-04, dt=2.131927e-06
+cycle = 80, time = 1.319446e-04, dt=2.128627e-06
+cycle = 81, time = 1.340310e-04, dt=2.086404e-06
+cycle = 82, time = 1.360812e-04, dt=2.050207e-06
+cycle = 83, time = 1.381018e-04, dt=2.020602e-06
+cycle = 84, time = 1.400992e-04, dt=1.997391e-06
+cycle = 85, time = 1.420797e-04, dt=1.980552e-06
+cycle = 86, time = 1.440495e-04, dt=1.969745e-06
+cycle = 87, time = 1.460142e-04, dt=1.964704e-06
+cycle = 88, time = 1.479789e-04, dt=1.964704e-06
+cycle = 89, time = 1.499436e-04, dt=1.964704e-06
+cycle = 90, time = 1.519083e-04, dt=1.964704e-06
+cycle = 91, time = 1.538730e-04, dt=1.964704e-06
+cycle = 92, time = 1.558377e-04, dt=1.964704e-06
+cycle = 93, time = 1.578024e-04, dt=1.964704e-06
+cycle = 94, time = 1.597671e-04, dt=1.964704e-06
+cycle = 95, time = 1.619902e-04, dt=2.223080e-06
+cycle = 96, time = 1.642132e-04, dt=2.223080e-06
+cycle = 97, time = 1.666957e-04, dt=2.482444e-06
+cycle = 98, time = 1.691781e-04, dt=2.482444e-06
+cycle = 99, time = 1.716606e-04, dt=2.482444e-06
+cycle = 100, time = 1.744258e-04, dt=2.765248e-06
+cycle = 101, time = 1.771911e-04, dt=2.765248e-06
+cycle = 102, time = 1.799563e-04, dt=2.765248e-06
+cycle = 103, time = 1.827216e-04, dt=2.765248e-06
+cycle = 104, time = 1.854868e-04, dt=2.765248e-06
+cycle = 105, time = 1.882521e-04, dt=2.765248e-06
+cycle = 106, time = 1.910173e-04, dt=2.765248e-06
+cycle = 107, time = 1.937826e-04, dt=2.765248e-06
+cycle = 108, time = 1.965478e-04, dt=2.765248e-06
+cycle = 109, time = 1.993131e-04, dt=2.765248e-06
+cycle = 110, time = 2.020783e-04, dt=2.765248e-06
+cycle = 111, time = 2.048436e-04, dt=2.765248e-06
+cycle = 112, time = 2.076088e-04, dt=2.765248e-06
+cycle = 113, time = 2.103741e-04, dt=2.765248e-06
+cycle = 114, time = 2.131393e-04, dt=2.765248e-06
+cycle = 115, time = 2.162019e-04, dt=3.062600e-06
+cycle = 116, time = 2.192645e-04, dt=3.062600e-06
+cycle = 117, time = 2.223271e-04, dt=3.062600e-06
+cycle = 118, time = 2.253358e-04, dt=3.008680e-06
+cycle = 119, time = 2.282733e-04, dt=2.937528e-06
+cycle = 120, time = 2.311478e-04, dt=2.874462e-06
+cycle = 121, time = 2.339671e-04, dt=2.819334e-06
+cycle = 122, time = 2.367388e-04, dt=2.771668e-06
+cycle = 123, time = 2.394698e-04, dt=2.730979e-06
+cycle = 124, time = 2.421667e-04, dt=2.696950e-06
+cycle = 125, time = 2.448362e-04, dt=2.669484e-06
+cycle = 126, time = 2.474872e-04, dt=2.651043e-06
+cycle = 127, time = 2.501294e-04, dt=2.642216e-06
+cycle = 128, time = 2.527717e-04, dt=2.642216e-06
+cycle = 129, time = 2.554139e-04, dt=2.642216e-06
+cycle = 130, time = 2.580561e-04, dt=2.642216e-06
+cycle = 131, time = 2.606983e-04, dt=2.642216e-06
+cycle = 132, time = 2.633405e-04, dt=2.642216e-06
+cycle = 133, time = 2.659827e-04, dt=2.642216e-06
+cycle = 134, time = 2.686250e-04, dt=2.642216e-06
+cycle = 135, time = 2.716139e-04, dt=2.988942e-06
+cycle = 136, time = 2.746028e-04, dt=2.988942e-06
+cycle = 137, time = 2.775918e-04, dt=2.988942e-06
+cycle = 138, time = 2.805807e-04, dt=2.988942e-06
+cycle = 139, time = 2.838798e-04, dt=3.299062e-06
+cycle = 140, time = 2.871789e-04, dt=3.299062e-06
+cycle = 141, time = 2.904779e-04, dt=3.299062e-06
+cycle = 142, time = 2.937770e-04, dt=3.299062e-06
+cycle = 143, time = 2.970760e-04, dt=3.299062e-06
+cycle = 144, time = 3.003751e-04, dt=3.299062e-06
+cycle = 145, time = 3.036742e-04, dt=3.299062e-06
+cycle = 146, time = 3.069732e-04, dt=3.299062e-06
+cycle = 147, time = 3.102723e-04, dt=3.299062e-06
+cycle = 148, time = 3.139257e-04, dt=3.653376e-06
+cycle = 149, time = 3.175790e-04, dt=3.653376e-06
+cycle = 150, time = 3.212324e-04, dt=3.653376e-06
+cycle = 151, time = 3.248858e-04, dt=3.653376e-06
+cycle = 152, time = 3.285392e-04, dt=3.653376e-06
+cycle = 153, time = 3.321925e-04, dt=3.653376e-06
+cycle = 154, time = 3.358459e-04, dt=3.653376e-06
+cycle = 155, time = 3.394993e-04, dt=3.653376e-06
+cycle = 156, time = 3.431527e-04, dt=3.653376e-06
+cycle = 157, time = 3.468060e-04, dt=3.653376e-06
+cycle = 158, time = 3.504594e-04, dt=3.653376e-06
+cycle = 159, time = 3.541128e-04, dt=3.653376e-06
+cycle = 160, time = 3.577174e-04, dt=3.604621e-06
+cycle = 161, time = 3.612464e-04, dt=3.529024e-06
+cycle = 162, time = 3.647102e-04, dt=3.463725e-06
+cycle = 163, time = 3.681189e-04, dt=3.408714e-06
+cycle = 164, time = 3.714824e-04, dt=3.363494e-06
+cycle = 165, time = 3.748102e-04, dt=3.327826e-06
+cycle = 166, time = 3.781119e-04, dt=3.301694e-06
+cycle = 167, time = 3.813982e-04, dt=3.286341e-06
+cycle = 168, time = 3.846803e-04, dt=3.282106e-06
+cycle = 169, time = 3.879625e-04, dt=3.282106e-06
+cycle = 170, time = 3.912446e-04, dt=3.282106e-06
+cycle = 171, time = 3.945267e-04, dt=3.282106e-06
+cycle = 172, time = 3.978088e-04, dt=3.282106e-06
+cycle = 173, time = 4.010909e-04, dt=3.282106e-06
+cycle = 174, time = 4.043730e-04, dt=3.282106e-06
+cycle = 175, time = 4.080065e-04, dt=3.633475e-06
+cycle = 176, time = 4.116399e-04, dt=3.633475e-06
+cycle = 177, time = 4.152734e-04, dt=3.633475e-06
+cycle = 178, time = 4.189069e-04, dt=3.633475e-06
+cycle = 179, time = 4.225404e-04, dt=3.633475e-06
+cycle = 180, time = 4.266002e-04, dt=4.059821e-06
+cycle = 181, time = 4.306600e-04, dt=4.059821e-06
+cycle = 182, time = 4.347198e-04, dt=4.059821e-06
+cycle = 183, time = 4.387796e-04, dt=4.059821e-06
+cycle = 184, time = 4.428395e-04, dt=4.059821e-06
+cycle = 185, time = 4.468993e-04, dt=4.059821e-06
+cycle = 186, time = 4.509591e-04, dt=4.059821e-06
+cycle = 187, time = 4.550189e-04, dt=4.059821e-06
+cycle = 188, time = 4.590787e-04, dt=4.059821e-06
+cycle = 189, time = 4.631386e-04, dt=4.059821e-06
+cycle = 190, time = 4.671984e-04, dt=4.059821e-06
+cycle = 191, time = 4.712582e-04, dt=4.059821e-06
+cycle = 192, time = 4.757591e-04, dt=4.500845e-06
+cycle = 193, time = 4.802599e-04, dt=4.500845e-06
+cycle = 194, time = 4.847607e-04, dt=4.500845e-06
+cycle = 195, time = 4.892616e-04, dt=4.500845e-06
+cycle = 196, time = 4.937624e-04, dt=4.500845e-06
+cycle = 197, time = 4.982633e-04, dt=4.500845e-06
+cycle = 198, time = 5.027641e-04, dt=4.500845e-06
+cycle = 199, time = 5.071902e-04, dt=4.426060e-06
+cycle = 200, time = 5.115079e-04, dt=4.317687e-06
+cycle = 201, time = 5.157273e-04, dt=4.219452e-06
+cycle = 202, time = 5.198588e-04, dt=4.131467e-06
+cycle = 203, time = 5.239137e-04, dt=4.054909e-06
+cycle = 204, time = 5.279054e-04, dt=3.991740e-06
+cycle = 205, time = 5.318468e-04, dt=3.941342e-06
+cycle = 206, time = 5.357502e-04, dt=3.903371e-06
+cycle = 207, time = 5.396280e-04, dt=3.877843e-06
+cycle = 208, time = 5.434931e-04, dt=3.865134e-06
+cycle = 209, time = 5.473583e-04, dt=3.865134e-06
+cycle = 210, time = 5.512234e-04, dt=3.865134e-06
+cycle = 211, time = 5.550885e-04, dt=3.865134e-06
+cycle = 212, time = 5.589537e-04, dt=3.865134e-06
+cycle = 213, time = 5.628188e-04, dt=3.865134e-06
+cycle = 214, time = 5.666839e-04, dt=3.865134e-06
+cycle = 215, time = 5.705491e-04, dt=3.865134e-06
+cycle = 216, time = 5.748759e-04, dt=4.326817e-06
+cycle = 217, time = 5.792027e-04, dt=4.326817e-06
+cycle = 218, time = 5.835295e-04, dt=4.326817e-06
+cycle = 219, time = 5.878563e-04, dt=4.326817e-06
+cycle = 220, time = 5.921832e-04, dt=4.326817e-06
+cycle = 221, time = 5.970364e-04, dt=4.853277e-06
+cycle = 222, time = 6.018897e-04, dt=4.853277e-06
+cycle = 223, time = 6.067430e-04, dt=4.853277e-06
+cycle = 224, time = 6.115963e-04, dt=4.853277e-06
+cycle = 225, time = 6.164495e-04, dt=4.853277e-06
+cycle = 226, time = 6.213028e-04, dt=4.853277e-06
+cycle = 227, time = 6.261561e-04, dt=4.853277e-06
+cycle = 228, time = 6.310094e-04, dt=4.853277e-06
+cycle = 229, time = 6.358626e-04, dt=4.853277e-06
+cycle = 230, time = 6.407159e-04, dt=4.853277e-06
+cycle = 231, time = 6.455692e-04, dt=4.853277e-06
+cycle = 232, time = 6.504225e-04, dt=4.853277e-06
+cycle = 233, time = 6.552757e-04, dt=4.853277e-06
+cycle = 234, time = 6.606319e-04, dt=5.356130e-06
+cycle = 235, time = 6.659833e-04, dt=5.351392e-06
+cycle = 236, time = 6.713344e-04, dt=5.351123e-06
+cycle = 237, time = 6.766855e-04, dt=5.351123e-06
+cycle = 238, time = 6.820366e-04, dt=5.351123e-06
+cycle = 239, time = 6.873878e-04, dt=5.351123e-06
+cycle = 240, time = 6.927389e-04, dt=5.351123e-06
+cycle = 241, time = 6.980900e-04, dt=5.351123e-06
+cycle = 242, time = 7.034411e-04, dt=5.351123e-06
+cycle = 243, time = 7.087923e-04, dt=5.351123e-06
+cycle = 244, time = 7.141434e-04, dt=5.351123e-06
+cycle = 245, time = 7.194333e-04, dt=5.289882e-06
+cycle = 246, time = 7.246172e-04, dt=5.183958e-06
+cycle = 247, time = 7.297076e-04, dt=5.090375e-06
+cycle = 248, time = 7.347172e-04, dt=5.009586e-06
+cycle = 249, time = 7.396584e-04, dt=4.941207e-06
+cycle = 250, time = 7.445434e-04, dt=4.885012e-06
+cycle = 251, time = 7.493887e-04, dt=4.845291e-06
+cycle = 252, time = 7.542115e-04, dt=4.822825e-06
+cycle = 253, time = 7.590297e-04, dt=4.818208e-06
+cycle = 254, time = 7.638479e-04, dt=4.818208e-06
+cycle = 255, time = 7.686661e-04, dt=4.818208e-06
+cycle = 256, time = 7.734843e-04, dt=4.818208e-06
+cycle = 257, time = 7.783026e-04, dt=4.818208e-06
+cycle = 258, time = 7.831208e-04, dt=4.818208e-06
+cycle = 259, time = 7.879390e-04, dt=4.818208e-06
+cycle = 260, time = 7.933234e-04, dt=5.384426e-06
+cycle = 261, time = 7.987078e-04, dt=5.384426e-06
+cycle = 262, time = 8.040922e-04, dt=5.384426e-06
+cycle = 263, time = 8.094767e-04, dt=5.384426e-06
+cycle = 264, time = 8.148611e-04, dt=5.384426e-06
+cycle = 265, time = 8.202455e-04, dt=5.384426e-06
+cycle = 266, time = 8.261690e-04, dt=5.923464e-06
+cycle = 267, time = 8.320925e-04, dt=5.923464e-06
+cycle = 268, time = 8.380159e-04, dt=5.923464e-06
+cycle = 269, time = 8.439394e-04, dt=5.923464e-06
+cycle = 270, time = 8.498628e-04, dt=5.923464e-06
+cycle = 271, time = 8.557863e-04, dt=5.923464e-06
+cycle = 272, time = 8.617098e-04, dt=5.923464e-06
+cycle = 273, time = 8.676332e-04, dt=5.923464e-06
+cycle = 274, time = 8.735567e-04, dt=5.923464e-06
+cycle = 275, time = 8.794802e-04, dt=5.923464e-06
+cycle = 276, time = 8.854036e-04, dt=5.923464e-06
+cycle = 277, time = 8.913271e-04, dt=5.923464e-06
+cycle = 278, time = 8.972506e-04, dt=5.923464e-06
+cycle = 279, time = 9.031740e-04, dt=5.923464e-06
+cycle = 280, time = 9.090975e-04, dt=5.923464e-06
+cycle = 281, time = 9.150210e-04, dt=5.923464e-06
+cycle = 282, time = 9.215684e-04, dt=6.547435e-06
+cycle = 283, time = 9.280796e-04, dt=6.511182e-06
+cycle = 284, time = 9.345691e-04, dt=6.489489e-06
+cycle = 285, time = 9.410585e-04, dt=6.489489e-06
+cycle = 286, time = 9.475480e-04, dt=6.489489e-06
+cycle = 287, time = 9.540375e-04, dt=6.489489e-06
+cycle = 288, time = 9.604190e-04, dt=6.381518e-06
+cycle = 289, time = 9.666671e-04, dt=6.248077e-06
+cycle = 290, time = 9.727961e-04, dt=6.128943e-06
+cycle = 291, time = 9.788201e-04, dt=6.024059e-06
+cycle = 292, time = 9.847529e-04, dt=5.932752e-06
+cycle = 293, time = 9.906085e-04, dt=5.855622e-06
+cycle = 294, time = 9.964039e-04, dt=5.795440e-06
+cycle = 295, time = 1.002156e-03, dt=5.752152e-06
+cycle = 296, time = 1.007885e-03, dt=5.729282e-06
+cycle = 297, time = 1.013613e-03, dt=5.727833e-06
+cycle = 298, time = 1.019341e-03, dt=5.727833e-06
+cycle = 299, time = 1.025069e-03, dt=5.727833e-06
+cycle = 300, time = 1.030797e-03, dt=5.727833e-06
+Run completed:
+   Problem size        =  30
+   MPI tasks           =  1
+   Iteration count     =  300
+   Final Origin Energy =  5.865308e+05
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 1.018634e-10
+        TotalAbsDiff = 5.784345e-10
+        MaxRelDiff   = 2.225042e-12
+
+Elapsed time         =        4.9 (s)
+Grind time (us/z/c)  =   0.610297 (per dom)  ( 4.9434057 overall)
+FOM                  =  1638.5465 (z/s)
+
+TABLE,Group 1 Raw,MEM_DP,27
+Event,Counter,f0486:0:0
+Runtime (RDTSC) [s],TSC,5.538571
+INSTR_RETIRED_ANY,FIXC0,23639536121
+CPU_CLK_UNHALTED_CORE,FIXC1,9613696386
+CPU_CLK_UNHALTED_REF,FIXC2,9620085216
+TOPDOWN_SLOTS,FIXC3,48068485455
+PWR_PKG_ENERGY,PWR0,523.7057
+PWR_DRAM_ENERGY,PWR3,32.1625
+FP_ARITH_INST_RETIRED_128B_PACKED_DOUBLE,PMC0,0
+FP_ARITH_INST_RETIRED_SCALAR_DOUBLE,PMC1,15506209482
+FP_ARITH_INST_RETIRED_256B_PACKED_DOUBLE,PMC2,818100000
+FP_ARITH_INST_RETIRED_512B_PACKED_DOUBLE,PMC3,243239375
+CAS_COUNT_RD,MBOX0C0,9141769
+CAS_COUNT_WR,MBOX0C1,5178698
+CAS_COUNT_RD,MBOX1C0,9086809
+CAS_COUNT_WR,MBOX1C1,5145871
+CAS_COUNT_RD,MBOX2C0,0
+CAS_COUNT_WR,MBOX2C1,0
+CAS_COUNT_RD,MBOX3C0,9117140
+CAS_COUNT_WR,MBOX3C1,5157732
+CAS_COUNT_RD,MBOX4C0,9064160
+CAS_COUNT_WR,MBOX4C1,5141130
+CAS_COUNT_RD,MBOX5C0,0
+CAS_COUNT_WR,MBOX5C1,0
+CAS_COUNT_RD,MBOX6C0,87857
+CAS_COUNT_WR,MBOX6C1,68964
+CAS_COUNT_RD,MBOX7C0,85188
+CAS_COUNT_WR,MBOX7C1,68633
+TABLE,Group 1 Metric,MEM_DP,20
+Metric,f0486:0:0,
+Runtime (RDTSC) [s],5.5386,
+Runtime unhalted [s],4.0152,
+Clock [MHz],2392.7158,
+CPI,0.4067,
+Energy [J],523.7057,
+Power [W],94.5561,
+Energy DRAM [J],32.1625,
+Power DRAM [W],5.8070,
+DP [MFLOP/s],3741.8541,
+AVX DP [MFLOP/s],942.1771,
+Packed [MUOPS/s],191.6269,
+Scalar [MUOPS/s],2799.6769,
+Memory read bandwidth [MBytes/s],422.7276,
+Memory read data volume [GBytes],2.3413,
+Memory write bandwidth [MBytes/s],239.9005,
+Memory write data volume [GBytes],1.3287,
+Memory bandwidth [MBytes/s],662.6281,
+Memory data volume [GBytes],3.6700,
+Operational intensity [FLOP/Byte],5.6470,
+Vectorization ratio [%],6.4061,
