@@ -85,6 +85,7 @@ This lists comprehensive hardware information on
           - `performance [z/s]` (total, scalar, vectorized)
           - `runtime [s]` and `speedup` 
           - `FP arithmetic instructions` (scalar, packed 128 B, packed 256 B, packed 512 B)
+          - `Òverall instructions retired`
           - `memory bandwidth [GBytes/s]` (total, read, write)
           - `memory data volume [GByte]` (total, read, write)
           - `operational intensity [F/B]`
